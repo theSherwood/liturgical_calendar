@@ -20,7 +20,20 @@ Each person writes down one thing to leave in the old year and one thing to carr
 
 ## Reading
 
-> "For last year's words belong to last year's language / And next year's words await another voice."
-> — T. S. Eliot
+> Ring out, wild bells, to the wild sky,
+> The flying cloud, the frosty light:
+> The year is dying in the night;
+> Ring out, wild bells, and let him die.
+>
+> Ring out the old, ring in the new,
+> Ring, happy bells, across the snow:
+> The year is going, let him go;
+> Ring out the false, ring in the true.
+>
+> Ring out the grief that saps the mind
+> For those that here we see no more;
+> Ring out the feud of rich and poor,
+> Ring in redress to all mankind.
+> — Alfred, Lord Tennyson, "In Memoriam A. H. H." (1850), the section known as "Ring Out, Wild Bells"
 
-An arbitrary line drawn across the calendar — and none the worse for it. Human beings need a place to stop, look back, and begin again, and we have all quietly agreed that this is it. The fresh start is real precisely because we decide, together, to believe in it; the old year's language falls silent, and we go looking for the new voice Eliot promises is already waiting.
+**Sources:** [Full text — In Memoriam (Tennyson), "Ring out, wild bells" (Wikisource)](https://en.wikisource.org/wiki/In_Memoriam_(Tennyson)/Canto_104) · [In Memoriam, [Ring out, wild bells] (Poets.org)](https://poets.org/poem/memoriam-ring-out-wild-bells)

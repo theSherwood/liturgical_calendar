@@ -21,7 +21,16 @@ Set a place at the table, or light a candle, for someone in the family who has d
 
 ## Reading
 
-> "Do not stand at my grave and weep; I am not there, I do not sleep… / Do not stand at my grave and cry; I am not there, I did not die."
-> — Mary Elizabeth Frye
+> Midnight has come and the great Christ Church Bell,
+> And many a lesser bell, sound through the room;
+> And it is All Souls' Night,
+> And two long glasses brimmed with muscatel
+> Bubble upon the table. A ghost may come;
+> For it is a ghost's right,
+> His element is so fine
+> Being sharpened by his death,
+> To drink from the wine-breath
+> While our gross palates drink from the whole wine.
+> — W. B. Yeats, "All Souls' Night," from The Tower (1928)
 
-The ancient Celtic new year and the true root of Halloween — the night the old stories say the veil between the living and the dead wears thin. Under the candy and the costumes, this remains our day for the people we have lost. Frye's lines are the comfort the festival has always offered: the dead are not wholly gone while someone still carries them, and to say their names aloud — the funny stories most of all — is its own quiet way of keeping them here.
+**Sources:** [Full text — "All Souls' Night" (Wikisource)](https://en.wikisource.org/wiki/The_Tower_(Yeats)/All_Souls%27_Night) · [The Tower (1928), full collection — Wikisource](https://en.wikisource.org/wiki/The_Tower_(Yeats))

@@ -21,7 +21,7 @@ The calendar's own birthday — a good day to appreciate this very project. Marv
 
 ## Reading
 
-> "Give us our eleven days!"
-> — the cry attached (perhaps only in legend) to Britain's 1752 calendar change
+> Therefore, in order to restore the vernal equinox, which was placed by the fathers of the Council of Nicaea at the twelfth day before the Kalends of April [i.e. 21 March], and to return it to that same place, we direct and ordain that ten days shall be removed from the month of October of the year 1582, from the third day before the Nones [i.e. 5 October] up to the day before the Ides [i.e. 14 October], inclusive; and that the day which follows the feast of St Francis shall be called the Ides of October [i.e. 15 October].
+> — Pope Gregory XIII, papal bull Inter gravissimas, 24 February 1582 (English translation, Wikisource)
 
-The most fitting holiday a calendar could keep. By 1582 the old Julian calendar had drifted ten days out of step with the sun, and the seasons were sliding off their dates — so the reformers simply deleted ten days: in the countries that switched, the 4th of October was followed directly by the 15th, days that for millions of people never existed at all. Britain held out until 1752 and then had to skip eleven. It is a delicious reminder that the calendar is a human invention — patched, argued over, and doing its best to pin the wheeling heavens onto a tidy grid.
+**Sources:** [Full text — Inter gravissimas (English translation, Wikisource)](https://en.wikisource.org/wiki/Translation:Inter_gravissimas) · [Inter gravissimas (Wikipedia overview)](https://en.wikipedia.org/wiki/Inter_gravissimas)

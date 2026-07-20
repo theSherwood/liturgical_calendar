@@ -22,7 +22,16 @@ Burn a Yule log (or light a large candle to stand in for one) and keep some ligh
 
 ## Reading
 
-> "Fire is best among the sons of men, and the sight of the sun; health, too, if a man may keep it, and a life not stained with sin."
-> — Hávamál, the sayings of the High One
+> Fire for men is the fairest gift,
+> And power to see the sun;
+> Health as well, if a man may have it,
+> And a life not stained with sin.
+> — Hávamál, st. 68 (Poetic Edda, trans. Henry Adams Bellows, 1936)
 
-The great Norse midwinter feast, kept over roughly twelve nights around the solstice — and the source of half our Christmas: the Yule log, the evergreen brought indoors, the wassailing and feasting in the teeth of the cold. The old poem names the two things a northern winter makes you treasure above all others — fire, and the returning sun. Keep a light burning through the long nights, and outlast the dark together. Skål.
+> Fire he needs who with frozen knees
+> Has come from the cold without;
+> Food and clothes must the farer have,
+> The man from the mountains come.
+> — Hávamál, st. 3 (trans. Bellows, 1936)
+
+**Sources:** [Full text — Hávamál (Poetic Edda, Bellows tr.), Sacred-Texts](https://sacred-texts.com/neu/poe/poe04.htm) · [Full text — Hávamál, Bellows translation (vigrey.com mirror)](https://vigrey.com/havamal/en/bellows) · [Hávamál — Wikipedia (context)](https://en.wikipedia.org/wiki/H%C3%A1vam%C3%A1l)

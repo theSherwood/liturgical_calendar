@@ -25,3 +25,5 @@ Hunt for the pattern in the real world — count the spirals on a pinecone or a 
 > — Galileo Galilei
 
 1, 1, 2, 3, 5, 8, 13 — the date itself spells the start, each number the sum of the two before it. The same sequence turns up in pinecones and sunflower seeds, in nautilus shells and the spiral arms of galaxies; nature, it seems, keeps reaching for the same few numbers. Go hunting for the pattern in the real world — count the spirals on a pinecone or the seeds in a sunflower's head — and start the sequence aloud to see how far the family can carry it before someone stumbles.
+
+**Sources:** [Learn more — Fibonacci sequence (Wikipedia)](https://en.wikipedia.org/wiki/Fibonacci_sequence)

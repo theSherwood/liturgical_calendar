@@ -20,7 +20,11 @@ Costumes for everyone, adults included — no exceptions. Carve pumpkins, walk t
 
 ## Reading
 
-> "'Tis now the very witching time of night, / When churchyards yawn and hell itself breathes out / Contagion to this world."
-> — William Shakespeare, Hamlet
+> 'Tis now the very witching time of night,
+> When churchyards yawn and hell itself breathes out
+> Contagion to this world: now could I drink hot blood,
+> And do such bitter business as the day
+> Would quake to look on.
+> — William Shakespeare, Hamlet, Act III, Scene ii
 
-The living, laughing descendant of ancient Samhain — the one night we dress up as the things that scare us and walk out to meet the neighbors. Under the candy and the costumes it is one of the last great communal street rituals we have left, and it runs on nothing but sugar and good will.
+**Sources:** [Full text — Hamlet, Act 3 Scene 2 (MIT Shakespeare)](http://shakespeare.mit.edu/hamlet/hamlet.3.2.html) · [Hamlet, Act 3 Scene 2 (Folger Shakespeare Library)](https://www.folger.edu/explore/shakespeares-works/hamlet/read/3/2/)

@@ -21,7 +21,11 @@ Look at the Moon tonight and really see it — that is a place people have stood
 
 ## Reading
 
-> "That's one small step for man, one giant leap for mankind."
-> — Neil Armstrong, 20 July 1969
+> Armstrong: "Houston, Tranquility Base here. The Eagle has landed."
+> CAPCOM (Charlie Duke): "Roger, Tranquility, we copy you on the ground. You got a bunch of guys about to turn blue. We're breathing again. Thanks a lot."
+> — Apollo 11 air-to-ground transcript, 20 July 1969 — Neil Armstrong and Mission Control CAPCOM Charlie Duke
 
-The most audacious thing our species has ever done. Two people stood on the Moon and a third circled overhead while a fifth of all humanity watched from home — the whole thing run on slide rules, courage, and the coordinated work of four hundred thousand people. For one day the entire planet looked up at the same rock and felt the same thing.
+> Here men from the planet Earth first set foot upon the Moon, July 1969, A.D. We came in peace for all mankind.
+> — Inscription on the plaque left on the Moon by Apollo 11
+
+**Sources:** [Apollo 11 — Wikipedia (landing account & transcript)](https://en.wikipedia.org/wiki/Apollo_11) · [Lunar plaque — Wikipedia (full inscription)](https://en.wikipedia.org/wiki/Lunar_plaque) · [Apollo 11 Lunar Surface Journal — NASA (Eric M. Jones, annotated transcripts)](https://www.nasa.gov/history/alsj/a11/a11.landing.html)

@@ -21,7 +21,18 @@ Give to a bed-net charity together, and look up how many nets your gift buys and
 
 ## Reading
 
-> "This day relenting God / Hath placed within my hand / A wondrous thing; and God / Be praised. At His command… / I know this little thing / A myriad men will save."
-> — Ronald Ross, on discovering how malaria spreads, 1897
+> This day relenting God
+> Hath placed within my hand
+> A wondrous thing; and God
+> Be praised. At His command,
+> Seeking His secret deeds
+> With tears and toiling breath,
+> I find thy cunning seeds,
+> O million-murdering Death.
+> I know this little thing
+> A myriad men will save.
+> O Death, where is thy sting?
+> Thy victory, O Grave?
+> — Ronald Ross, written on discovering the malaria parasite in the mosquito, 21 August 1897
 
-Ross was right: understanding the mosquito has since saved millions. The work now is not mysterious — it is nets, medicine, and the will to pay for them. Rarely is doing enormous good so cheap.
+**Sources:** [Ronald Ross — Wikiquote (full poem)](https://en.wikiquote.org/wiki/Ronald_Ross) · [Ronald Ross — Wikipedia (discovery & 1902 Nobel Prize)](https://en.wikipedia.org/wiki/Ronald_Ross)

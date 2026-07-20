@@ -22,7 +22,17 @@ See a play, or watch a great film together as a family, and afterward do what th
 
 ## Reading
 
-> "Blessèd is he who, being fortunate and knowing the rites of the gods, keeps his life pure."
-> — Euripides, The Bacchae
+> Oh, blessèd he in all wise,
+> Who hath drunk the Living Fountain,
+> Whose life no folly staineth,
+> And his soul is near to God;
+> Whose sins are lifted, pall-wise,
+> As he worships on the Mountain,
+> And where Cybele ordaineth,
+> Our Mother, he has trod:
+> His head with ivy laden
+> And his thyrsus tossing high,
+> For our God he lifts his cry.
+> — Euripides, The Bacchae, Parodos (First Chorus); trans. Gilbert Murray, 1906
 
-The festival that invented the theatre. Each spring Athens staged new tragedies and comedies in open-air competition, and a whole city sat together in daylight to watch human beings pretend — and, in pretending, tell the truth about grief, power, and fate. The Bacchae itself was written for this stage. Nearly every play and film you will ever love is a descendant of this Athenian spring, when storytelling first became a civic act, done in public, for everyone.
+**Sources:** [Full text — The Bacchae of Euripides (Murray 1906), Wikisource](https://en.wikisource.org/wiki/The_Bacchae_of_Euripides_(Murray_1906)/Text) · [Greek & English full text — Euripides, Bacchae (Perseus, Tufts)](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0092)

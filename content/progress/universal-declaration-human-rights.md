@@ -21,10 +21,11 @@ Read Article 1 aloud. Pick one right on the list and learn where in the world it
 
 ## Reading
 
-> "All human beings are born free and equal in dignity and rights."
+> Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world,
+> Whereas disregard and contempt for human rights have resulted in barbarous acts which have outraged the conscience of mankind, and the advent of a world in which human beings shall enjoy freedom of speech and belief and freedom from fear and want has been proclaimed as the highest aspiration of the common people…
+> — Universal Declaration of Human Rights, Preamble — adopted by the UN General Assembly, 10 December 1948
+
+> All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
 > — Universal Declaration of Human Rights, Article 1
 
-> "Where, after all, do universal human rights begin? In small places, close to home… Unless these rights have meaning there, they have little meaning anywhere."
-> — Eleanor Roosevelt
-
-Three years after the world saw where dehumanization leads, the newborn United Nations wrote down, and agreed on, a list of things owed to every human being simply for being human — regardless of country, race, creed, or ruler. It is not a law, and it is broken every day; but it is a shared standard the whole species has signed, a fixed star to steer by. Read Article 1 aloud, and find one right on the list that is under threat somewhere in the world tonight.
+**Sources:** [Full text — Universal Declaration of Human Rights (Wikisource)](https://en.wikisource.org/wiki/Universal_Declaration_of_Human_Rights) · [Full text — Universal Declaration of Human Rights (United Nations)](https://www.un.org/en/about-us/universal-declaration-of-human-rights)

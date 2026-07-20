@@ -24,3 +24,5 @@ Bake something (an 'e'-clair?) and talk about compound growth — how a small th
 > — Albert Bartlett
 
 A little sibling to Pi Day for the other great constant — e, about 2.718, the number that governs anything growing in proportion to how much of it already exists: savings, populations, pandemics, compound habits. Small and steady, left alone, becomes staggering — and few instincts serve us worse than our blindness to it. Bake something and talk about compound growth: how a tiny thing that grows a little every day becomes, given time, an enormous thing. A quiet lesson about patience, savings, and the habits you keep hides inside the number e.
+
+**Sources:** [Learn more — e (mathematical constant) (Wikipedia)](https://en.wikipedia.org/wiki/E_(mathematical_constant))

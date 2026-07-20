@@ -21,7 +21,10 @@ A 'world space party,' as it's actually called. Watch launch footage, look up at
 
 ## Reading
 
-> "Circling the Earth in my orbital spaceship I marveled at the beauty of our planet. People, let us preserve and increase this beauty, not destroy it."
-> — Yuri Gagarin
+> What beauty. I saw clouds and their light shadows on the distant dear earth.... The water looked like darkish, slightly gleaming spots.... When I watched the horizon, I saw the abrupt, contrasting transition from the earth's light-colored surface to the absolutely black sky. I enjoyed the rich color spectrum of the earth. It is surrounded by a light blue aureole that gradually darkens, becoming turquoise, dark blue, violet, and finally coal black.
+> — Yuri Gagarin, on the Vostok 1 flight, 12 April 1961; as quoted in Louise B. Young, Earth's Aura (1977)
 
-For all of history the sky was a ceiling. On 12 April 1961, for 108 minutes, it became a door — and one man saw the whole Earth at once, small and blue and unbordered, the way we all secretly know it is.
+> Orbiting Earth in the spaceship, I saw how beautiful our planet is. People, let us preserve and increase this beauty, not destroy it!
+> — Yuri Gagarin, handwritten and signed after his flight (facsimile in Syny goluboi planety, 1981)
+
+**Sources:** [Yuri Gagarin — Wikiquote (sourced quotes)](https://en.wikiquote.org/wiki/Yuri_Gagarin) · [Yuri Gagarin — Wikipedia](https://en.wikipedia.org/wiki/Yuri_Gagarin)

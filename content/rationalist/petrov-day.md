@@ -21,9 +21,10 @@ A solemn evening. Dim the lights and read Petrov's story aloud. Sit for a moment
 
 ## Reading
 
-> "I was just doing my job. I was the right person at the right time. That's all."
-> — Stanislav Petrov
+> The siren howled, but I just sat there for a few seconds, staring at the big, back-lit, red screen with the word "launch" on it. All I had to do was to reach for the phone; to raise the direct line to our top commanders — but I couldn't move. I felt like I was sitting on a hot frying pan. … Twenty-three minutes later I realized that nothing had happened. If there had been a real strike, then I would already know about it. It was such a relief.
+> — Stanislav Petrov, recalling 26 September 1983 (BBC interview, 2013)
 
-The rationalist community keeps this night every year as a reminder of how much can turn on a single careful mind. It is easy to destroy and hard to create; civilization holds together only because, again and again, some quiet person distrusts the alarm and refuses to pull the trigger.
+> That was my job. But they were lucky it was me on shift that night.
+> — Stanislav Petrov (BBC, 2013)
 
-Tonight we honor the heroes whose greatest act was a disaster that never happened — the catastrophes averted, unrecorded, unrewarded, because someone chose to be careful rather than certain.
+**Sources:** [NPR obituary — verified quotes, cites 2013 BBC interview](https://www.npr.org/sections/thetwo-way/2017/09/18/551792129/stanislav-petrov-the-man-who-saved-the-world-dies-at-77) · [Wikipedia — Stanislav Petrov](https://en.wikipedia.org/wiki/Stanislav_Petrov) · [Wikipedia — 1983 Soviet nuclear false alarm incident](https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alarm_incident)

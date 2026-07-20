@@ -21,7 +21,17 @@ A hearth day. Light candles at dinner, clean out one small corner of the house t
 
 ## Reading
 
-> "Brigid, woman of the fire, flame of the two bright kindnesses, keep the hearth and keep the flock, and keep us till the spring is sure."
-> — after a traditional Gaelic blessing to Brigid
+> I will smoor the hearth
+> As Mary would smoor,
+> The encompassment of Bride and of Mary,
+> On the fire and on the floor,
+> And on the household all.
+>
+> Who is on the lawn without?
+> Fairest Mary and her Son,
+> The mouth of God ordained, the angel of God spoke:
+> Angels of promise watching the hearth,
+> Till white day comes to the fire.
+> — Carmina Gadelica, "Smooring Blessing" (Beannachadh Smàlaidh), no. 87 — collected and translated from Scottish Gaelic by Alexander Carmichael, 1900
 
-Halfway between the winter solstice and the spring equinox, when the ewes begin to milk and the very first green shows, the Gaels kept the feast of Brigid — goddess and later saint of fire, hearth, and healing. Nothing has bloomed yet; the year has simply, quietly, decided to live. Imbolc is hope before there is any evidence for it: a candle lit in the window while the ground is still hard, a promise that the spring is on its way.
+**Sources:** [Full text — Carmina Gadelica, Vol. 1 (Internet Archive)](https://archive.org/details/carminagadelicah10carm) · [Smooring Blessing, no. 87 — page image / full text (Internet Archive)](https://archive.org/stream/carminagadelicah10carm/carminagadelicah10carm_djvu.txt) · [Carmina Gadelica Vol. 1 index (Sacred-Texts)](https://sacred-texts.com/neu/celt/cg1/index.htm)

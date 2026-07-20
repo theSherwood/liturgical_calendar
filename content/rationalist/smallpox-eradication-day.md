@@ -21,9 +21,7 @@ A celebration of progress. Learn how the eradication was actually done — the r
 
 ## Reading
 
-> "Smallpox is dead."
-> — World Health Organization, 8 May 1980
+> Declares solemnly that the world and all its peoples have won freedom from smallpox, which was a most devastating disease sweeping in epidemic form through many countries since earliest times, leaving death, blindness and disfigurement in its wake and which only a decade ago was rampant in Africa, Asia and South America... Calls this unprecedented achievement in the history of public health to the attention of all nations, which by their collective action have freed mankind of this ancient scourge and, in so doing, have demonstrated how nations working together in a common cause may further human progress.
+> — Resolution WHA33.3, "Declaration of Global Eradication of Smallpox" — Thirty-third World Health Assembly, 8 May 1980
 
-For ten thousand years it killed and blinded and scarred. Then, within a single human lifetime, an army of ordinary people — vaccinators walking village to village across a Cold-War-divided world — hunted it to extinction. It is the only human disease we have ever deliberately destroyed.
-
-No god did this. People did. If you want a miracle to believe in, believe in that — and then ask what we could end next.
+**Sources:** [WHO — Resolution WHA33.3, Declaration of global eradication of smallpox (8 May 1980)](https://www.who.int/publications/i/item/WHA33-3) · [Full text of the Declaration — CDC and the Smallpox Crusade (PDF, reproduces the signed scroll)](https://stacks.cdc.gov/view/cdc/21534/cdc_21534_DS1.pdf) · [WHO — Commemorating Smallpox Eradication: a legacy of hope (essay)](https://www.who.int/news/item/08-05-2020-commemorating-smallpox-eradication-a-legacy-of-hope-for-covid-19-and-other-diseases)

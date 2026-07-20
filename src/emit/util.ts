@@ -19,12 +19,19 @@ export function parseSections(body: string): Sections {
   return { meaning: out.meaning ?? "", observance: out.observance ?? "", reading: out.reading ?? "" };
 }
 
-/** Strip Markdown blockquote markers and collapse a section to plain text. */
+/**
+ * Collapse a Markdown section to plain text for the .ics: drop blockquote
+ * markers, turn `[label](url)` into `label: url`, and strip bold/italic
+ * emphasis, so calendar apps show readable descriptions (and linkify the URLs).
+ */
 export function toPlainText(s: string): string {
   return s
     .split("\n")
     .map((line) => line.replace(/^>\s?/, "").trim())
     .join("\n")
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1: $2") // links → "label: url"
+    .replace(/\*\*([^*]+)\*\*/g, "$1") // bold
+    .replace(/\*([^*]+)\*/g, "$1") // italic
     .trim();
 }
 

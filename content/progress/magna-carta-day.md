@@ -21,10 +21,7 @@ A day to appreciate the unglamorous machinery of liberty: courts, rights, due pr
 
 ## Reading
 
-> "No free man shall be seized or imprisoned, or stripped of his rights or possessions… except by the lawful judgment of his equals or by the law of the land."
-> — Magna Carta, clause 39, 1215
+> No freemen shall be taken or imprisoned or disseised or exiled or in any way destroyed, nor will we go upon him nor send upon him, except by the lawful judgment of his peers or by the law of the land. To no one will we sell, to no one will we refuse or delay, right or justice.
+> — Magna Carta (1215), clauses 39–40; trans. Ernest F. Henderson, 1892
 
-> "The greatest constitutional document of all times — the foundation of the freedom of the individual against the arbitrary authority of the despot."
-> — Lord Denning
-
-At a meadow called Runnymede, rebel barons forced a cornered King John to seal a charter with a revolutionary idea inside it: that even the king is bound by the law. Most of its clauses are long dead; that idea never was. It is the taproot of due process, habeas corpus, and every later charter of rights on both sides of the Atlantic — the slow, hard-won principle that power must answer to law.
+**Sources:** [Full text — Magna Carta (Yale Avalon Project, Henderson trans.)](https://avalon.law.yale.edu/medieval/magna.asp) · [Full text — Select Historical Documents of the Middle Ages (Project Gutenberg)](https://www.gutenberg.org/files/10000/10000-h/10000-h.htm)

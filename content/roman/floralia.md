@@ -22,7 +22,10 @@ Wear your brightest colors. Bring flowers into the house and scatter petals on t
 
 ## Reading
 
-> "Enjoy life's flower while it is in bloom; the thorn, once the roses have fallen, is scorned."
-> — Ovid, Fasti (the goddess Flora speaking)
+> I enjoy perpetual spring; most buxom is the year ever; ever the tree is clothed with leaves, the ground with pasture. In the fields that are my dower, I have a fruitful garden, fanned by the breeze and watered by a spring of running water. This garden my husband filled with noble flowers and said, "Goddess, be queen of flowers." Oft did I wish to count the colours in the beds, but could not; the number was past counting.
+> — Ovid, Fasti V (the goddess Flora speaking), trans. J. G. Frazer, 1931
 
-Six days for Flora, goddess of flowers — the Mediterranean cousin of May Day. Romans swapped their white togas for colors, wore garlands, scattered petals, and let their hair down, literally. Flora's own message, as Ovid gives it, is the sweet urgent wisdom of spring: the bloom does not last, so spend it. Take the day while it is bright; the petals are already, gently, on their way down.
+> She is none of your glum, none of your high-flown ones: she wishes her rites to be open to the common herd; and she warns us to use life's flower, while it still blooms; for the thorn, she reminds us, is flouted when the roses have fallen away.
+> — Ovid, Fasti V.351–354, trans. J. G. Frazer, 1931
+
+**Sources:** [Full text — Ovid's Fasti, trans. J. G. Frazer (Internet Archive, 1931)](https://archive.org/stream/ovidsfasti00oviduoft/ovidsfasti00oviduoft_djvu.txt) · [Ovid's Fasti (Frazer, 1931) — Internet Archive record](https://archive.org/details/ovidsfasti00oviduoft) · [Fasti Book V, readable translation by A. S. Kline (Poetry in Translation)](https://www.poetryintranslation.com/PITBR/Latin/OvidFastiBkFive.php)

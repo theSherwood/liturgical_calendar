@@ -21,7 +21,10 @@ Watch a bit of Cosmos, or read the 'Pale Blue Dot' passage aloud under the night
 
 ## Reading
 
-> "We are made of star-stuff. We are a way for the cosmos to know itself."
-> — Carl Sagan
+> Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives... every saint and sinner in the history of our species lived there — on a mote of dust suspended in a sunbeam.
+> — Carl Sagan, Pale Blue Dot: A Vision of the Human Future in Space (1994)
 
-More than anyone, he taught ordinary people to feel the scale and the wonder of the universe — and to demand good evidence while they did it. Sagan married awe and skepticism so gracefully that neither had to lose. The atoms in your hand were forged in stars that died before the Sun was born.
+> To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known.
+> — Carl Sagan, Pale Blue Dot (1994)
+
+**Sources:** [Full passage — A Pale Blue Dot (The Planetary Society)](https://www.planetary.org/worlds/pale-blue-dot) · [Pale Blue Dot — Wikipedia (context and cited quotation)](https://en.wikipedia.org/wiki/Pale_Blue_Dot)

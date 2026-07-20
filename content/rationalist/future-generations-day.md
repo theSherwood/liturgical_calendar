@@ -21,7 +21,11 @@ Do one thing whose payoff you may never see: plant a tree, start something that 
 
 ## Reading
 
-> "I believe that if we destroy mankind, as we now can, this outcome will be much worse than most people think. Civilisation began only a few thousand years ago. If we do not destroy mankind, these few thousand years may be only a tiny fraction of the whole of civilised human history."
-> — Derek Parfit, Reasons and Persons
+> I believe that if we destroy mankind, as we now can, this outcome will be much worse than most people think. Compare three outcomes:
+> (1) Peace.
+> (2) A nuclear war that kills 99% of the world's existing population.
+> (3) A nuclear war that kills 100%.
+> (2) would be worse than (1), and (3) would be worse than (2). Which is the greater of these two differences? Most people believe that the greater difference is between (1) and (2). I believe that the difference between (2) and (3) is very much greater.
+> — Derek Parfit, Reasons and Persons (Oxford University Press, 1984)
 
-The future is not a faraway country we'll never visit. It is where everyone we are about to love will spend their entire lives.
+**Sources:** [Full quote in context — "Human extinction" (Wikipedia)](https://en.wikipedia.org/wiki/Human_extinction) · [The book — Reasons and Persons (Wikipedia)](https://en.wikipedia.org/wiki/Reasons_and_Persons)

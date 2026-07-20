@@ -21,7 +21,17 @@ Cook something from the harvest — an apple pie, a squash, bread. Around the ta
 
 ## Reading
 
-> "Autumn is a second spring when every leaf is a flower."
-> — Albert Camus
+> Season of mists and mellow fruitfulness!
+> Close bosom-friend of the maturing sun;
+> Conspiring with him how to load and bless
+> With fruit the vines that round the thatch-eaves run;
+> To bend with apples the moss'd cottage-trees,
+> And fill all fruit with ripeness to the core;
+> To swell the gourd, and plump the hazel shells
+> With a sweet kernel; to set budding more,
+> And still more, later flowers for the bees,
+> Until they think warm days will never cease,
+> For Summer has o'er-brimm'd their clammy cells.
+> — John Keats, "To Autumn" (1819), first stanza
 
-Day and night stand equal again, but now the dark is gaining, and the year tips toward its inward, gathering half. It is the great hinge of the harvest — and Camus catches the strange consolation of it: the very dying of the leaves is its own kind of flowering, a last blaze of colour before the rest. To gather in and to let go turn out, here, to be the same graceful motion.
+**Sources:** [Full text — "To Autumn" (Wikisource, Poetical Works of John Keats)](https://en.wikisource.org/wiki/The_Poetical_Works_of_John_Keats/To_Autumn) · [Context — "To Autumn" (Wikipedia)](https://en.wikipedia.org/wiki/To_Autumn)

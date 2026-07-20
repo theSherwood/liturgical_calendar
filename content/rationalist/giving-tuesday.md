@@ -21,7 +21,7 @@ As a family, choose somewhere to give and do it together today. Look up how much
 
 ## Reading
 
-> "If it is in our power to prevent something bad from happening, without thereby sacrificing anything of comparable moral importance, we ought, morally, to do it."
-> — Peter Singer, "Famine, Affluence, and Morality"
+> If I am walking past a shallow pond and see a child drowning in it, I ought to wade in and pull the child out. This will mean getting my clothes muddy, but this is insignificant, while the death of the child would presumably be a very bad thing. … For the principle takes, firstly, no account of proximity or distance. It makes no moral difference whether the person I can help is a neighbor's child ten yards from me or a Bengali whose name I shall never know, ten thousand miles away.
+> — Peter Singer, "Famine, Affluence, and Morality" (Philosophy & Public Affairs, 1972)
 
-The stranger drowning in the shallow pond, whom you would ruin your clothes to save without a second thought, is not made less real by distance. This day asks a plain question: with what we can spare, how much good can we actually do — and then, will we?
+**Sources:** [Full text (PDF) — Singer, "Famine, Affluence, and Morality" (1972)](https://rintintin.colorado.edu/~vancecd/phil308/Singer2.pdf) · [Study guide — Utilitarianism.net](https://utilitarianism.net/peter-singer-famine-affluence-and-morality/) · [Overview — Wikipedia](https://en.wikipedia.org/wiki/Famine,_Affluence,_and_Morality)

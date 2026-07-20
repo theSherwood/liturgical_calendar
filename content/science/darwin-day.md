@@ -21,7 +21,7 @@ Go look at some life — a walk outdoors, a nature documentary, a visit to see a
 
 ## Reading
 
-> "There is grandeur in this view of life… from so simple a beginning endless forms most beautiful and most wonderful have been, and are being, evolved."
-> — Charles Darwin, On the Origin of Species
+> It is interesting to contemplate an entangled bank, clothed with many plants of many kinds, with birds singing on the bushes, with various insects flitting about, and with worms crawling through the damp earth… There is grandeur in this view of life, with its several powers, having been originally breathed into a few forms or into one; and that, whilst this planet has gone cycling on according to the fixed law of gravity, from so simple a beginning endless forms most beautiful and most wonderful have been, and are being, evolved.
+> — Charles Darwin, On the Origin of Species (1st ed., 1859), closing paragraph
 
-One simple, ruthless, beautiful idea — descent with modification — ties every beetle, whale, and human onto a single family tree stretching back nearly four billion years. You are cousin to the oak and the mushroom. Almost nothing has ever rearranged the world so completely.
+**Sources:** [Full text — Origin of Species (1859), ch. XIV (Wikisource)](https://en.wikisource.org/wiki/On_the_Origin_of_Species_(1859)/Chapter_XIV) · [Full book index — On the Origin of Species (1859) (Wikisource)](https://en.wikisource.org/wiki/On_the_Origin_of_Species_(1859))
