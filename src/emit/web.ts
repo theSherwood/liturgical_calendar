@@ -175,7 +175,7 @@ const APP_JS = `(function(){
     var isToday=state.date===localToday(),el=$("feature");
     var head='<h2 class="dayhead">'+(isToday?"Today · ":"")+fmt(state.date,true)+(on.length>1?' · '+on.length+' observances':'')+'</h2>';
     if(on.length){
-      el.innerHTML='<div class="onday">'+head+on.map(function(o){return card(o,on.length===1);}).join("")+'</div>';
+      el.innerHTML='<div class="onday">'+head+on.map(function(o){return card(o,false);}).join("")+'</div>';
     }else{var nx=after(state.date,1);
       el.innerHTML='<div class="onday empty">'+head+'<p class="empty-note">Nothing marked'+(isToday?" today":" on this day")+'.'+(nx.length?' Next: <strong>'+esc(D.h[nx[0].id].title)+'</strong>, '+fmt(nx[0].iso)+'.':'')+'</p></div>';
     }
@@ -197,22 +197,21 @@ const APP_JS = `(function(){
     if(!occ.length)html+='<p class="empty-note">No holidays match your filters in '+y+'.</p>';
     $("year").innerHTML=html;
   }
-  // GitHub-style heatmap for the selected year: one cell per day, shaded by count.
+  // Heatmap for the selected year, split into twelve month blocks (weekday columns).
   function renderHeatmap(){
-    var y=state.date.slice(0,4),counts={};
-    for(var i=0;i<D.occ.length;i++){var o=D.occ[i];if(o.iso.slice(0,4)===y&&pass(o.id))counts[o.iso]=(counts[o.iso]||0)+1;}
-    var first=Date.UTC(+y,0,1),end=Date.UTC(+y,11,31),sd=new Date(first).getUTCDay();
-    var cells=[],months=[],seen={},p;
-    for(p=0;p<sd;p++)cells.push('<span class="hcell pad"></span>');
-    var t=first;
-    while(t<=end){
-      var iso=new Date(t).toISOString().slice(0,10),c=counts[iso]||0,lv=c===0?0:c===1?1:c===2?2:3;
-      var idx=sd+Math.round((t-first)/864e5),col=Math.floor(idx/7),mm=new Date(t).getUTCMonth();
-      if(!seen[mm]){seen[mm]=1;months.push('<span style="left:'+(col*15)+'px">'+MONTHS[mm].slice(0,3)+'</span>');}
-      cells.push('<button class="hcell lv'+lv+(iso===state.date?" sel":"")+'" data-d="'+iso+'" title="'+fmt(iso)+' \\u2014 '+c+' holiday'+(c===1?"":"s")+'"></button>');
-      t+=864e5;
+    var y=+state.date.slice(0,4),counts={};
+    for(var i=0;i<D.occ.length;i++){var o=D.occ[i];if(o.iso.slice(0,4)===String(y)&&pass(o.id))counts[o.iso]=(counts[o.iso]||0)+1;}
+    var html="";
+    for(var m=0;m<12;m++){
+      var first=Date.UTC(y,m,1),days=new Date(Date.UTC(y,m+1,0)).getUTCDate(),sd=new Date(first).getUTCDay(),cells="",p,d;
+      for(p=0;p<sd;p++)cells+='<span class="hcell pad"></span>';
+      for(d=1;d<=days;d++){
+        var iso=y+"-"+pad(m+1)+"-"+pad(d),c=counts[iso]||0,lv=c===0?0:c===1?1:c===2?2:3;
+        cells+='<button class="hcell lv'+lv+(iso===state.date?" sel":"")+'" data-d="'+iso+'" title="'+fmt(iso)+' \\u2014 '+c+' holiday'+(c===1?"":"s")+'"></button>';
+      }
+      html+='<div class="hmonth"><div class="hmlabel">'+MONTHS[m].slice(0,3)+'</div><div class="hmgrid">'+cells+'</div></div>';
     }
-    $("heatmap").innerHTML='<div class="hmonths">'+months.join("")+'</div><div class="hgrid">'+cells.join("")+'</div>';
+    $("heatmap").innerHTML=html;
   }
   function renderChips(){
     $("chips").innerHTML=Object.keys(D.categories).map(function(c){return '<button class="chip'+(state.cats.has(c)?" on":"")+'" data-cat="'+c+'">'+esc(D.categories[c])+'</button>';}).join("")+'<button class="chip clear" data-all="1">Reset</button>';
