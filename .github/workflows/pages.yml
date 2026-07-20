@@ -1,0 +1,93 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# This file lives in .github/workflows_src/ (a normal, pushable path) because the
+# automation credential can't write to .github/workflows/ without the `workflow`
+# OAuth scope. To ACTIVATE it, copy this directory into place from a machine whose
+# git has that scope (or via GitHub's web UI):
+#
+#     cp -r .github/workflows_src/. .github/workflows/
+#     git add .github/workflows && git commit -m "Activate Pages deploy" && git push
+#
+# Re-run that copy whenever this source changes.
+# ─────────────────────────────────────────────────────────────────────────────
+name: Deploy calendar to GitHub Pages
+
+on:
+  # Rebuild whenever the content or code changes.
+  push:
+    branches: [main]
+
+  # The dashboard computes "today" in the browser, so it never goes stale between
+  # builds — no daily run needed. This yearly rebuild (Jan 1) exists only to roll
+  # the forward-looking horizons onward: the .ics spans build-year − 1 … + 5, the
+  # embedded dashboard data build-year − 2 … + 8, and the PDF renders the build
+  # year. Content/code changes still deploy immediately via the push trigger.
+  schedule:
+    - cron: "0 6 1 1 *"
+
+  # And on demand.
+  workflow_dispatch:
+
+# Least-privilege token that can publish Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never run two deploys at once; a newer build supersedes an in-flight one.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - run: npm ci
+
+      # Site + feed are required — fail the build if either breaks.
+      - name: Build site and .ics feed
+        run: |
+          npx tsx src/build.ts --only=ics
+          npx tsx src/build.ts --only=web
+
+      # PDF needs headless Chromium; treat it as best-effort so a Chromium hiccup
+      # never blocks the dashboard + feed from deploying.
+      - name: Build printable PDF (best effort)
+        continue-on-error: true
+        run: |
+          npx puppeteer browsers install chrome || true
+          npx tsx src/build.ts --only=pdf
+
+      # Assemble a single publish directory: the site at the root, with the .ics
+      # and PDF alongside it at /calendar.ics and /calendar.pdf.
+      - name: Assemble publish directory
+        run: |
+          mkdir -p public
+          cp -r dist/site/. public/
+          cp dist/calendar.ics public/ 2>/dev/null || echo "no .ics"
+          cp dist/calendar.pdf public/ 2>/dev/null || echo "no PDF (best-effort step skipped)"
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
