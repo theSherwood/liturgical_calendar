@@ -110,7 +110,7 @@ export function renderSite(holidays: Holiday[], seasons: SeasonMap, config: Conf
   const webcal = config.siteUrl.replace(/^https?:\/\//, "webcal://") + "/calendar.ics";
   const inner = `
 <header class="masthead">
-  <h1>The ${esc(config.familyName)} Family Calendar</h1>
+  <h1>The Family Calendar</h1>
   <p>A secular liturgical year · ${ids.size} observances</p>
   <div class="subscribe">
     <a class="subscribe-primary" href="${webcal}">📆 Subscribe on your phone</a>
@@ -149,7 +149,7 @@ export function renderSite(holidays: Holiday[], seasons: SeasonMap, config: Conf
 <footer>Explore any date · data spans ${from}–${to} · one source, three outputs (site · .ics · PDF)</footer>`;
 
   const scripts = `<script>window.__CAL__=${json};</script>\n<script>${APP_JS}</script>`;
-  return page(`The ${config.familyName} Family Calendar`, scripts, inner);
+  return page(`The Family Calendar`, scripts, inner);
 }
 
 /** Inline client app. Vanilla JS, no deps; string-concatenation only (no template literals). */
@@ -223,7 +223,7 @@ const APP_JS = `(function(){
     $("heatmap").innerHTML=html;
   }
   function renderChips(){
-    $("chips").innerHTML=Object.keys(D.categories).map(function(c){return '<button class="chip'+(state.cats.has(c)?" on":"")+'" data-cat="'+c+'">'+esc(D.categories[c])+'</button>';}).join("")+'<button class="chip clear" data-all="1">Reset</button>';
+    $("chips").innerHTML=Object.keys(D.categories).map(function(c){return '<button class="chip'+(state.cats.has(c)?" on":"")+'" data-cat="'+c+'">'+esc(D.categories[c])+'</button>';}).join("")+'<button class="chip util" data-all="1">All</button><button class="chip util" data-none="1">None</button>';
   }
   function refresh(){renderHeatmap();renderDay();renderUpcoming();renderYear();}
   function setDate(iso){state.date=iso;$("asof").value=iso;refresh();}
@@ -231,7 +231,8 @@ const APP_JS = `(function(){
   document.addEventListener("click",function(e){
     var b=e.target.closest("button");if(!b)return;
     if(b.dataset.cat){state.cats.has(b.dataset.cat)?state.cats.delete(b.dataset.cat):state.cats.add(b.dataset.cat);renderChips();refresh();}
-    else if(b.dataset.all){state.cats=new Set(Object.keys(D.categories));state.q="";$("search").value="";renderChips();refresh();}
+    else if(b.dataset.all){state.cats=new Set(Object.keys(D.categories));renderChips();refresh();}
+    else if(b.dataset.none){state.cats=new Set();renderChips();refresh();}
     else if(b.dataset.unit){setDate(shift(state.date,b.dataset.unit,+b.dataset.dir));}
     else if(b.dataset.d){setDate(b.dataset.d);}
     else if(b.id==="todayBtn"){setDate(localToday());}
@@ -274,10 +275,10 @@ export function renderPrint(holidays: Holiday[], seasons: SeasonMap, config: Con
   const thisYear = resolveYear(holidays, year, config);
   const inner = `
 <header class="masthead">
-  <h1>The ${esc(config.familyName)} Family Calendar</h1>
+  <h1>The Family Calendar</h1>
   <p>A secular liturgical year · ${year}</p>
 </header>
 ${seasonSectionsPrint(thisYear, seasons)}
-<footer>The ${esc(config.familyName)} family liturgical calendar · ${year}</footer>`;
-  return page(`The ${config.familyName} Family Calendar — ${year}`, "", inner, "print");
+<footer>The family liturgical calendar · ${year}</footer>`;
+  return page(`The Family Calendar — ${year}`, "", inner, "print");
 }

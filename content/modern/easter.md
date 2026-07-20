@@ -20,17 +20,15 @@ Dye and hunt for eggs; the children lead. Fill the house with flowers and open e
 
 ## Reading
 
-> Nothing is so beautiful as spring—
-> When weeds, in wheels, shoot long and lovely and lush;
-> Thrush's eggs look little low heavens, and thrush
-> Through the echoing timber does so rinse and wring
-> The ear, it strikes like lightnings to hear him sing;
-> The glassy peartree leaves and blooms, they brush
-> The descending blue; that blue is all in a rush
-> With richness; the racing lambs too have fair their fling.
-> — Gerard Manley Hopkins, "Spring" (1877), octave
+> And the angel answered and said unto the women, Fear not ye: for I know that ye seek Jesus, which was crucified. He is not here: for he is risen, as he said. Come, see the place where the Lord lay.
+> — The Gospel of Matthew 28:5–6 (King James Version)
+
+> Nothing is so beautiful as spring— / When weeds, in wheels, shoot long and lovely and lush; / Thrush's eggs look little low heavens, and thrush / Through the echoing timber does so rinse and wring the ear.
+> — Gerard Manley Hopkins, "Spring" (1877)
 
 **Sources**
 
+- [The Resurrection — Matthew 28 (King James Version, Wikisource)](https://en.wikisource.org/wiki/Bible_(King_James)/Matthew)
+- [Hymn — "Christ the Lord Is Risen Today" (Charles Wesley) (Wikipedia)](https://en.wikipedia.org/wiki/Christ_the_Lord_Is_Risen_Today)
 - [Full text — "Spring" (Wikisource)](https://en.wikisource.org/wiki/Spring_(Hopkins))
 - [Overview — Easter (Wikipedia)](https://en.wikipedia.org/wiki/Easter)
