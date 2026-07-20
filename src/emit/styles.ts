@@ -58,7 +58,7 @@ header.masthead p { color: var(--muted); font-family: var(--sans); font-size: .9
   font-family: var(--sans); font-size: .85rem; cursor: pointer; background: var(--surface);
   color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: .4rem .65rem; line-height: 1;
 }
-.date-nav button[data-nav] { font-size: 1.1rem; padding: .3rem .6rem; }
+.date-nav button[data-unit] { font-size: .9rem; padding: .35rem .5rem; letter-spacing: -.06em; font-variant-numeric: tabular-nums; }
 #todayBtn { color: var(--accent); font-weight: 600; }
 .date-nav button:hover, #todayBtn:hover, .chip:hover { border-color: var(--accent); }
 .chips { display: flex; flex-wrap: wrap; gap: .4rem; }
@@ -83,10 +83,9 @@ header.masthead p { color: var(--muted); font-family: var(--sans); font-size: .9
 .hlegend { font-family: var(--sans); font-size: .72rem; color: var(--muted); display: inline-flex; align-items: center; gap: .28rem; }
 .hlegend i { width: 11px; height: 11px; border-radius: 2px; display: inline-block; }
 .heatmap-wrap { overflow-x: auto; padding-bottom: .4rem; }
-#heatmap { display: inline-block; min-width: max-content; }
-.hmonths { position: relative; height: 1.1rem; font-family: var(--sans); font-size: .68rem; color: var(--muted); }
-.hmonths span { position: absolute; top: 0; }
-.hgrid { display: grid; grid-auto-flow: column; grid-template-rows: repeat(7, 12px); grid-auto-columns: 12px; gap: 3px; }
+#heatmap { display: flex; flex-wrap: wrap; gap: 1rem 1.4rem; }
+.hmlabel { font-family: var(--sans); font-size: .7rem; letter-spacing: .04em; color: var(--muted); margin: 0 0 .35rem; }
+.hmgrid { display: grid; grid-template-columns: repeat(7, 12px); gap: 3px; }
 .hcell { width: 12px; height: 12px; border-radius: 2px; border: 0; padding: 0; }
 .hcell.pad { background: transparent; }
 button.hcell { cursor: pointer; }
