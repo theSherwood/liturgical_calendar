@@ -74,9 +74,10 @@ jobs:
           cp dist/calendar.ics public/ 2>/dev/null || echo "no .ics"
           cp dist/calendar.pdf public/ 2>/dev/null || echo "no PDF (best-effort step skipped)"
 
+      # Reads the (already-enabled) Pages config. Pages must be turned on once by
+      # hand — Settings → Pages → Source: GitHub Actions — because the workflow's
+      # GITHUB_TOKEN isn't allowed to create the Pages site itself.
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -25,4 +25,6 @@ Do nothing useful, on purpose. One last summer cookout, one last late evening ou
 
 A holiday that honors labor by insisting everyone stop doing it — won by generations who fought for the weekend, the eight-hour day, and the idea that a life is worth more than a job. Rest is not the opposite of respecting work; it is the reward the work was for. Do nothing useful, on purpose — one last cookout, one last late summer evening outdoors before the year turns toward school and dark. And thank, by name, the people whose labor you rely on and rarely see.
 
-**Sources:** [Learn more — Labor Day (Wikipedia)](https://en.wikipedia.org/wiki/Labor_Day)
+**Sources**
+
+- [Learn more — Labor Day (Wikipedia)](https://en.wikipedia.org/wiki/Labor_Day)

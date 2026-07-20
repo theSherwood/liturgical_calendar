@@ -24,4 +24,7 @@ Reach for the people who've drifted just out of orbit — the friend, the cousin
 > Most situations — perhaps every situation for people who are practiced at this kind of game — provide some clue for coordinating behavior, some focal point for each person's expectation of what the other expects him to expect to be expected to do. Finding the key, or rather finding a key — any key that is mutually recognized as the key becomes the key — may depend on imagination more than on logic.
 > — Thomas C. Schelling, The Strategy of Conflict (Harvard University Press, 1960), p. 57
 
-**Sources:** [Focal point (game theory) — Wikipedia (quotes p. 57)](https://en.wikipedia.org/wiki/Focal_point_(game_theory)) · [Full text — The Strategy of Conflict (Internet Archive, borrowable)](https://archive.org/details/strategyofconfli0000sche)
+**Sources**
+
+- [Focal point (game theory) — Wikipedia (quotes p. 57)](https://en.wikipedia.org/wiki/Focal_point_(game_theory))
+- [Full text — The Strategy of Conflict (Internet Archive, borrowable)](https://archive.org/details/strategyofconfli0000sche)

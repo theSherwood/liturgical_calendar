@@ -24,4 +24,7 @@ The calendar's own birthday — a good day to appreciate this very project. Marv
 > Therefore, in order to restore the vernal equinox, which was placed by the fathers of the Council of Nicaea at the twelfth day before the Kalends of April [i.e. 21 March], and to return it to that same place, we direct and ordain that ten days shall be removed from the month of October of the year 1582, from the third day before the Nones [i.e. 5 October] up to the day before the Ides [i.e. 14 October], inclusive; and that the day which follows the feast of St Francis shall be called the Ides of October [i.e. 15 October].
 > — Pope Gregory XIII, papal bull Inter gravissimas, 24 February 1582 (English translation, Wikisource)
 
-**Sources:** [Full text — Inter gravissimas (English translation, Wikisource)](https://en.wikisource.org/wiki/Translation:Inter_gravissimas) · [Inter gravissimas (Wikipedia overview)](https://en.wikipedia.org/wiki/Inter_gravissimas)
+**Sources**
+
+- [Full text — Inter gravissimas (English translation, Wikisource)](https://en.wikisource.org/wiki/Translation:Inter_gravissimas)
+- [Inter gravissimas (Wikipedia overview)](https://en.wikipedia.org/wiki/Inter_gravissimas)

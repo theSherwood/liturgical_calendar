@@ -27,4 +27,8 @@ A fitting weight to add to New Year's Day. Read a few lines of the Proclamation 
 > If there is no struggle, there is no progress. Those who profess to favor freedom, and yet deprecate agitation, are men who want crops without plowing up the ground… Power concedes nothing without a demand. It never did and it never will.
 > — Frederick Douglass, "West India Emancipation" speech, Canandaigua, New York, August 3, 1857
 
-**Sources:** [Full text — Emancipation Proclamation / Proclamation 95 (Wikisource)](https://en.wikisource.org/wiki/Proclamation_95_(1863)) · [Full text — Frederick Douglass, West India Emancipation (Wikisource)](https://en.wikisource.org/wiki/West_India_Emancipation)
+**Sources**
+
+- [Full text — Emancipation Proclamation / Proclamation 95 (Wikisource)](https://en.wikisource.org/wiki/Proclamation_95_(1863))
+- [Full text — Frederick Douglass, West India Emancipation (Wikisource)](https://en.wikisource.org/wiki/West_India_Emancipation)
+- [Overview — Emancipation Proclamation (Wikipedia)](https://en.wikipedia.org/wiki/Emancipation_Proclamation)

@@ -27,4 +27,7 @@ Watch a bit of Cosmos, or read the 'Pale Blue Dot' passage aloud under the night
 > To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known.
 > — Carl Sagan, Pale Blue Dot (1994)
 
-**Sources:** [Full passage — A Pale Blue Dot (The Planetary Society)](https://www.planetary.org/worlds/pale-blue-dot) · [Pale Blue Dot — Wikipedia (context and cited quotation)](https://en.wikipedia.org/wiki/Pale_Blue_Dot)
+**Sources**
+
+- [Full passage — A Pale Blue Dot (The Planetary Society)](https://www.planetary.org/worlds/pale-blue-dot)
+- [Pale Blue Dot — Wikipedia (context and cited quotation)](https://en.wikipedia.org/wiki/Pale_Blue_Dot)

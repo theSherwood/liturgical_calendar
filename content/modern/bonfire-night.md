@@ -26,4 +26,6 @@ Fireworks and a bonfire if you can, sparklers if you can't. Toffee, warm hands, 
 
 Britain's great autumn fire night, marking the foiling of the 1605 plot to blow up Parliament. Four centuries on, it is less about the politics and more about the oldest pleasures there are: a huge fire and a sky full of sparks in the cold November dark. Fireworks and a bonfire if you can, sparklers if you can't; toffee, warm hands, cold noses. Recite the old rhyme, and let the little ones stay up past their bedtime for the last rocket.
 
-**Sources:** [Learn more — Guy Fawkes Night (Wikipedia)](https://en.wikipedia.org/wiki/Guy_Fawkes_Night)
+**Sources**
+
+- [Learn more — Guy Fawkes Night (Wikipedia)](https://en.wikipedia.org/wiki/Guy_Fawkes_Night)

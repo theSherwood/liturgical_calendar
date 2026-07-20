@@ -24,4 +24,7 @@ Notice the invisible ocean of electricity you swim in all day, and that one obse
 > My method is different. I do not rush into actual work. When I get an idea I start at once building it up in my imagination. I change the construction, make improvements and operate the device in my mind. It is absolutely immaterial to me whether I run my turbine in thought or test it in my shop. I even note if it is out of balance. There is no difference whatever, the results are the same. In this way I am able to rapidly develop and perfect a conception without touching anything.
 > — Nikola Tesla, My Inventions: The Autobiography of Nikola Tesla (1919)
 
-**Sources:** [Full text — My Inventions (Wikisource)](https://en.wikisource.org/wiki/My_Inventions) · [About the book — My Inventions (Wikipedia)](https://en.wikipedia.org/wiki/My_Inventions:_The_Autobiography_of_Nikola_Tesla)
+**Sources**
+
+- [Full text — My Inventions (Wikisource)](https://en.wikisource.org/wiki/My_Inventions)
+- [About the book — My Inventions (Wikipedia)](https://en.wikipedia.org/wiki/My_Inventions:_The_Autobiography_of_Nikola_Tesla)

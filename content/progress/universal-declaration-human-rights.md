@@ -28,4 +28,8 @@ Read Article 1 aloud. Pick one right on the list and learn where in the world it
 > All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
 > — Universal Declaration of Human Rights, Article 1
 
-**Sources:** [Full text — Universal Declaration of Human Rights (Wikisource)](https://en.wikisource.org/wiki/Universal_Declaration_of_Human_Rights) · [Full text — Universal Declaration of Human Rights (United Nations)](https://www.un.org/en/about-us/universal-declaration-of-human-rights)
+**Sources**
+
+- [Full text — Universal Declaration of Human Rights (Wikisource)](https://en.wikisource.org/wiki/Universal_Declaration_of_Human_Rights)
+- [Full text — Universal Declaration of Human Rights (United Nations)](https://www.un.org/en/about-us/universal-declaration-of-human-rights)
+- [Overview — Universal Declaration of Human Rights (Wikipedia)](https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights)

@@ -25,4 +25,6 @@ Pajamas early, one small gift each, a shared story or film by the tree. Leave so
 
 The most magical night of the year is arguably the one before the day. Christmas Eve is a festival of pure anticipation — the hush, the lit windows against the dark, the held breath of a whole house waiting together for morning. And waiting-together, it turns out, is one of the quiet great pleasures of a family: the magic lives mostly in the eve, and the small ones are quite right to find sleep nearly impossible.
 
-**Sources:** [Learn more — Christmas Eve (Wikipedia)](https://en.wikipedia.org/wiki/Christmas_Eve)
+**Sources**
+
+- [Learn more — Christmas Eve (Wikipedia)](https://en.wikipedia.org/wiki/Christmas_Eve)

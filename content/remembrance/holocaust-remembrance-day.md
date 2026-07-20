@@ -41,4 +41,8 @@ The gravest day of the year. Light candles — six, by tradition — and keep si
 > Repeat them to your children.
 > — Primo Levi, "Shemà" (1946), trans. Ruth Feldman and Brian Swann — the poem Levi set as the epigraph to If This Is a Man
 
-**Sources:** [Shema: Collected Poems of Primo Levi (Internet Archive — Feldman & Swann translation)](https://archive.org/details/shemacollectedpo0000levi) · [Full poem text — Primo Levi, "Shema" (My Jewish Learning)](https://www.myjewishlearning.com/article/hear-amp-act/)
+**Sources**
+
+- [Shema: Collected Poems of Primo Levi (Internet Archive — Feldman & Swann translation)](https://archive.org/details/shemacollectedpo0000levi)
+- [Full poem text — Primo Levi, "Shema" (My Jewish Learning)](https://www.myjewishlearning.com/article/hear-amp-act/)
+- [Overview — International Holocaust Remembrance Day (Wikipedia)](https://en.wikipedia.org/wiki/International_Holocaust_Remembrance_Day)

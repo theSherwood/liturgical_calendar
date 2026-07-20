@@ -26,4 +26,7 @@ Two pies, obviously — it's twice pi. Have the friendly family debate: is π or
 
 The cheeky rival to Pi Day, for the mathematicians who argue the true circle constant is τ = 2π ≈ 6.28 — because a circle is really defined by its radius, not its diameter, and the math comes out cleaner. It is a gloriously low-stakes war, and the only holiday whose central dispute is settled by eating twice as much pie as you did in March. Two pies, then, and the friendly family debate: is π or τ the more natural number? There is no wrong answer, only a more delicious one.
 
-**Sources:** [Learn more — The Tau Manifesto](https://tauday.com/tau-manifesto)
+**Sources**
+
+- [Learn more — The Tau Manifesto](https://tauday.com/tau-manifesto)
+- [Overview — Turn (angle) (Wikipedia)](https://en.wikipedia.org/wiki/Turn_(angle))

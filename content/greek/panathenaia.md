@@ -24,4 +24,7 @@ Celebrate your own city or town. Take a walk to a landmark you're proud of, lear
 > Our constitution does not copy the laws of neighbouring states; we are rather a pattern to others than imitators ourselves. Its administration favours the many instead of the few; this is why it is called a democracy. ... We cultivate refinement without extravagance and knowledge without effeminacy. ... In short, I say that as a city we are the school of Hellas, while I doubt if the world can produce a man who, where he has only himself to depend upon, is equal to so many emergencies, and graced by so happy a versatility, as the Athenian.
 > — Thucydides, Pericles' Funeral Oration (History of the Peloponnesian War, 2.37–41), trans. Richard Crawley, 1874
 
-**Sources:** [Full text — Thucydides, History of the Peloponnesian War, Book 2 (Crawley trans., Wikisource)](https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_2) · [Overview — Pericles' Funeral Oration (Wikipedia)](https://en.wikipedia.org/wiki/Pericles%27_Funeral_Oration)
+**Sources**
+
+- [Full text — Thucydides, History of the Peloponnesian War, Book 2 (Crawley trans., Wikisource)](https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_2)
+- [Overview — Pericles' Funeral Oration (Wikipedia)](https://en.wikipedia.org/wiki/Pericles%27_Funeral_Oration)

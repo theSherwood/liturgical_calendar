@@ -25,4 +25,8 @@ The proclamation that fixed a national day of thanksgiving on the last Thursday 
 > The year that is drawing toward its close has been filled with the blessings of fruitful fields and healthful skies. To these bounties, which are so constantly enjoyed that we are prone to forget the source from which they come, others have been added which are of so extraordinary a nature that they cannot fail to penetrate and soften even the heart which is habitually insensible to the ever-watchful providence of Almighty God.
 > — Abraham Lincoln, Thanksgiving Proclamation, October 3, 1863 (drafted by Secretary of State William H. Seward)
 
-**Sources:** [Full text — Thanksgiving Proclamation (1863), Wikisource](https://en.wikisource.org/wiki/Thanksgiving_Proclamation_(1863)) · [Full text — Proclamation 106, Thanksgiving Day 1863 (American Presidency Project)](https://www.presidency.ucsb.edu/documents/proclamation-106-thanksgiving-day-1863)
+**Sources**
+
+- [Full text — Thanksgiving Proclamation (1863), Wikisource](https://en.wikisource.org/wiki/Thanksgiving_Proclamation_(1863))
+- [Full text — Proclamation 106, Thanksgiving Day 1863 (American Presidency Project)](https://www.presidency.ucsb.edu/documents/proclamation-106-thanksgiving-day-1863)
+- [Overview — Thanksgiving (United States) (Wikipedia)](https://en.wikipedia.org/wiki/Thanksgiving_(United_States))

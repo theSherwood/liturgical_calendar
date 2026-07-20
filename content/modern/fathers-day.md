@@ -25,4 +25,6 @@ The fathers pick the day's activity and are excused from all chores. A handwritt
 
 That is how most fathering actually happens — not in speeches or advice but in the quiet, daily example of an ordinary man doing ordinary things decently. It is the least-announced kind of teaching, and often the least thanked, precisely because it never calls itself teaching at all. Today is the day to notice it out loud, and to say the specific thing you are grateful for rather than assume it was always understood.
 
-**Sources:** [Learn more — Father's Day (Wikipedia)](https://en.wikipedia.org/wiki/Father%27s_Day)
+**Sources**
+
+- [Learn more — Father's Day (Wikipedia)](https://en.wikipedia.org/wiki/Father%27s_Day)

@@ -27,4 +27,8 @@ A solemn evening. Dim the lights and read Petrov's story aloud. Sit for a moment
 > That was my job. But they were lucky it was me on shift that night.
 > — Stanislav Petrov (BBC, 2013)
 
-**Sources:** [NPR obituary — verified quotes, cites 2013 BBC interview](https://www.npr.org/sections/thetwo-way/2017/09/18/551792129/stanislav-petrov-the-man-who-saved-the-world-dies-at-77) · [Wikipedia — Stanislav Petrov](https://en.wikipedia.org/wiki/Stanislav_Petrov) · [Wikipedia — 1983 Soviet nuclear false alarm incident](https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alarm_incident)
+**Sources**
+
+- [NPR obituary — verified quotes, cites 2013 BBC interview](https://www.npr.org/sections/thetwo-way/2017/09/18/551792129/stanislav-petrov-the-man-who-saved-the-world-dies-at-77)
+- [Wikipedia — Stanislav Petrov](https://en.wikipedia.org/wiki/Stanislav_Petrov)
+- [Wikipedia — 1983 Soviet nuclear false alarm incident](https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alarm_incident)

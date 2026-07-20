@@ -32,4 +32,7 @@ A harvest-home meal from the pantry and the last of the garden. Raise a glass to
 > The fame of a dead man's deeds.
 > — Hávamál, stanzas 77–78, trans. Henry Adams Bellows (1923)
 
-**Sources:** [Full text — Hávamál (Bellows trans., voluspa.org, Old Norse & English)](http://www.voluspa.org/havamal76-80.htm) · [Overview — Hávamál (Wikipedia)](https://en.wikipedia.org/wiki/H%C3%A1vam%C3%A1l)
+**Sources**
+
+- [Full text — Hávamál (Bellows trans., voluspa.org, Old Norse & English)](http://www.voluspa.org/havamal76-80.htm)
+- [Overview — Hávamál (Wikipedia)](https://en.wikipedia.org/wiki/H%C3%A1vam%C3%A1l)

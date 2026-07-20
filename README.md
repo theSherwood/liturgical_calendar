@@ -7,6 +7,12 @@ built instead from its own values: modern civic holidays, ancient festivals
 Rationalist community observances like **Petrov Day** and the **Secular
 Solstice**.
 
+## Live
+
+- **Dashboard:** https://thesherwood.github.io/liturgical_calendar/
+- **Subscribe (feed):** [`webcal://thesherwood.github.io/liturgical_calendar/calendar.ics`](webcal://thesherwood.github.io/liturgical_calendar/calendar.ics) · [download `.ics`](https://thesherwood.github.io/liturgical_calendar/calendar.ics)
+- **Printable PDF:** https://thesherwood.github.io/liturgical_calendar/calendar.pdf
+
 It is **one source of truth → three synced outputs**:
 
 | Output | File | Use |
@@ -159,9 +165,9 @@ cp -r .github/workflows_src/. .github/workflows/
 git add .github/workflows && git commit -m "Activate Pages deploy" && git push
 ```
 
-Then set **Settings → Pages → Build and deployment → Source: GitHub Actions**
-(the workflow also tries to enable this itself). Re-copy whenever the source
-changes.
+Then **enable Pages** (required — the workflow's token can't do it): **Settings →
+Pages → Build and deployment → Source: GitHub Actions**, and re-run the workflow.
+Re-copy `workflows_src` → `workflows` whenever the source changes.
 
 **Why only yearly** (not daily): the dashboard is a small client-side app — the
 browser computes "today" in the *viewer's* timezone and lets you jump to any date,

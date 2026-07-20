@@ -27,4 +27,8 @@ Try a little code together — even one line, even a kids' block-coding game. Ad
 > From then on, when anything went wrong with a computer, we said it had bugs.
 > — Grace Hopper, on the 1947 Harvard Mark II moth, quoted in Time (16 April 1984)
 
-**Sources:** [Full text — "The Wit and Wisdom of Grace Hopper" (Yale CS / OCLC Newsletter, 1987)](https://www.cs.yale.edu/homes/tap/Files/hopper-wit.html) · [Sourced quotations — Grace Hopper (Wikiquote)](https://en.wikiquote.org/wiki/Grace_Hopper)
+**Sources**
+
+- [Full text — "The Wit and Wisdom of Grace Hopper" (Yale CS / OCLC Newsletter, 1987)](https://www.cs.yale.edu/homes/tap/Files/hopper-wit.html)
+- [Sourced quotations — Grace Hopper (Wikiquote)](https://en.wikiquote.org/wiki/Grace_Hopper)
+- [Overview — Grace Hopper (Wikipedia)](https://en.wikipedia.org/wiki/Grace_Hopper)

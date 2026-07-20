@@ -25,4 +25,6 @@ Everyone makes a card for someone else in the family — homemade only, no store
 
 A midwinter festival of affection with tangled roots — Roman Lupercalia, a martyred saint, medieval courtly love. Strip away the commerce and something true remains: it is genuinely good to keep one day a year where saying "I love you," out loud and in writing, is the entire assignment. Make a card by hand for someone in the family. Say the thing you usually assume they already know.
 
-**Sources:** [Learn more — Valentine's Day (Wikipedia)](https://en.wikipedia.org/wiki/Valentine%27s_Day)
+**Sources**
+
+- [Learn more — Valentine's Day (Wikipedia)](https://en.wikipedia.org/wiki/Valentine%27s_Day)

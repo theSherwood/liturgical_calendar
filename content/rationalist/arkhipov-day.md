@@ -27,4 +27,8 @@ Keep it the way we keep Petrov Day: quietly, and with attention. Read Arkhipov's
 > Arkhipov was "the man who saved the world."
 > — Thomas S. Blanton, director, National Security Archive, 2002
 
-**Sources:** [Edward Wilson essay — The Guardian (2012)](https://www.theguardian.com/commentisfree/2012/oct/27/vasili-arkhipov-stopped-nuclear-war) · [Vasily Arkhipov — Wikipedia (full account, Blanton quote)](https://en.wikipedia.org/wiki/Vasily_Arkhipov) · [The Underwater Cuban Missile Crisis at 60 — National Security Archive (primary documents)](https://nsarchive.gwu.edu/briefing-book/russia-programs/2022-10-03/soviet-submarines-nuclear-torpedoes-cuban-missile-crisis)
+**Sources**
+
+- [Edward Wilson essay — The Guardian (2012)](https://www.theguardian.com/commentisfree/2012/oct/27/vasili-arkhipov-stopped-nuclear-war)
+- [Vasily Arkhipov — Wikipedia (full account, Blanton quote)](https://en.wikipedia.org/wiki/Vasily_Arkhipov)
+- [The Underwater Cuban Missile Crisis at 60 — National Security Archive (primary documents)](https://nsarchive.gwu.edu/briefing-book/russia-programs/2022-10-03/soviet-submarines-nuclear-torpedoes-cuban-missile-crisis)

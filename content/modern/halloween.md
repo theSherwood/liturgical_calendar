@@ -27,4 +27,8 @@ Costumes for everyone, adults included — no exceptions. Carve pumpkins, walk t
 > Would quake to look on.
 > — William Shakespeare, Hamlet, Act III, Scene ii
 
-**Sources:** [Full text — Hamlet, Act 3 Scene 2 (MIT Shakespeare)](http://shakespeare.mit.edu/hamlet/hamlet.3.2.html) · [Hamlet, Act 3 Scene 2 (Folger Shakespeare Library)](https://www.folger.edu/explore/shakespeares-works/hamlet/read/3/2/)
+**Sources**
+
+- [Full text — Hamlet, Act 3 Scene 2 (MIT Shakespeare)](http://shakespeare.mit.edu/hamlet/hamlet.3.2.html)
+- [Hamlet, Act 3 Scene 2 (Folger Shakespeare Library)](https://www.folger.edu/explore/shakespeares-works/hamlet/read/3/2/)
+- [Overview — Halloween (Wikipedia)](https://en.wikipedia.org/wiki/Halloween)

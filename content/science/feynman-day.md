@@ -24,4 +24,8 @@ Ask 'why?' about something ordinary until you hit the bottom of what you actuall
 > It's a kind of scientific integrity, a principle of scientific thought that corresponds to a kind of utter honesty — a kind of leaning over backwards. For example, if you're doing an experiment, you should report everything that you think might make it invalid... Details that could throw doubt on your interpretation must be given, if you know them... The first principle is that you must not fool yourself — and you are the easiest person to fool.
 > — Richard Feynman, "Cargo Cult Science," Caltech commencement address, 1974
 
-**Sources:** [Full text — "Cargo Cult Science" (Caltech Library)](https://calteches.library.caltech.edu/51/2/CargoCult.htm) · [Richard Feynman quotations (Wikiquote)](https://en.wikiquote.org/wiki/Richard_Feynman)
+**Sources**
+
+- [Full text — "Cargo Cult Science" (Caltech Library)](https://calteches.library.caltech.edu/51/2/CargoCult.htm)
+- [Richard Feynman quotations (Wikiquote)](https://en.wikiquote.org/wiki/Richard_Feynman)
+- [Overview — Richard Feynman (Wikipedia)](https://en.wikipedia.org/wiki/Richard_Feynman)

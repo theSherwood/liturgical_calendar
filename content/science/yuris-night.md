@@ -27,4 +27,7 @@ A 'world space party,' as it's actually called. Watch launch footage, look up at
 > Orbiting Earth in the spaceship, I saw how beautiful our planet is. People, let us preserve and increase this beauty, not destroy it!
 > — Yuri Gagarin, handwritten and signed after his flight (facsimile in Syny goluboi planety, 1981)
 
-**Sources:** [Yuri Gagarin — Wikiquote (sourced quotes)](https://en.wikiquote.org/wiki/Yuri_Gagarin) · [Yuri Gagarin — Wikipedia](https://en.wikipedia.org/wiki/Yuri_Gagarin)
+**Sources**
+
+- [Yuri Gagarin — Wikiquote (sourced quotes)](https://en.wikiquote.org/wiki/Yuri_Gagarin)
+- [Yuri Gagarin — Wikipedia](https://en.wikipedia.org/wiki/Yuri_Gagarin)

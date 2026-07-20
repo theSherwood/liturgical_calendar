@@ -35,4 +35,7 @@ Bake bread together, or buy a really good loaf and break it by hand. As you eat,
 > And sore surpris'd them all.
 > — Robert Burns, "John Barleycorn: A Ballad" (1782)
 
-**Sources:** [Full text — John Barleycorn (Wikisource)](https://en.wikisource.org/wiki/A_First_Series_of_Hymns_and_Songs/Descriptive_Songs/John_Barleycorn) · [John Barleycorn — meaning & Burns's 1782 version (Wikipedia)](https://en.wikipedia.org/wiki/John_Barleycorn)
+**Sources**
+
+- [Full text — John Barleycorn (Wikisource)](https://en.wikisource.org/wiki/A_First_Series_of_Hymns_and_Songs/Descriptive_Songs/John_Barleycorn)
+- [John Barleycorn — meaning & Burns's 1782 version (Wikipedia)](https://en.wikipedia.org/wiki/John_Barleycorn)

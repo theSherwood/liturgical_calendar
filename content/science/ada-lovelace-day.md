@@ -27,4 +27,8 @@ Learn about a woman in science whose name you don't know yet — there are more 
 > We may say most aptly, that the Analytical Engine weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves.
 > — Ada Lovelace, Note A (1843)
 
-**Sources:** [Full text — Lovelace's Notes on the Analytical Engine (Classics in the History of Psychology, York University)](https://psychclassics.yorku.ca/Lovelace/lovelace.htm) · [Full text — Menabrea's Sketch of the Analytical Engine (Wikisource)](https://en.wikisource.org/wiki/Scientific_Memoirs/3/Sketch_of_the_Analytical_Engine_invented_by_Charles_Babbage,_Esq)
+**Sources**
+
+- [Full text — Lovelace's Notes on the Analytical Engine (Classics in the History of Psychology, York University)](https://psychclassics.yorku.ca/Lovelace/lovelace.htm)
+- [Full text — Menabrea's Sketch of the Analytical Engine (Wikisource)](https://en.wikisource.org/wiki/Scientific_Memoirs/3/Sketch_of_the_Analytical_Engine_invented_by_Charles_Babbage,_Esq)
+- [Overview — Ada Lovelace Day (Wikipedia)](https://en.wikipedia.org/wiki/Ada_Lovelace_Day)

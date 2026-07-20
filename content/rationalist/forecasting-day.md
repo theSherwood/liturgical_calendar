@@ -27,4 +27,7 @@ Two rituals, one sitting. First, open last year's sealed predictions and grade t
 > For superforecasters, beliefs are hypotheses to be tested, not treasures to be guarded.
 > — Philip Tetlock and Dan Gardner, Superforecasting (2015)
 
-**Sources:** [Full text (borrow) — Superforecasting, Internet Archive](https://archive.org/details/superforecasting0000tetl) · [Background — The Good Judgment Project (Wikipedia)](https://en.wikipedia.org/wiki/Superforecasting)
+**Sources**
+
+- [Full text (borrow) — Superforecasting, Internet Archive](https://archive.org/details/superforecasting0000tetl)
+- [Background — The Good Judgment Project (Wikipedia)](https://en.wikipedia.org/wiki/Superforecasting)

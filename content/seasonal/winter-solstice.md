@@ -34,4 +34,8 @@ Under the old Julian calendar, St. Lucy's Day fell on the solstice — the year'
 > Compared with me, who am their epitaph.
 > — John Donne, "A Nocturnal upon St. Lucy's Day, Being the Shortest Day" (written c. 1627; publ. 1633)
 
-**Sources:** [Full text — A Nocturnal Upon S. Lucy's Day (Wikisource)](https://en.wikisource.org/wiki/A_Nocturnal_Upon_S._Lucy%27s_Day,_Being_the_Shortest_Day) · [Full text & notes — Poetry Foundation](https://www.poetryfoundation.org/poems/44122/a-nocturnal-upon-st-lucys-day)
+**Sources**
+
+- [Full text — A Nocturnal Upon S. Lucy's Day (Wikisource)](https://en.wikisource.org/wiki/A_Nocturnal_Upon_S._Lucy%27s_Day,_Being_the_Shortest_Day)
+- [Full text & notes — Poetry Foundation](https://www.poetryfoundation.org/poems/44122/a-nocturnal-upon-st-lucys-day)
+- [Overview — Winter solstice (Wikipedia)](https://en.wikipedia.org/wiki/Winter_solstice)
