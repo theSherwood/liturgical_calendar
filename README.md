@@ -159,9 +159,9 @@ cp -r .github/workflows_src/. .github/workflows/
 git add .github/workflows && git commit -m "Activate Pages deploy" && git push
 ```
 
-Then set **Settings → Pages → Build and deployment → Source: GitHub Actions**
-(the workflow also tries to enable this itself). Re-copy whenever the source
-changes.
+Then **enable Pages** (required — the workflow's token can't do it): **Settings →
+Pages → Build and deployment → Source: GitHub Actions**, and re-run the workflow.
+Re-copy `workflows_src` → `workflows` whenever the source changes.
 
 **Why only yearly** (not daily): the dashboard is a small client-side app — the
 browser computes "today" in the *viewer's* timezone and lets you jump to any date,
