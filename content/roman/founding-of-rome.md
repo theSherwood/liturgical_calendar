@@ -34,4 +34,8 @@ Celebrate the birthday of a city 2,700-odd years old. Eat Roman — bread, olive
 > who, clad in peaceful toga, judge mankind.
 > — Virgil, Aeneid, Book I (Jupiter's prophecy for Rome), trans. Theodore C. Williams, 1910
 
-**Sources:** [Full text — Aeneid Book I, Jupiter's prophecy (Perseus, Williams trans.)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0054:book=1:card=272) · [Aeneid, Book I — complete (Perseus Digital Library)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0054:book=1:card=1)
+**Sources**
+
+- [Full text — Aeneid Book I, Jupiter's prophecy (Perseus, Williams trans.)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0054:book=1:card=272)
+- [Aeneid, Book I — complete (Perseus Digital Library)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0054:book=1:card=1)
+- [Overview — Founding of Rome (Wikipedia)](https://en.wikipedia.org/wiki/Founding_of_Rome)

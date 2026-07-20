@@ -27,4 +27,7 @@ A grave day. At dawn, or whenever you can, light a single candle and keep a minu
 > Now I am become Death, the destroyer of worlds.
 > — J. Robert Oppenheimer, recalling the Bhagavad Gita (1965)
 
-**Sources:** [Full text — Report on the Trinity Test by Gen. Groves, 1945 (atomicarchive.com)](https://www.atomicarchive.com/resources/documents/trinity/groves.html) · [Trinity — the first nuclear test (Wikipedia)](https://en.wikipedia.org/wiki/Trinity_(nuclear_test))
+**Sources**
+
+- [Full text — Report on the Trinity Test by Gen. Groves, 1945 (atomicarchive.com)](https://www.atomicarchive.com/resources/documents/trinity/groves.html)
+- [Trinity — the first nuclear test (Wikipedia)](https://en.wikipedia.org/wiki/Trinity_(nuclear_test))

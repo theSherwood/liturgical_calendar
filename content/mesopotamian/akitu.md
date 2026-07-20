@@ -34,4 +34,8 @@ A festival of renewal and humility. Forgive one small debt or grudge. Put one th
 > Lahmu and Lahamu were called into being.
 > — Enūma Eliš, Tablet I, trans. L. W. King (The Seven Tablets of Creation, London, 1902)
 
-**Sources:** [Full text — Enūma Eliš, Tablet I, trans. L. W. King (Wikisource)](https://wikisource.org/wiki/En%C3%BBma_Eli%C5%A1/Tablet_1) · [Full text — Enuma Elish, trans. L. W. King (public-library.uk PDF)](http://public-library.uk/ebooks/32/54.pdf) · [Background — Enūma Eliš and its recitation at the Akitu festival (Wikipedia)](https://en.wikipedia.org/wiki/En%C5%ABma_Eli%C5%A1)
+**Sources**
+
+- [Full text — Enūma Eliš, Tablet I, trans. L. W. King (Wikisource)](https://wikisource.org/wiki/En%C3%BBma_Eli%C5%A1/Tablet_1)
+- [Full text — Enuma Elish, trans. L. W. King (public-library.uk PDF)](http://public-library.uk/ebooks/32/54.pdf)
+- [Background — Enūma Eliš and its recitation at the Akitu festival (Wikipedia)](https://en.wikipedia.org/wiki/En%C5%ABma_Eli%C5%A1)

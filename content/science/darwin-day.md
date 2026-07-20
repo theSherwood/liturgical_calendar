@@ -24,4 +24,8 @@ Go look at some life — a walk outdoors, a nature documentary, a visit to see a
 > It is interesting to contemplate an entangled bank, clothed with many plants of many kinds, with birds singing on the bushes, with various insects flitting about, and with worms crawling through the damp earth… There is grandeur in this view of life, with its several powers, having been originally breathed into a few forms or into one; and that, whilst this planet has gone cycling on according to the fixed law of gravity, from so simple a beginning endless forms most beautiful and most wonderful have been, and are being, evolved.
 > — Charles Darwin, On the Origin of Species (1st ed., 1859), closing paragraph
 
-**Sources:** [Full text — Origin of Species (1859), ch. XIV (Wikisource)](https://en.wikisource.org/wiki/On_the_Origin_of_Species_(1859)/Chapter_XIV) · [Full book index — On the Origin of Species (1859) (Wikisource)](https://en.wikisource.org/wiki/On_the_Origin_of_Species_(1859))
+**Sources**
+
+- [Full text — Origin of Species (1859), ch. XIV (Wikisource)](https://en.wikisource.org/wiki/On_the_Origin_of_Species_(1859)/Chapter_XIV)
+- [Full book index — On the Origin of Species (1859) (Wikisource)](https://en.wikisource.org/wiki/On_the_Origin_of_Species_(1859))
+- [Overview — Darwin Day (Wikipedia)](https://en.wikipedia.org/wiki/Darwin_Day)

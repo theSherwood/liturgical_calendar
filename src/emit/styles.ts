@@ -76,6 +76,31 @@ header.masthead p { color: var(--muted); font-family: var(--sans); font-size: .9
 .empty-note { color: var(--muted); font-style: italic; }
 @media print { .controls { display: none; } }
 
+/* ── Calendar heatmap (browse by date) ── */
+.heatmap-sec { margin: 0 0 2.4rem; }
+.heatmap-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.heatmap-head h3 { font-family: var(--sans); text-transform: uppercase; letter-spacing: .1em; font-size: .8rem; color: var(--muted); margin: 0 0 .6rem; }
+.hlegend { font-family: var(--sans); font-size: .72rem; color: var(--muted); display: inline-flex; align-items: center; gap: .28rem; }
+.hlegend i { width: 11px; height: 11px; border-radius: 2px; display: inline-block; }
+.heatmap-wrap { overflow-x: auto; padding-bottom: .4rem; }
+#heatmap { display: inline-block; min-width: max-content; }
+.hmonths { position: relative; height: 1.1rem; font-family: var(--sans); font-size: .68rem; color: var(--muted); }
+.hmonths span { position: absolute; top: 0; }
+.hgrid { display: grid; grid-auto-flow: column; grid-template-rows: repeat(7, 12px); grid-auto-columns: 12px; gap: 3px; }
+.hcell { width: 12px; height: 12px; border-radius: 2px; border: 0; padding: 0; }
+.hcell.pad { background: transparent; }
+button.hcell { cursor: pointer; }
+.hcell.lv0, .hlegend i.lv0 { background: var(--line); }
+.hcell.lv1, .hlegend i.lv1 { background: color-mix(in srgb, var(--accent) 38%, var(--surface)); }
+.hcell.lv2, .hlegend i.lv2 { background: color-mix(in srgb, var(--accent) 68%, var(--surface)); }
+.hcell.lv3, .hlegend i.lv3 { background: var(--accent); }
+.hcell.sel { outline: 2px solid var(--ink); outline-offset: 1px; }
+@media print { .heatmap-sec { display: none; } }
+
+/* ── "On this day" — each holiday as its own card ── */
+.onday { margin-bottom: 2.6rem; }
+.dayhead { font-family: var(--sans); text-transform: uppercase; letter-spacing: .08em; font-size: .85rem; color: var(--accent); border-bottom: 2px solid var(--line); padding-bottom: .4rem; margin: 0 0 1.2rem; }
+
 .today {
   background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
   padding: 1.5rem 1.6rem; box-shadow: var(--shadow); margin-bottom: 2.5rem;
@@ -129,11 +154,14 @@ header.masthead p { color: var(--muted); font-family: var(--sans); font-size: .9
 .card .when { font-family: var(--sans); font-size: .82rem; color: var(--muted); white-space: nowrap; }
 .card .badge { display: inline-block; font-family: var(--sans); font-size: .68rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: .1rem .55rem; margin-top: .35rem; }
 .card .blurb { font-style: italic; color: var(--ink); margin: .5rem 0 0; }
-.card details { margin-top: .6rem; }
-.card summary { cursor: pointer; font-family: var(--sans); font-size: .8rem; color: var(--accent); list-style: none; user-select: none; }
-.card summary::-webkit-details-marker { display: none; }
-.card summary::before { content: "▸ "; }
-.card details[open] summary::before { content: "▾ "; }
+/* On the web a card is a <details>; its <summary> is the always-visible header,
+   so clicking anywhere on the card expands it. */
+details.card > summary { list-style: none; cursor: pointer; display: block; }
+details.card > summary::-webkit-details-marker { display: none; }
+details.card > summary .blurb { margin-bottom: 0; }
+details.card > summary::after { content: "▸ Meaning · observance · reading"; display: block; margin-top: .6rem; font-family: var(--sans); font-size: .78rem; color: var(--accent); user-select: none; }
+details.card[open] > summary::after { content: "▾ Hide"; }
+details.card > .body { margin-top: .9rem; }
 .card .body h4 { font-family: var(--sans); text-transform: uppercase; letter-spacing: .09em; font-size: .72rem; color: var(--muted); margin: 1rem 0 .3rem; }
 .card .body p { margin: .2rem 0; }
 .card .body blockquote { margin: .5rem 0; padding-left: .9rem; border-left: 2px solid var(--line); color: var(--muted); font-style: italic; }
@@ -143,7 +171,11 @@ header.masthead p { color: var(--muted); font-family: var(--sans); font-size: .9
 .card .body .reading p { margin: .5rem 0; }
 .card .body .reading a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; overflow-wrap: anywhere; }
 /* The trailing "Sources:" line, set apart. */
-.card .body .reading p:last-child:has(a) { font-family: var(--sans); font-size: .82rem; margin-top: .8rem; padding-top: .6rem; border-top: 1px dotted var(--line); }
+/* The Sources block: a "Sources" label followed by a vertical list of links. */
+.card .body .reading p:has(strong) { margin: 1.1rem 0 .3rem; padding-top: .7rem; border-top: 1px dotted var(--line); font-family: var(--sans); font-size: .74rem; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); }
+.card .body .reading ul { list-style: none; margin: .2rem 0 0; padding-left: 0; font-family: var(--sans); font-size: .84rem; }
+.card .body .reading ul li { margin: .3rem 0; padding-left: 1.1rem; position: relative; }
+.card .body .reading ul li::before { content: "→"; position: absolute; left: 0; color: var(--muted); }
 @media print {
   /* On paper links can't be clicked — show the URL so the reference survives. */
   .card .body .reading a[href^="http"]::after { content: " (" attr(href) ")"; font-size: .82em; color: #555; overflow-wrap: anywhere; }

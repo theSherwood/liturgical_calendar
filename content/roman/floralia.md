@@ -28,4 +28,9 @@ Wear your brightest colors. Bring flowers into the house and scatter petals on t
 > She is none of your glum, none of your high-flown ones: she wishes her rites to be open to the common herd; and she warns us to use life's flower, while it still blooms; for the thorn, she reminds us, is flouted when the roses have fallen away.
 > — Ovid, Fasti V.351–354, trans. J. G. Frazer, 1931
 
-**Sources:** [Full text — Ovid's Fasti, trans. J. G. Frazer (Internet Archive, 1931)](https://archive.org/stream/ovidsfasti00oviduoft/ovidsfasti00oviduoft_djvu.txt) · [Ovid's Fasti (Frazer, 1931) — Internet Archive record](https://archive.org/details/ovidsfasti00oviduoft) · [Fasti Book V, readable translation by A. S. Kline (Poetry in Translation)](https://www.poetryintranslation.com/PITBR/Latin/OvidFastiBkFive.php)
+**Sources**
+
+- [Full text — Ovid's Fasti, trans. J. G. Frazer (Internet Archive, 1931)](https://archive.org/stream/ovidsfasti00oviduoft/ovidsfasti00oviduoft_djvu.txt)
+- [Ovid's Fasti (Frazer, 1931) — Internet Archive record](https://archive.org/details/ovidsfasti00oviduoft)
+- [Fasti Book V, readable translation by A. S. Kline (Poetry in Translation)](https://www.poetryintranslation.com/PITBR/Latin/OvidFastiBkFive.php)
+- [Overview — Floralia (Wikipedia)](https://en.wikipedia.org/wiki/Floralia)

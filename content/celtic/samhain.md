@@ -33,4 +33,8 @@ Set a place at the table, or light a candle, for someone in the family who has d
 > While our gross palates drink from the whole wine.
 > — W. B. Yeats, "All Souls' Night," from The Tower (1928)
 
-**Sources:** [Full text — "All Souls' Night" (Wikisource)](https://en.wikisource.org/wiki/The_Tower_(Yeats)/All_Souls%27_Night) · [The Tower (1928), full collection — Wikisource](https://en.wikisource.org/wiki/The_Tower_(Yeats))
+**Sources**
+
+- [Full text — "All Souls' Night" (Wikisource)](https://en.wikisource.org/wiki/The_Tower_(Yeats)/All_Souls%27_Night)
+- [The Tower (1928), full collection — Wikisource](https://en.wikisource.org/wiki/The_Tower_(Yeats))
+- [Overview — Samhain (Wikipedia)](https://en.wikipedia.org/wiki/Samhain)

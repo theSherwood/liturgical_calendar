@@ -46,4 +46,8 @@ Keep the two minutes' silence at the eleventh hour if you can. Wear a poppy. Rea
 > We will remember them.
 > — Laurence Binyon, "For the Fallen" (The Times, 21 September 1914)
 
-**Sources:** [Full text — In Flanders Fields and Other Poems (Project Gutenberg)](https://www.gutenberg.org/files/353/353-h/353-h.htm) · [Full text — For the Fallen, orig. printing (Wikisource / The Times 1914)](https://en.wikisource.org/wiki/The_Times/1914/Arts/For_the_Fallen)
+**Sources**
+
+- [Full text — In Flanders Fields and Other Poems (Project Gutenberg)](https://www.gutenberg.org/files/353/353-h/353-h.htm)
+- [Full text — For the Fallen, orig. printing (Wikisource / The Times 1914)](https://en.wikisource.org/wiki/The_Times/1914/Arts/For_the_Fallen)
+- [Overview — Remembrance Day (Wikipedia)](https://en.wikipedia.org/wiki/Remembrance_Day)

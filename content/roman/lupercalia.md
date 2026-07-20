@@ -27,4 +27,8 @@ A light-hearted echo the day after Valentine's: a brisk walk or run outdoors to 
 > He slew a he-goat, and at his bidding the damsels offered their backs to be beaten with thongs cut from the hide. When in her tenth circuit the moon was renewing her horns, the husband was suddenly made a father and the wife a mother.
 > — Ovid, Fasti II.445–452, trans. James G. Frazer (1931)
 
-**Sources:** [Full text — Ovid, Fasti Book 2 (Frazer trans.), ToposText](https://topostext.org/work/143) · [The Fasti of Ovid, ed. & trans. J. G. Frazer (Macmillan, 1929) — Internet Archive](https://archive.org/details/in.ernet.dli.2015.459434)
+**Sources**
+
+- [Full text — Ovid, Fasti Book 2 (Frazer trans.), ToposText](https://topostext.org/work/143)
+- [The Fasti of Ovid, ed. & trans. J. G. Frazer (Macmillan, 1929) — Internet Archive](https://archive.org/details/in.ernet.dli.2015.459434)
+- [Overview — Lupercalia (Wikipedia)](https://en.wikipedia.org/wiki/Lupercalia)

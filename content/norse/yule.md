@@ -34,4 +34,8 @@ Burn a Yule log (or light a large candle to stand in for one) and keep some ligh
 > The man from the mountains come.
 > — Hávamál, st. 3 (trans. Bellows, 1936)
 
-**Sources:** [Full text — Hávamál (Poetic Edda, Bellows tr.), Sacred-Texts](https://sacred-texts.com/neu/poe/poe04.htm) · [Full text — Hávamál, Bellows translation (vigrey.com mirror)](https://vigrey.com/havamal/en/bellows) · [Hávamál — Wikipedia (context)](https://en.wikipedia.org/wiki/H%C3%A1vam%C3%A1l)
+**Sources**
+
+- [Full text — Hávamál (Poetic Edda, Bellows tr.), Sacred-Texts](https://sacred-texts.com/neu/poe/poe04.htm)
+- [Full text — Hávamál, Bellows translation (vigrey.com mirror)](https://vigrey.com/havamal/en/bellows)
+- [Hávamál — Wikipedia (context)](https://en.wikipedia.org/wiki/H%C3%A1vam%C3%A1l)

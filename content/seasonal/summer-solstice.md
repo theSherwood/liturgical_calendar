@@ -30,4 +30,8 @@ Be outside from before sunrise to after sunset if you can. Eat dinner outdoors. 
 > Earth of the slumbering and liquid trees!
 > — Walt Whitman, "Song of Myself," 21 (Leaves of Grass, 1892)
 
-**Sources:** [Full text — Leaves of Grass (Project Gutenberg)](https://www.gutenberg.org/files/1322/1322-h/1322-h.htm) · [Song of Myself, 21 (Academy of American Poets)](https://poets.org/poem/song-myself-21)
+**Sources**
+
+- [Full text — Leaves of Grass (Project Gutenberg)](https://www.gutenberg.org/files/1322/1322-h/1322-h.htm)
+- [Song of Myself, 21 (Academy of American Poets)](https://poets.org/poem/song-myself-21)
+- [Overview — Summer solstice (Wikipedia)](https://en.wikipedia.org/wiki/Summer_solstice)

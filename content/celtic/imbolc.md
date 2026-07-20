@@ -34,4 +34,9 @@ A hearth day. Light candles at dinner, clean out one small corner of the house t
 > Till white day comes to the fire.
 > — Carmina Gadelica, "Smooring Blessing" (Beannachadh Smàlaidh), no. 87 — collected and translated from Scottish Gaelic by Alexander Carmichael, 1900
 
-**Sources:** [Full text — Carmina Gadelica, Vol. 1 (Internet Archive)](https://archive.org/details/carminagadelicah10carm) · [Smooring Blessing, no. 87 — page image / full text (Internet Archive)](https://archive.org/stream/carminagadelicah10carm/carminagadelicah10carm_djvu.txt) · [Carmina Gadelica Vol. 1 index (Sacred-Texts)](https://sacred-texts.com/neu/celt/cg1/index.htm)
+**Sources**
+
+- [Full text — Carmina Gadelica, Vol. 1 (Internet Archive)](https://archive.org/details/carminagadelicah10carm)
+- [Smooring Blessing, no. 87 — page image / full text (Internet Archive)](https://archive.org/stream/carminagadelicah10carm/carminagadelicah10carm_djvu.txt)
+- [Carmina Gadelica Vol. 1 index (Sacred-Texts)](https://sacred-texts.com/neu/celt/cg1/index.htm)
+- [Overview — Imbolc (Wikipedia)](https://en.wikipedia.org/wiki/Imbolc)

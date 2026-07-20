@@ -34,4 +34,7 @@ Cook something from the harvest — an apple pie, a squash, bread. Around the ta
 > For Summer has o'er-brimm'd their clammy cells.
 > — John Keats, "To Autumn" (1819), first stanza
 
-**Sources:** [Full text — "To Autumn" (Wikisource, Poetical Works of John Keats)](https://en.wikisource.org/wiki/The_Poetical_Works_of_John_Keats/To_Autumn) · [Context — "To Autumn" (Wikipedia)](https://en.wikipedia.org/wiki/To_Autumn)
+**Sources**
+
+- [Full text — "To Autumn" (Wikisource, Poetical Works of John Keats)](https://en.wikisource.org/wiki/The_Poetical_Works_of_John_Keats/To_Autumn)
+- [Context — "To Autumn" (Wikipedia)](https://en.wikipedia.org/wiki/To_Autumn)

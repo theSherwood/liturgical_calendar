@@ -28,4 +28,7 @@ Plant something — seeds indoors, a tree outdoors, whatever the season allows. 
 > Arise, my love, my fair one, and come away.
 > — Song of Solomon 2:10–13, King James Version (1611)
 
-**Sources:** [Full text — Song of Solomon (KJV), Wikisource](https://en.wikisource.org/wiki/Bible_(King_James)/Song_of_Solomon)
+**Sources**
+
+- [Full text — Song of Solomon (KJV), Wikisource](https://en.wikisource.org/wiki/Bible_(King_James)/Song_of_Solomon)
+- [Overview — March equinox (Wikipedia)](https://en.wikipedia.org/wiki/March_equinox)

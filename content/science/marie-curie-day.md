@@ -27,4 +27,8 @@ A day for stubborn, patient curiosity in the face of every obstacle — poverty,
 > Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.
 > — Marie Curie
 
-**Sources:** [Full text — Pierre Curie, with Autobiographical Notes (Project Gutenberg)](https://www.gutenberg.org/files/69617/69617-h/69617-h.htm) · [Curie's own words on the shed (AIP History exhibit)](https://history.aip.org/exhibits/curie/brief/06_quotes/quotes_08.html)
+**Sources**
+
+- [Full text — Pierre Curie, with Autobiographical Notes (Project Gutenberg)](https://www.gutenberg.org/files/69617/69617-h/69617-h.htm)
+- [Curie's own words on the shed (AIP History exhibit)](https://history.aip.org/exhibits/curie/brief/06_quotes/quotes_08.html)
+- [Overview — Marie Curie (Wikipedia)](https://en.wikipedia.org/wiki/Marie_Curie)

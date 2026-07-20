@@ -130,9 +130,17 @@ export function renderSite(holidays: Holiday[], seasons: SeasonMap, config: Conf
   <div class="chips" id="chips"></div>
 </section>
 
+<section class="heatmap-sec">
+  <div class="heatmap-head">
+    <h3>Browse by date</h3>
+    <span class="hlegend">Fewer <i class="lv0"></i><i class="lv1"></i><i class="lv2"></i><i class="lv3"></i> More</span>
+  </div>
+  <div class="heatmap-wrap"><div id="heatmap"></div></div>
+</section>
+
 <noscript><p class="empty-note">This dashboard needs JavaScript. Or grab the <a href="calendar.ics">.ics</a> / <a href="calendar.pdf">PDF</a>.</p></noscript>
 <section id="feature"></section>
-<section id="upcoming"></section>
+<section id="upcoming" class="upcoming"></section>
 <div id="year"></div>
 <footer>Explore any date · data spans ${from}–${to} · one source, three outputs (site · .ics · PDF)</footer>`;
 
@@ -159,21 +167,22 @@ const APP_JS = `(function(){
   var after=function(iso,n){var t=toMs(iso),r=[];for(var i=0;i<D.occ.length;i++){if(toMs(D.occ[i].iso)>t){r.push(D.occ[i]);if(r.length>=n)break;}}return r;};
   var pass=function(id){var hh=D.h[id];if(!state.cats.has(hh.category))return false;if(state.q){var q=state.q.toLowerCase();var hay=(hh.title+" "+hh.blurb+" "+(hh.tags||[]).join(" ")+" "+D.categories[hh.category]).toLowerCase();if(hay.indexOf(q)<0)return false;}return true;};
 
-  var card=function(o){var hh=D.h[o.id];return '\\n<article class="card '+hh.category+'"><div class="head"><h3 class="title">'+esc(hh.title)+'</h3><div class="when">'+fmt(o.iso)+'</div></div><div class="badge">'+esc(D.categories[hh.category])+'</div><p class="blurb">'+esc(hh.blurb)+'</p><details><summary>Meaning, observance &amp; reading</summary>'+hh.body+'</details></article>';};
+  var card=function(o,open){var hh=D.h[o.id];return '\\n<details class="card '+hh.category+'"'+(open?" open":"")+'><summary><div class="head"><h3 class="title">'+esc(hh.title)+'</h3><div class="when">'+fmt(o.iso)+'</div></div><div class="badge">'+esc(D.categories[hh.category])+'</div><p class="blurb">'+esc(hh.blurb)+'</p></summary>'+hh.body+'</details>';};
 
-  function renderFeature(){
+  // "On this day" — each holiday active on the selected date gets its own (open) card.
+  function renderDay(){
     var on=activeOn(state.date);on.sort(function(a,b){return((a.iso===state.date)?0:1)-((b.iso===state.date)?0:1);});
     var isToday=state.date===localToday(),el=$("feature");
-    if(on.length){var hh=D.h[on[0].id];
-      var more=on.length>1?'<p class="also">Also on this day: '+on.slice(1).map(function(o){return esc(D.h[o.id].title);}).join(" · ")+'</p>':'';
-      el.innerHTML='<div class="today"><p class="eyebrow">'+(isToday?"Today":fmt(state.date,true))+'</p><h2>'+esc(hh.title)+'</h2><div class="date">'+fmt(on[0].iso,true)+' · '+esc(D.categories[hh.category])+'</div><p class="blurb">'+esc(hh.blurb)+'</p>'+more+'</div>';
+    var head='<h2 class="dayhead">'+(isToday?"Today · ":"")+fmt(state.date,true)+(on.length>1?' · '+on.length+' observances':'')+'</h2>';
+    if(on.length){
+      el.innerHTML='<div class="onday">'+head+on.map(function(o){return card(o,on.length===1);}).join("")+'</div>';
     }else{var nx=after(state.date,1);
-      el.innerHTML='<div class="today empty"><p class="eyebrow">'+(isToday?"Today":fmt(state.date,true))+'</p><p class="blurb">Nothing marked'+(isToday?" today":" on this day")+'.'+(nx.length?' Next: <strong>'+esc(D.h[nx[0].id].title)+'</strong>, '+fmt(nx[0].iso)+'.':'')+'</p></div>';
+      el.innerHTML='<div class="onday empty">'+head+'<p class="empty-note">Nothing marked'+(isToday?" today":" on this day")+'.'+(nx.length?' Next: <strong>'+esc(D.h[nx[0].id].title)+'</strong>, '+fmt(nx[0].iso)+'.':'')+'</p></div>';
     }
   }
   function renderUpcoming(){
     var up=after(state.date,6),el=$("upcoming");
-    el.innerHTML=up.length?'<h3>On the horizon</h3><ul>'+up.map(function(o){var hh=D.h[o.id];return '<li><span class="when">'+sfmt(o.iso)+'</span><span class="what"><strong>'+esc(hh.title)+'</strong> — <span>'+esc(hh.blurb)+'</span></span></li>';}).join("")+'</ul>':'';
+    el.innerHTML=up.length?'<h3>On the horizon</h3><ul>'+up.map(function(o){var hh=D.h[o.id];return '<li><span class="when">'+sfmt(o.iso)+'</span><span class="what"><strong>'+esc(hh.title)+'</strong><span class="dash"> — </span><span class="bl">'+esc(hh.blurb)+'</span></span></li>';}).join("")+'</ul>':'';
   }
   function renderYear(){
     var y=state.date.slice(0,4);
@@ -183,15 +192,32 @@ const APP_JS = `(function(){
       var list=occ.filter(function(o){return D.h[o.id].season===s;});if(!list.length)return;
       var sd=null;for(var i=0;i<D.seasons.length;i++){if(D.seasons[i].season===s){sd=D.seasons[i];break;}}
       var theme=sd?'<p class="season-theme">'+esc(sd.title)+'</p><p class="season-essence">'+esc(sd.blurb)+'</p>'+(sd.body?'<div class="season-intro">'+sd.body+'</div>':''):'';
-      html+='<section class="season '+s+'"><h2>'+D.seasonLabels[s]+'</h2>'+theme+list.map(card).join("")+'</section>';
+      html+='<section class="season '+s+'"><h2>'+D.seasonLabels[s]+'</h2>'+theme+list.map(function(o){return card(o,false);}).join("")+'</section>';
     });
     if(!occ.length)html+='<p class="empty-note">No holidays match your filters in '+y+'.</p>';
     $("year").innerHTML=html;
   }
+  // GitHub-style heatmap for the selected year: one cell per day, shaded by count.
+  function renderHeatmap(){
+    var y=state.date.slice(0,4),counts={};
+    for(var i=0;i<D.occ.length;i++){var o=D.occ[i];if(o.iso.slice(0,4)===y)counts[o.iso]=(counts[o.iso]||0)+1;}
+    var first=Date.UTC(+y,0,1),end=Date.UTC(+y,11,31),sd=new Date(first).getUTCDay();
+    var cells=[],months=[],seen={},p;
+    for(p=0;p<sd;p++)cells.push('<span class="hcell pad"></span>');
+    var t=first;
+    while(t<=end){
+      var iso=new Date(t).toISOString().slice(0,10),c=counts[iso]||0,lv=c===0?0:c===1?1:c===2?2:3;
+      var idx=sd+Math.round((t-first)/864e5),col=Math.floor(idx/7),mm=new Date(t).getUTCMonth();
+      if(!seen[mm]){seen[mm]=1;months.push('<span style="left:'+(col*15)+'px">'+MONTHS[mm].slice(0,3)+'</span>');}
+      cells.push('<button class="hcell lv'+lv+(iso===state.date?" sel":"")+'" data-d="'+iso+'" title="'+fmt(iso)+' \\u2014 '+c+' holiday'+(c===1?"":"s")+'"></button>');
+      t+=864e5;
+    }
+    $("heatmap").innerHTML='<div class="hmonths">'+months.join("")+'</div><div class="hgrid">'+cells.join("")+'</div>';
+  }
   function renderChips(){
     $("chips").innerHTML=Object.keys(D.categories).map(function(c){return '<button class="chip'+(state.cats.has(c)?" on":"")+'" data-cat="'+c+'">'+esc(D.categories[c])+'</button>';}).join("")+'<button class="chip clear" data-all="1">Reset</button>';
   }
-  function refresh(){renderFeature();renderUpcoming();renderYear();}
+  function refresh(){renderHeatmap();renderDay();renderUpcoming();renderYear();}
   function setDate(iso){state.date=iso;$("asof").value=iso;refresh();}
 
   document.addEventListener("click",function(e){
@@ -199,6 +225,7 @@ const APP_JS = `(function(){
     if(b.dataset.cat){state.cats.has(b.dataset.cat)?state.cats.delete(b.dataset.cat):state.cats.add(b.dataset.cat);renderChips();renderYear();}
     else if(b.dataset.all){state.cats=new Set(Object.keys(D.categories));state.q="";$("search").value="";renderChips();renderYear();}
     else if(b.dataset.nav){setDate(new Date(toMs(state.date)+(+b.dataset.nav)*864e5).toISOString().slice(0,10));}
+    else if(b.dataset.d){setDate(b.dataset.d);}
     else if(b.id==="todayBtn"){setDate(localToday());}
   });
   $("asof").addEventListener("change",function(e){if(e.target.value)setDate(e.target.value);});

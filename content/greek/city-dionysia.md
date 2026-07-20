@@ -35,4 +35,8 @@ See a play, or watch a great film together as a family, and afterward do what th
 > For our God he lifts his cry.
 > — Euripides, The Bacchae, Parodos (First Chorus); trans. Gilbert Murray, 1906
 
-**Sources:** [Full text — The Bacchae of Euripides (Murray 1906), Wikisource](https://en.wikisource.org/wiki/The_Bacchae_of_Euripides_(Murray_1906)/Text) · [Greek & English full text — Euripides, Bacchae (Perseus, Tufts)](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0092)
+**Sources**
+
+- [Full text — The Bacchae of Euripides (Murray 1906), Wikisource](https://en.wikisource.org/wiki/The_Bacchae_of_Euripides_(Murray_1906)/Text)
+- [Greek & English full text — Euripides, Bacchae (Perseus, Tufts)](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0092)
+- [Overview — Dionysia (Wikipedia)](https://en.wikipedia.org/wiki/Dionysia)

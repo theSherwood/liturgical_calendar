@@ -27,4 +27,9 @@ A day for looking at history without flinching. Eat something from the great exc
 > It was upon these gentle lambs... that from the very first day they clapped eyes on them the Spanish fell like ravening wolves upon the fold, or like tigers and savage lions who have not eaten meat for days.
 > — Bartolomé de las Casas, A Short Account of the Destruction of the Indies, 1542 (trans. Nigel Griffin, 1992)
 
-**Sources:** [Full text — Columbus's Journal of the First Voyage (Fordham Internet Medieval Sourcebook)](https://sourcebooks.fordham.edu/source/columbus1.asp) · [Full text — Las Casas, A Short Account of the Destruction of the Indies (The Latin Library)](https://www.thelatinlibrary.com/imperialism/readings/casas.html) · [Public-domain full text — Las Casas, The Tears of the Indians (Phillips, 1656; Internet Archive)](https://archive.org/details/bim_early-english-books-1641-1700_the-tears-of-the-indians_casas-bartholome-de-las_1656)
+**Sources**
+
+- [Full text — Columbus's Journal of the First Voyage (Fordham Internet Medieval Sourcebook)](https://sourcebooks.fordham.edu/source/columbus1.asp)
+- [Full text — Las Casas, A Short Account of the Destruction of the Indies (The Latin Library)](https://www.thelatinlibrary.com/imperialism/readings/casas.html)
+- [Public-domain full text — Las Casas, The Tears of the Indians (Phillips, 1656; Internet Archive)](https://archive.org/details/bim_early-english-books-1641-1700_the-tears-of-the-indians_casas-bartholome-de-las_1656)
+- [Overview — Columbian exchange (Wikipedia)](https://en.wikipedia.org/wiki/Columbian_exchange)

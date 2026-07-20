@@ -35,4 +35,7 @@ Give to a bed-net charity together, and look up how many nets your gift buys and
 > Thy victory, O Grave?
 > — Ronald Ross, written on discovering the malaria parasite in the mosquito, 21 August 1897
 
-**Sources:** [Ronald Ross — Wikiquote (full poem)](https://en.wikiquote.org/wiki/Ronald_Ross) · [Ronald Ross — Wikipedia (discovery & 1902 Nobel Prize)](https://en.wikipedia.org/wiki/Ronald_Ross)
+**Sources**
+
+- [Ronald Ross — Wikiquote (full poem)](https://en.wikiquote.org/wiki/Ronald_Ross)
+- [Ronald Ross — Wikipedia (discovery & 1902 Nobel Prize)](https://en.wikipedia.org/wiki/Ronald_Ross)

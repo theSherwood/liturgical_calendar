@@ -27,4 +27,8 @@ A celebration of walls coming down — literal and otherwise. Watch the footage 
 > On the morning of Sunday, November 12, I walked through the wall and across that no man's land with a crowd of East Berliners, a watchtower to our left, Hitler's bunker to our right.
 > — Timothy Garton Ash, "The German Revolution," The New York Review of Books, 21 December 1989
 
-**Sources:** [Full text — Reagan, Remarks at the Brandenburg Gate (Reagan Library)](https://www.reaganlibrary.gov/archives/speech/remarks-east-west-relations-brandenburg-gate-west-berlin) · [Secondary essay — Timothy Garton Ash, "The German Revolution" (NYRB)](https://www.nybooks.com/articles/1989/12/21/the-german-revolution/)
+**Sources**
+
+- [Full text — Reagan, Remarks at the Brandenburg Gate (Reagan Library)](https://www.reaganlibrary.gov/archives/speech/remarks-east-west-relations-brandenburg-gate-west-berlin)
+- [Secondary essay — Timothy Garton Ash, "The German Revolution" (NYRB)](https://www.nybooks.com/articles/1989/12/21/the-german-revolution/)
+- [Overview — Fall of the Berlin Wall (Wikipedia)](https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall)

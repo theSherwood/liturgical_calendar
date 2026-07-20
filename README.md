@@ -7,6 +7,12 @@ built instead from its own values: modern civic holidays, ancient festivals
 Rationalist community observances like **Petrov Day** and the **Secular
 Solstice**.
 
+## Live
+
+- **Dashboard:** https://thesherwood.github.io/liturgical_calendar/
+- **Subscribe (feed):** [`webcal://thesherwood.github.io/liturgical_calendar/calendar.ics`](webcal://thesherwood.github.io/liturgical_calendar/calendar.ics) · [download `.ics`](https://thesherwood.github.io/liturgical_calendar/calendar.ics)
+- **Printable PDF:** https://thesherwood.github.io/liturgical_calendar/calendar.pdf
+
 It is **one source of truth → three synced outputs**:
 
 | Output | File | Use |

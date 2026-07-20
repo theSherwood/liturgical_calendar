@@ -30,4 +30,7 @@ Dye and hunt for eggs; the children lead. Fill the house with flowers and open e
 > With richness; the racing lambs too have fair their fling.
 > — Gerard Manley Hopkins, "Spring" (1877), octave
 
-**Sources:** [Full text — "Spring" (Wikisource)](https://en.wikisource.org/wiki/Spring_(Hopkins))
+**Sources**
+
+- [Full text — "Spring" (Wikisource)](https://en.wikisource.org/wiki/Spring_(Hopkins))
+- [Overview — Easter (Wikipedia)](https://en.wikipedia.org/wiki/Easter)

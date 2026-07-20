@@ -27,4 +27,8 @@ Share the day with Pi Day and let them amplify each other — pie for the number
 > The most incomprehensible thing about the universe is that it is comprehensible.
 > — Albert Einstein, "Physics and Reality," Journal of the Franklin Institute (1936)
 
-**Sources:** [Full essay — "The World As I See It" (American Institute of Physics)](https://history.aip.org/exhibits/einstein/essay_text.htm) · [Source note & earliest version — "What I Believe," Forum and Century (1930)](https://wist.info/einstein-albert/5229/)
+**Sources**
+
+- [Full essay — "The World As I See It" (American Institute of Physics)](https://history.aip.org/exhibits/einstein/essay_text.htm)
+- [Source note & earliest version — "What I Believe," Forum and Century (1930)](https://wist.info/einstein-albert/5229/)
+- [Overview — Albert Einstein (Wikipedia)](https://en.wikipedia.org/wiki/Albert_Einstein)

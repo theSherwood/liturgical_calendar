@@ -30,4 +30,8 @@ In Lucian's dialogue the god Saturn describes his own festival.
 > Saturnalibus, optimo dierum! — "The Saturnalia, best of days!"
 > — Catullus, Carmen 14, l. 15
 
-**Sources:** [Full text — Lucian, Saturnalia (Fowler trans., Lucian of Samosata Project)](https://lucianofsamosata.info/wiki/doku.php?id=home:texts_and_library:dialogues:saturnalia) · [Latin text — Catullus, Carmen 14 (Perseus)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0003:poem%3D14) · [Saturnalia — the Roman festival (Wikipedia)](https://en.wikipedia.org/wiki/Saturnalia)
+**Sources**
+
+- [Full text — Lucian, Saturnalia (Fowler trans., Lucian of Samosata Project)](https://lucianofsamosata.info/wiki/doku.php?id=home:texts_and_library:dialogues:saturnalia)
+- [Latin text — Catullus, Carmen 14 (Perseus)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0003:poem%3D14)
+- [Saturnalia — the Roman festival (Wikipedia)](https://en.wikipedia.org/wiki/Saturnalia)

@@ -32,4 +32,8 @@ Name one venture — a project, a trip, a goal — that you're launching this wa
 > And not gladly the niggard gives.
 > — Hávamál, stanzas 47–48 (trans. Henry Adams Bellows, 1923)
 
-**Sources:** [Full text — Hávamál (Hovamol), Bellows translation, Wikisource](https://en.wikisource.org/wiki/The_Poetic_Edda_(tr._Bellows)/Hovamol) · [Hávamál overview and translations — Wikisource](https://en.wikisource.org/wiki/H%C3%A1vam%C3%A1l)
+**Sources**
+
+- [Full text — Hávamál (Hovamol), Bellows translation, Wikisource](https://en.wikisource.org/wiki/The_Poetic_Edda_(tr._Bellows)/Hovamol)
+- [Hávamál overview and translations — Wikisource](https://en.wikisource.org/wiki/H%C3%A1vam%C3%A1l)
+- [Overview — Sigrblót (Wikipedia)](https://en.wikipedia.org/wiki/Sigrbl%C3%B3t)

@@ -28,4 +28,7 @@ Do one thing whose payoff you may never see: plant a tree, start something that 
 > (2) would be worse than (1), and (3) would be worse than (2). Which is the greater of these two differences? Most people believe that the greater difference is between (1) and (2). I believe that the difference between (2) and (3) is very much greater.
 > — Derek Parfit, Reasons and Persons (Oxford University Press, 1984)
 
-**Sources:** [Full quote in context — "Human extinction" (Wikipedia)](https://en.wikipedia.org/wiki/Human_extinction) · [The book — Reasons and Persons (Wikipedia)](https://en.wikipedia.org/wiki/Reasons_and_Persons)
+**Sources**
+
+- [Full quote in context — "Human extinction" (Wikipedia)](https://en.wikipedia.org/wiki/Human_extinction)
+- [The book — Reasons and Persons (Wikipedia)](https://en.wikipedia.org/wiki/Reasons_and_Persons)

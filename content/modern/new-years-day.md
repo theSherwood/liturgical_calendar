@@ -36,4 +36,8 @@ Each person writes down one thing to leave in the old year and one thing to carr
 > Ring in redress to all mankind.
 > — Alfred, Lord Tennyson, "In Memoriam A. H. H." (1850), the section known as "Ring Out, Wild Bells"
 
-**Sources:** [Full text — In Memoriam (Tennyson), "Ring out, wild bells" (Wikisource)](https://en.wikisource.org/wiki/In_Memoriam_(Tennyson)/Canto_104) · [In Memoriam, [Ring out, wild bells] (Poets.org)](https://poets.org/poem/memoriam-ring-out-wild-bells)
+**Sources**
+
+- [Full text — In Memoriam (Tennyson), "Ring out, wild bells" (Wikisource)](https://en.wikisource.org/wiki/In_Memoriam_(Tennyson)/Canto_104)
+- [In Memoriam, [Ring out, wild bells] (Poets.org)](https://poets.org/poem/memoriam-ring-out-wild-bells)
+- [Overview — New Year's Day (Wikipedia)](https://en.wikipedia.org/wiki/New_Year%27s_Day)

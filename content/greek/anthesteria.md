@@ -25,4 +25,7 @@ Open something you've been saving. Give the youngest child their first (tiny, sy
 > For two things, young man, are first among men: the goddess Demeter — she is the earth, but call her whatever name you wish; she nourishes mortals with dry food. But he who came afterwards, the offspring of Semele, discovered a match to it, the liquid drink of the grape, and introduced it to mortals. It releases wretched mortals from grief, whenever they are filled with the stream of the vine, and gives them sleep, a means of forgetting their daily troubles, nor is there another cure for hardships.
 > — Euripides, The Bacchae, lines 274–283 (Teiresias' speech), trans. T. A. Buckley, 1850
 
-**Sources:** [Full text — Euripides, Bacchae (Perseus, Buckley trans.)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0092:card=266) · [The Bacchae — overview (Wikipedia)](https://en.wikipedia.org/wiki/The_Bacchae)
+**Sources**
+
+- [Full text — Euripides, Bacchae (Perseus, Buckley trans.)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0092:card=266)
+- [The Bacchae — overview (Wikipedia)](https://en.wikipedia.org/wiki/The_Bacchae)

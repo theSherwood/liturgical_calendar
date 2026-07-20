@@ -24,4 +24,7 @@ Slip a little science into the Christmas warmth: drop an apple and talk about wh
 > Dr Sir, at the reading of your letter I was exceedingly pleased & satisfied with your generous freedom... What Des-Cartes did was a good step. You have added much several ways, & especially in taking the colours of thin plates into philosophical consideration. If I have seen further it is by standing on the shoulders of Giants.
 > — Isaac Newton, letter to Robert Hooke, Cambridge, 5 February 1675/6
 
-**Sources:** [Full letter — Newton to Hooke (The Newton Project, Oxford)](https://www.newtonproject.ox.ac.uk/view/texts/normalized/OTHE00101) · [Standing on the shoulders of giants (Wikipedia)](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants)
+**Sources**
+
+- [Full letter — Newton to Hooke (The Newton Project, Oxford)](https://www.newtonproject.ox.ac.uk/view/texts/normalized/OTHE00101)
+- [Standing on the shoulders of giants (Wikipedia)](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants)

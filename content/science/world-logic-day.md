@@ -28,4 +28,8 @@ Do a logic puzzle together, or learn one common reasoning mistake (a logical fal
 > 7 Whereof one cannot speak, thereof one must be silent.
 > — Ludwig Wittgenstein, Tractatus Logico-Philosophicus (1922), trans. C. K. Ogden
 
-**Sources:** [Full text — Tractatus Logico-Philosophicus (Wikisource, Ogden trans.)](https://en.wikisource.org/wiki/Tractatus_Logico-Philosophicus) · [Propositions 6.x (Wikisource) — source of the excerpt](https://en.wikisource.org/wiki/Tractatus_Logico-Philosophicus/6)
+**Sources**
+
+- [Full text — Tractatus Logico-Philosophicus (Wikisource, Ogden trans.)](https://en.wikisource.org/wiki/Tractatus_Logico-Philosophicus)
+- [Propositions 6.x (Wikisource) — source of the excerpt](https://en.wikisource.org/wiki/Tractatus_Logico-Philosophicus/6)
+- [Overview — World Logic Day (Wikipedia)](https://en.wikipedia.org/wiki/World_Logic_Day)

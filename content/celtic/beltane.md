@@ -38,4 +38,8 @@ Get outside and make it a bit riotous. Bring flowers or greenery into the house.
 > Who can tell the place where the sun rests?
 > — The Song of Amergin, spoken at the landing in Ireland; trans. Lady Augusta Gregory, Gods and Fighting Men (1904)
 
-**Sources:** [Full text — Gods and Fighting Men (Project Gutenberg #14465)](https://www.gutenberg.org/ebooks/14465) · [Gregory's chapter "The Coming of the Gael: The Landing" (verified wording)](https://www.tota.world/article/477/)
+**Sources**
+
+- [Full text — Gods and Fighting Men (Project Gutenberg #14465)](https://www.gutenberg.org/ebooks/14465)
+- [Gregory's chapter "The Coming of the Gael: The Landing" (verified wording)](https://www.tota.world/article/477/)
+- [Overview — Beltane (Wikipedia)](https://en.wikipedia.org/wiki/Beltane)

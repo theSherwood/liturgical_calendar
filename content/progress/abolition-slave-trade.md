@@ -24,4 +24,8 @@ A day to honor the people who kept pushing when the cause looked hopeless — Eq
 > The closeness of the place, and the heat of the climate, added to the number in the ship, which was so crowded that each had scarcely room to turn himself, almost suffocated us. This produced copious perspirations, so that the air soon became unfit for respiration, from a variety of loathsome smells, and brought on a sickness among the slaves, of which many died… The shrieks of the women, and the groans of the dying, rendered the whole a scene of horror almost inconceivable.
 > — Olaudah Equiano, The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African (1789), Chapter II — the Middle Passage
 
-**Sources:** [Full text — Equiano's Interesting Narrative (Wikisource)](https://en.wikisource.org/wiki/Page:The_Interesting_Narrative_of_the_Life_of_Olaudah_Equiano,_or_Gustavus_Vassa,_the_African.pdf/96) · [Equiano Describes the Middle Passage, 1789 (The American Yawp Reader)](https://www.americanyawp.com/reader/british-north-america/olaudah-equiano-describes-the-middle-passage-1789/)
+**Sources**
+
+- [Full text — Equiano's Interesting Narrative (Wikisource)](https://en.wikisource.org/wiki/Page:The_Interesting_Narrative_of_the_Life_of_Olaudah_Equiano,_or_Gustavus_Vassa,_the_African.pdf/96)
+- [Equiano Describes the Middle Passage, 1789 (The American Yawp Reader)](https://www.americanyawp.com/reader/british-north-america/olaudah-equiano-describes-the-middle-passage-1789/)
+- [Overview — Slave Trade Act 1807 (Wikipedia)](https://en.wikipedia.org/wiki/Slave_Trade_Act_1807)

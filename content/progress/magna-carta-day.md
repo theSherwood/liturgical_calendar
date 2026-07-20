@@ -24,4 +24,8 @@ A day to appreciate the unglamorous machinery of liberty: courts, rights, due pr
 > No freemen shall be taken or imprisoned or disseised or exiled or in any way destroyed, nor will we go upon him nor send upon him, except by the lawful judgment of his peers or by the law of the land. To no one will we sell, to no one will we refuse or delay, right or justice.
 > — Magna Carta (1215), clauses 39–40; trans. Ernest F. Henderson, 1892
 
-**Sources:** [Full text — Magna Carta (Yale Avalon Project, Henderson trans.)](https://avalon.law.yale.edu/medieval/magna.asp) · [Full text — Select Historical Documents of the Middle Ages (Project Gutenberg)](https://www.gutenberg.org/files/10000/10000-h/10000-h.htm)
+**Sources**
+
+- [Full text — Magna Carta (Yale Avalon Project, Henderson trans.)](https://avalon.law.yale.edu/medieval/magna.asp)
+- [Full text — Select Historical Documents of the Middle Ages (Project Gutenberg)](https://www.gutenberg.org/files/10000/10000-h/10000-h.htm)
+- [Overview — Magna Carta (Wikipedia)](https://en.wikipedia.org/wiki/Magna_Carta)

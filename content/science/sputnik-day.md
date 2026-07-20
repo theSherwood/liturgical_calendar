@@ -27,4 +27,8 @@ Look up. There are thousands of satellites overhead now — and with an app you 
 > The Earth is the cradle of humanity, but one cannot live in a cradle forever.
 > — Konstantin Tsiolkovsky, letter from Kaluga, 1911
 
-**Sources:** [Konstantin Tsiolkovsky — Wikiquote (sourced quotations)](https://en.wikiquote.org/wiki/Konstantin_Tsiolkovsky) · [Tsiolkovsky quotations with translation notes — Today in Science History](https://todayinsci.com/T/Tsiolkovsky_Konstantin/TsiolkovskyKonstantin-Quotations.htm)
+**Sources**
+
+- [Konstantin Tsiolkovsky — Wikiquote (sourced quotations)](https://en.wikiquote.org/wiki/Konstantin_Tsiolkovsky)
+- [Tsiolkovsky quotations with translation notes — Today in Science History](https://todayinsci.com/T/Tsiolkovsky_Konstantin/TsiolkovskyKonstantin-Quotations.htm)
+- [Overview — Sputnik 1 (Wikipedia)](https://en.wikipedia.org/wiki/Sputnik_1)

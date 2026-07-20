@@ -28,4 +28,8 @@ Look at the Moon tonight and really see it — that is a place people have stood
 > Here men from the planet Earth first set foot upon the Moon, July 1969, A.D. We came in peace for all mankind.
 > — Inscription on the plaque left on the Moon by Apollo 11
 
-**Sources:** [Apollo 11 — Wikipedia (landing account & transcript)](https://en.wikipedia.org/wiki/Apollo_11) · [Lunar plaque — Wikipedia (full inscription)](https://en.wikipedia.org/wiki/Lunar_plaque) · [Apollo 11 Lunar Surface Journal — NASA (Eric M. Jones, annotated transcripts)](https://www.nasa.gov/history/alsj/a11/a11.landing.html)
+**Sources**
+
+- [Apollo 11 — Wikipedia (landing account & transcript)](https://en.wikipedia.org/wiki/Apollo_11)
+- [Lunar plaque — Wikipedia (full inscription)](https://en.wikipedia.org/wiki/Lunar_plaque)
+- [Apollo 11 Lunar Surface Journal — NASA (Eric M. Jones, annotated transcripts)](https://www.nasa.gov/history/alsj/a11/a11.landing.html)
