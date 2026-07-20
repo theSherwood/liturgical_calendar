@@ -21,4 +21,7 @@ Do one concrete thing for the planet: pick up litter on a walk, plant something,
 
 ## Reading
 
-> "Look again at that dot. That's here. That's home. That's us." — Carl Sagan, Pale Blue Dot
+> "Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives."
+> — Carl Sagan, Pale Blue Dot
+
+There is, so far, exactly one place in the universe known to hold life, and we are standing on it. Every person you will ever love shares this single fragile rock. Earth Day is just the reminder to act like we know that.

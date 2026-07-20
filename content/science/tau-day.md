@@ -21,4 +21,7 @@ Two pies, obviously — it's twice pi. Have the friendly family debate: is π or
 
 ## Reading
 
-> "Pi is wrong." — Bob Palais (the essay that started the τ movement)
+> "Pi is wrong."
+> — Bob Palais
+
+Half of mathematicians insist the true circle constant is τ = 2π ≈ 6.28, since a circle is defined by its radius, not its diameter. It is a gloriously low-stakes war, and the only holiday whose central argument is settled by eating twice as much pie.

@@ -20,4 +20,7 @@ Each person writes down one thing to leave in the old year and one thing to carr
 
 ## Reading
 
-> "Write it on your heart that every day is the best day in the year." — Ralph Waldo Emerson
+> "For last year's words belong to last year's language / And next year's words await another voice."
+> — T. S. Eliot
+
+An arbitrary line drawn across the calendar — and none the worse for it. Human beings need a place to stop, look back, and begin again, and we've collectively agreed this is it. A fresh start is real precisely because we all decide, together, to believe in it.

@@ -21,4 +21,9 @@ A solemn evening. Dim the lights and read Petrov's story aloud. Sit for a moment
 
 ## Reading
 
-> "I was just doing my job. I was the right person at the right time, that's all." — Stanislav Petrov
+> "I was just doing my job. I was the right person at the right time. That's all."
+> — Stanislav Petrov
+
+The rationalist community keeps this night every year as a reminder of how much can turn on a single careful mind. It is easy to destroy and hard to create; civilization holds together only because, again and again, some quiet person distrusts the alarm and refuses to pull the trigger.
+
+Tonight we honor the heroes whose greatest act was a disaster that never happened — the catastrophes averted, unrecorded, unrewarded, because someone chose to be careful rather than certain.

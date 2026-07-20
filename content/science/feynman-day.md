@@ -21,4 +21,7 @@ Ask 'why?' about something ordinary until you hit the bottom of what you actuall
 
 ## Reading
 
-> "I would rather have questions that can't be answered than answers that can't be questioned." — Richard Feynman
+> "The first principle is that you must not fool yourself — and you are the easiest person to fool."
+> — Richard Feynman
+
+He cracked safes, played bongos, drew the diagrams that remade physics, and refused all his life to pretend to understand what he didn't. Feynman is the patron saint of honest curiosity: the joy of finding things out, and the discipline of not kidding yourself about what you've found.

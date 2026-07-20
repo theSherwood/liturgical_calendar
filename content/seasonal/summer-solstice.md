@@ -21,4 +21,7 @@ Be outside from before sunrise to after sunset if you can. Eat dinner outdoors. 
 
 ## Reading
 
-> "Summer afternoon — summer afternoon; to me those have always been the two most beautiful words in the English language." — Henry James
+> "Summer afternoon — summer afternoon; to me those have always been the two most beautiful words in the English language."
+> — Henry James
+
+The longest day, the sun at the very top of its arc, the year at full flood. From here the days shorten again, so the light is worth spending while there is this much of it. Be outside. Stay up. Don't rush the sunset — it is the latest it will fall all year.

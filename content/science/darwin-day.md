@@ -21,4 +21,7 @@ Go look at some life — a walk outdoors, a nature documentary, a visit to see a
 
 ## Reading
 
-> "There is grandeur in this view of life… from so simple a beginning endless forms most beautiful." — Charles Darwin
+> "There is grandeur in this view of life… from so simple a beginning endless forms most beautiful and most wonderful have been, and are being, evolved."
+> — Charles Darwin, On the Origin of Species
+
+One simple, ruthless, beautiful idea — descent with modification — ties every beetle, whale, and human onto a single family tree stretching back nearly four billion years. You are cousin to the oak and the mushroom. Almost nothing has ever rearranged the world so completely.

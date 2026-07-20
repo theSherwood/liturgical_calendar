@@ -21,4 +21,7 @@ Eat pie — savory and sweet both count. Memorize a few digits of π together (3
 
 ## Reading
 
-> "Pure mathematics is, in its way, the poetry of logical ideas." — Albert Einstein
+> "Pure mathematics is, in its way, the poetry of logical ideas."
+> — Albert Einstein
+
+π hides in every circle, every wave, every orbit — a number that never ends and never repeats, computed to trillions of digits and still going. That so much of the universe should turn on one strange, unfinished number is either a joke or a clue. Also, it rhymes with pie.

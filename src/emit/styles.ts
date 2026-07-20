@@ -60,11 +60,15 @@ header.masthead p { color: var(--muted); font-family: var(--sans); font-size: .9
 .upcoming li .what span { color: var(--muted); }
 
 .season { margin-bottom: 2.5rem; }
-.season h2 { margin-bottom: 1rem; }
-.season.winter h2 { color: var(--season-winter); }
-.season.spring h2 { color: var(--season-spring); }
-.season.summer h2 { color: var(--season-summer); }
-.season.autumn h2 { color: var(--season-autumn); }
+.season h2 { margin-bottom: .2rem; }
+.season.winter h2, .season.winter .season-theme { color: var(--season-winter); }
+.season.spring h2, .season.spring .season-theme { color: var(--season-spring); }
+.season.summer h2, .season.summer .season-theme { color: var(--season-summer); }
+.season.autumn h2, .season.autumn .season-theme { color: var(--season-autumn); }
+.season-theme { font-size: 1.35rem; font-weight: 600; margin: 0 0 .15rem; letter-spacing: .01em; }
+.season-essence { font-style: italic; color: var(--muted); margin: 0 0 .6rem; }
+.season-intro { margin: 0 0 1.4rem; max-width: 60ch; }
+.season-intro p { margin: .3rem 0; color: var(--ink); }
 
 .card {
   background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
@@ -88,7 +92,10 @@ header.masthead p { color: var(--muted); font-family: var(--sans); font-size: .9
 .card details[open] summary::before { content: "▾ "; }
 .card .body h4 { font-family: var(--sans); text-transform: uppercase; letter-spacing: .09em; font-size: .72rem; color: var(--muted); margin: 1rem 0 .3rem; }
 .card .body p { margin: .2rem 0; }
-.card .body blockquote { margin: .4rem 0 0; padding-left: .9rem; border-left: 2px solid var(--line); color: var(--muted); font-style: italic; }
+.card .body blockquote { margin: .5rem 0; padding-left: .9rem; border-left: 2px solid var(--line); color: var(--muted); font-style: italic; }
+.card .body blockquote p { margin: 0; }
+.card .body blockquote + blockquote { margin-top: .5rem; }
+.card .body .reading-note { color: var(--ink); font-style: normal; margin: .5rem 0; }
 
 footer { text-align: center; color: var(--muted); font-family: var(--sans); font-size: .8rem; padding: 2rem 0; border-top: 1px solid var(--line); margin-top: 2rem; }
 

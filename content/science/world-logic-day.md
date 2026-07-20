@@ -21,4 +21,7 @@ Do a logic puzzle together, or learn one common reasoning mistake (a logical fal
 
 ## Reading
 
-> "The propositions of logic are tautologies." — Ludwig Wittgenstein
+> "The propositions of logic are tautologies."
+> — Ludwig Wittgenstein
+
+Logic is the quiet machinery under every good argument, every working program, every honest proof. This day falls on the death of Kurt Gödel and the birth of Alfred Tarski — two minds who mapped both the reach of reason and the exact places it runs out.

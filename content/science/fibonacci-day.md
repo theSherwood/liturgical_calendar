@@ -21,4 +21,7 @@ Hunt for the pattern in the real world — count the spirals on a pinecone or a 
 
 ## Reading
 
-> "Mathematics is the language in which God has written the universe." — Galileo Galilei
+> "Mathematics is the language in which God has written the universe."
+> — Galileo Galilei
+
+1, 1, 2, 3, 5, 8, 13 — each number the sum of the two before it. The same sequence turns up in pinecones, sunflower seeds, nautilus shells, and the spiral arms of galaxies. Nature, it turns out, can count — and keeps reaching for the same few numbers.

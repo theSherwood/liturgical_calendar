@@ -20,4 +20,7 @@ Cook too much and eat together, but the real ritual is the go-around: before any
 
 ## Reading
 
-> "Gratitude is not only the greatest of virtues, but the parent of all the others." — Cicero
+> "Gratitude is not only the greatest of virtues, but the parent of all the others."
+> — Cicero
+
+The best of the holidays, because it asks for nothing but presence and gratitude — no gifts, no fireworks, just a table full of people and food, and the quiet radical act of saying out loud what we're thankful for. Gratitude is not a feeling that happens to you; it is a practice, and this is the day we practice it together.

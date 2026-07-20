@@ -21,4 +21,7 @@ Look at the Moon tonight and really see it — that is a place people have stood
 
 ## Reading
 
-> "That's one small step for man, one giant leap for mankind." — Neil Armstrong
+> "That's one small step for man, one giant leap for mankind."
+> — Neil Armstrong, 20 July 1969
+
+The most audacious thing our species has ever done. Two people stood on the Moon and a third circled overhead while a fifth of all humanity watched from home — the whole thing run on slide rules, courage, and the coordinated work of four hundred thousand people. For one day the entire planet looked up at the same rock and felt the same thing.

@@ -21,4 +21,7 @@ Try a little code together — even one line, even a kids' block-coding game. Ad
 
 ## Reading
 
-> "It's easier to ask forgiveness than it is to get permission." — Grace Hopper
+> "It's easier to ask forgiveness than it is to get permission."
+> — Grace Hopper
+
+A Navy admiral and computing pioneer who insisted machines could be taught something close to human language — an idea the experts called impossible, and every programming language since has proved right. She also taped a real moth into a logbook and gave us the word 'debugging.'

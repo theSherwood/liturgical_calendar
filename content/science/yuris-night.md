@@ -21,4 +21,7 @@ A 'world space party,' as it's actually called. Watch launch footage, look up at
 
 ## Reading
 
-> "Circling the Earth in my orbital spaceship I marveled at the beauty of our planet." — Yuri Gagarin
+> "Circling the Earth in my orbital spaceship I marveled at the beauty of our planet. People, let us preserve and increase this beauty, not destroy it."
+> — Yuri Gagarin
+
+For all of history the sky was a ceiling. On 12 April 1961, for 108 minutes, it became a door — and one man saw the whole Earth at once, small and blue and unbordered, the way we all secretly know it is.

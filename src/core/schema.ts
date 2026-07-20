@@ -116,3 +116,16 @@ export const frontmatterSchema = z.object({
 });
 
 export type Frontmatter = z.infer<typeof frontmatterSchema>;
+
+// ---- Season themes ---------------------------------------------------------
+
+/** Frontmatter for a season's theme file (content/seasons/<season>.md). */
+export const seasonMetaSchema = z.object({
+  season: z.enum(SEASONS),
+  /** The season's themed name, e.g. "The Long Dark & the Returning Light". */
+  title: z.string().min(1),
+  /** A one-line essence of the season's mood. */
+  blurb: z.string().min(1),
+});
+
+export type SeasonMeta = z.infer<typeof seasonMetaSchema>;

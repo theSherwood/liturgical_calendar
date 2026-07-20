@@ -20,4 +20,7 @@ Costumes for everyone, adults included — no exceptions. Carve pumpkins, walk t
 
 ## Reading
 
-> "Double, double toil and trouble; fire burn and cauldron bubble." — William Shakespeare, Macbeth
+> "'Tis now the very witching time of night, / When churchyards yawn and hell itself breathes out / Contagion to this world."
+> — William Shakespeare, Hamlet
+
+The living, laughing descendant of ancient Samhain — the one night we dress up as the things that scare us and walk out to meet the neighbors. Under the candy and the costumes it is one of the last great communal street rituals we have left, and it runs on nothing but sugar and good will.

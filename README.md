@@ -27,9 +27,17 @@ calendar of *things the family does*, not just a list of dates.
 
 The year is organized around the eight solar anchor points (solstices,
 equinoxes, and the four cross-quarter days — the "Wheel of the Year"), so
-holidays fall into natural **seasons**. Watch what clusters in late December:
-the Winter Solstice, Yule, Saturnalia, Newtonmas, Christmas, and the Secular
-Solstice all pile up into one high season.
+holidays fall into natural **seasons**, each with its own theme (defined in
+[`content/seasons/`](content/seasons/)): Winter — *The Long Dark & the Returning
+Light*; Spring — *Renewal & Beginnings*; Summer — *Abundance & Height*; Autumn —
+*Harvest & Remembrance*. Watch what clusters in late December: the Winter
+Solstice, Yule, Saturnalia, Newtonmas, Christmas, and the Secular Solstice all
+pile up into one high season.
+
+There are currently **65 curated observances**. A holiday's `## Reading` can be a
+single line or a long, multi-part passage — several stanzas, a litany, framing
+prose — and the rationalist entries lean on the LessWrong canon and the
+Sequences (the Litany of Gendlin, the Litany of Tarski, and the like).
 
 ## Quick start
 
@@ -102,15 +110,19 @@ should span.
 ## How it fits together
 
 ```
-content/**.md   ← the single source of truth
+content/**.md        ← the single source of truth (one file per holiday)
+content/seasons/*.md  ← each season's theme + intro prose
    │
    ▼
 src/core/       load + validate (zod) → resolve each date rule for a year
    │
    ├─► src/emit/ics.ts   → dist/calendar.ics   (explicit all-day events per year)
-   ├─► src/emit/web.ts   → dist/site/index.html (today · upcoming · the year)
+   ├─► src/emit/web.ts   → dist/site/index.html (today · upcoming · the year by season)
    └─► src/emit/pdf.ts   → dist/calendar.pdf    (headless Chromium prints the print layout)
 ```
+
+To retitle a season or rewrite its intro, edit its file in `content/seasons/`
+(frontmatter `season` / `title` / `blurb`, plus the body prose) and rebuild.
 
 The website and the PDF share one stylesheet ([`src/emit/styles.ts`](src/emit/styles.ts)),
 so they always look like the same calendar.
