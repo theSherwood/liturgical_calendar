@@ -140,10 +140,18 @@ export function renderSite(holidays: Holiday[], seasons: SeasonMap, config: Conf
       </section>`
     : "";
 
+  const webcal = config.siteUrl.replace(/^https?:\/\//, "webcal://") + "/calendar.ics";
+  const subscribeBar = `<div class="subscribe">
+    <a class="subscribe-primary" href="${webcal}">📆 Subscribe on your phone</a>
+    <a href="calendar.ics">Download .ics</a>
+    <a href="calendar.pdf">Printable PDF</a>
+  </div>`;
+
   const inner = `
 <header class="masthead">
   <h1>The ${esc(config.familyName)} Family Calendar</h1>
   <p>A secular liturgical year · ${thisYear.length} observances · ${year}</p>
+  ${subscribeBar}
 </header>
 ${featureBlock}
 ${upcomingBlock}

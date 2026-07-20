@@ -16,6 +16,8 @@ export interface Config {
   outDir: string;
   /** Family name, shown in titles. */
   familyName: string;
+  /** Public base URL where the site is hosted (no trailing slash). Powers the subscribe links. */
+  siteUrl: string;
 }
 
 export const config: Config = {
@@ -24,4 +26,5 @@ export const config: Config = {
   yearSpan: { before: 1, after: 5 },
   outDir: "dist",
   familyName: "Sherwood",
+  siteUrl: "https://thesherwood.github.io/liturgical_calendar",
 };

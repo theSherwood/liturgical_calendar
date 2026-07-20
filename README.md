@@ -139,10 +139,36 @@ To retitle a season or rewrite its intro, edit its file in `content/seasons/`
 The website and the PDF share one stylesheet ([`src/emit/styles.ts`](src/emit/styles.ts)),
 so they always look like the same calendar.
 
+## Hosting & subscribing
+
+[`.github/workflows/pages.yml`](.github/workflows/pages.yml) builds the calendar
+and deploys it to **GitHub Pages** on every push to `main`, plus once a day (so
+the "Today" panel and the rolling year span stay current) and on demand. It
+publishes:
+
+- the dashboard at **`https://thesherwood.github.io/liturgical_calendar/`**
+- the feed at **`…/calendar.ics`** and the booklet at **`…/calendar.pdf`**
+
+**One-time setup:** in the repo, go to **Settings → Pages → Build and deployment
+→ Source: GitHub Actions**. (The workflow also tries to enable this automatically.)
+
+**Subscribing on phones** — the dashboard's "Subscribe on your phone" button uses
+a `webcal://…/calendar.ics` link, which opens straight into Apple/Google Calendar
+as a *subscription* (it refreshes on the client's own schedule). Set the public
+URL in [`src/config.ts`](src/config.ts) (`siteUrl`) if you move to a custom domain.
+
+### Options for hosting the `.ics`
+
+| Option | How | Notes |
+| --- | --- | --- |
+| **GitHub Pages** (this repo) | served at `…/calendar.ics` | Free, versioned with the site, refreshed daily by the Action. The natural choice. |
+| `webcal://` subscribe link | same URL, `webcal://` scheme | Not separate hosting — just the one-click *subscribe* form of the Pages URL. |
+| Raw GitHub URL | `raw.githubusercontent.com/…/calendar.ics` | Works without CI if you commit the file, but served as `text/plain` with a short cache; some calendar apps are fussy. |
+| A calendar service / Worker | e.g. a Cloudflare Worker that regenerates on request | Overkill here — the Pages feed already spans current year − 1 … + 5 and rebuilds daily. |
+
 ## Roadmap ideas
 
-- Publish `dist/` via CI (e.g. GitHub Pages) so the `.ics` has a stable URL to
-  subscribe to and the site is always live.
 - A `family` category for birthdays and anniversaries (the model already
   supports it — just add a folder).
 - More entries: the curated year is a strong start, not a closed set.
+- Make the "Today" panel compute client-side so it's exact between daily builds.
