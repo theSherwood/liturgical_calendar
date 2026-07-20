@@ -21,7 +21,15 @@ Name one venture — a project, a trip, a goal — that you're launching this wa
 
 ## Reading
 
-> "Young was I once, and wandered alone, and knew nothing of the road; rich did I feel when I found a companion, for man is the joy of man."
-> — Hávamál
+> Young was I once, and wandered alone,
+> And nought of the road I knew;
+> Rich did I feel when a comrade I found,
+> For man is man's delight.
+>
+> The lives of the brave and noble are best,
+> Sorrows they seldom feed;
+> But the coward fear of all things feels,
+> And not gladly the niggard gives.
+> — Hávamál, stanzas 47–48 (trans. Henry Adams Bellows, 1923)
 
-The other hinge of the Norse year: the first day of summer, when the seas opened and the season's ventures — voyages, plantings, undertakings — began, with a blessing for victory and good luck. The Hávamál, the wisdom a wanderer earns on the road, knows the venture is only half of it; the other half is the company you keep along the way. Name the thing you are setting out to do — and the people you will do it with.
+**Sources:** [Full text — Hávamál (Hovamol), Bellows translation, Wikisource](https://en.wikisource.org/wiki/The_Poetic_Edda_(tr._Bellows)/Hovamol) · [Hávamál overview and translations — Wikisource](https://en.wikisource.org/wiki/H%C3%A1vam%C3%A1l)

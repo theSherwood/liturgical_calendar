@@ -21,7 +21,7 @@ Eat pie — savory and sweet both count. Memorize a few digits of π together (3
 
 ## Reading
 
-> "Pure mathematics is, in its way, the poetry of logical ideas."
-> — Albert Einstein (whose birthday this also is)
+> Pure mathematics is, in its way, the poetry of logical ideas. One seeks the most general ideas of operation which will bring together in simple, logical and unified form the largest possible circle of formal relationships. In this effort toward logical beauty spiritual formulas are discovered necessary for the deeper penetration into the laws of nature.
+> — Albert Einstein, tribute to Emmy Noether, The New York Times, 1935
 
-The friendliest math holiday there is: 3/14, for π, the number hiding in every circle, wave, and orbit in the universe. It never ends and never repeats — computed now to trillions of digits and still going — and it turns up in places that have nothing obviously to do with circles at all, which is either a joke or a clue. That so much of reality should turn on one strange, unfinished number is worth a moment's awe. Eat pie, memorize a few digits together, or measure a round thing with a string and discover π for yourselves.
+**Sources:** [Full text — Einstein's NYT tribute to Emmy Noether (MacTutor, St Andrews)](https://mathshistory.st-andrews.ac.uk/Obituaries/Noether_Emmy_Einstein/) · [Primary-source scan — Einstein's letter to the NYT (Agnes Scott / mathwomen)](https://www.mathwomen.agnesscott.org/women/EinsteinNYTLetter.pdf)

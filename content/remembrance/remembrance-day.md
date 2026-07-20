@@ -21,10 +21,29 @@ Keep the two minutes' silence at the eleventh hour if you can. Wear a poppy. Rea
 
 ## Reading
 
-> "In Flanders fields the poppies blow / Between the crosses, row on row."
-> — John McCrae
+> In Flanders fields the poppies blow
+> Between the crosses, row on row,
+> That mark our place; and in the sky
+> The larks, still bravely singing, fly
+> Scarce heard amid the guns below.
+>
+> We are the Dead. Short days ago
+> We lived, felt dawn, saw sunset glow,
+> Loved and were loved, and now we lie,
+> In Flanders fields.
+>
+> Take up our quarrel with the foe:
+> To you from failing hands we throw
+> The torch; be yours to hold it high.
+> If ye break faith with us who die
+> We shall not sleep, though poppies grow
+> In Flanders fields.
+> — John McCrae, "In Flanders Fields" (written 1915; In Flanders Fields and Other Poems, 1919)
 
-> "They shall grow not old, as we that are left grow old… / At the going down of the sun and in the morning, / We will remember them."
-> — Laurence Binyon, For the Fallen
+> They shall grow not old, as we that are left grow old:
+> Age shall not weary them, nor the years condemn.
+> At the going down of the sun and in the morning
+> We will remember them.
+> — Laurence Binyon, "For the Fallen" (The Times, 21 September 1914)
 
-At the eleventh hour of the eleventh day of the eleventh month, 1918, the guns of the First World War fell silent, and a generation counted its dead. The day has come to hold all the war dead — of every war, every side, every uniform and none. The red poppy grew in the churned fields where so many were buried; we wear it to say the peace we live in was paid for by people who did not get to keep it. Keep the two minutes' silence. Lest we forget.
+**Sources:** [Full text — In Flanders Fields and Other Poems (Project Gutenberg)](https://www.gutenberg.org/files/353/353-h/353-h.htm) · [Full text — For the Fallen, orig. printing (Wikisource / The Times 1914)](https://en.wikisource.org/wiki/The_Times/1914/Arts/For_the_Fallen)

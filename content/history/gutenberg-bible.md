@@ -21,10 +21,7 @@ A day to appreciate the humble, world-shaking act of copying and sharing what we
 
 ## Reading
 
-> "Printing, gunpowder, and the compass: these three have changed the whole face and state of things throughout the world."
-> — Francis Bacon
+> I have not seen complete Bibles, but several quires belonging to different books, exceedingly clean and correct in their script, and without error, which Your Grace could read effortlessly, even without glasses. I learned from numerous witnesses that 158 copies have been completed, although some others say the number is 180.
+> — Aeneas Silvius Piccolomini (the future Pope Pius II), letter to Cardinal Juan de Carvajal, 12 March 1455 — the earliest surviving eyewitness account of the Gutenberg Bible
 
-> "The book will kill the building." ("Ceci tuera cela.")
-> — Victor Hugo, on how the printed word would overthrow the old authorities
-
-Around 1455, in Mainz, Johannes Gutenberg printed a Bible with movable metal type and quietly detonated the old world. Before him, every book was copied by hand — slow, rare, and dear — and knowledge belonged to the few who could afford it. After him, ideas could be copied by the thousand and could no longer be contained; the fuse was lit under the Reformation, the Scientific Revolution, and mass literacy itself. Almost every good thing on this calendar that depends on shared knowledge traces back through this one machine.
+**Sources:** [John Rylands Library (Univ. of Manchester) — quotes the 1455 letter verbatim](https://rylandscollections.com/2025/07/31/introducing-the-early-european-print-collection/) · [Gutenberg Bible — Wikipedia (full context; notes the 158/180 copies from this letter)](https://en.wikipedia.org/wiki/Gutenberg_Bible)

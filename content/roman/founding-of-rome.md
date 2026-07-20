@@ -21,7 +21,17 @@ Celebrate the birthday of a city 2,700-odd years old. Eat Roman — bread, olive
 
 ## Reading
 
-> "To these I set no bounds in space or time; I have granted them empire without end."
-> — Virgil, Aeneid (Jupiter's prophecy for Rome)
+> then Romulus, wolf-nursed and proudly clad
+> in tawny wolf-skin mantle, shall receive
+> the sceptre of his race. He shall uprear
+> and on his Romans his own name bestow.
+> To these I give no bounded times or power,
+> but empire without end. Yea, even my Queen,
+> Juno, who now chastiseth land and sea
+> with her dread frown, will find a wiser way,
+> and at my sovereign side protect and bless
+> the Romans, masters of the whole round world,
+> who, clad in peaceful toga, judge mankind.
+> — Virgil, Aeneid, Book I (Jupiter's prophecy for Rome), trans. Theodore C. Williams, 1910
 
-By tradition Romulus founded Rome on this day in 753 BC, and the Romans kept it every year as the birthday of their city. From a village on seven hills grew an empire that handed the West its law, its roads, its calendar, its languages, and half its imagination. The empire ended — twice, if you count Constantinople — but the roads and the laws and the words outlived the legions, which is its own kind of empire without end. Eat Roman tonight, and go looking for Rome in the months, the alphabet, and the very word "republic."
+**Sources:** [Full text — Aeneid Book I, Jupiter's prophecy (Perseus, Williams trans.)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0054:book=1:card=272) · [Aeneid, Book I — complete (Perseus Digital Library)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0054:book=1:card=1)

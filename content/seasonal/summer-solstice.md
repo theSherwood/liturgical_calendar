@@ -21,7 +21,13 @@ Be outside from before sunrise to after sunset if you can. Eat dinner outdoors. 
 
 ## Reading
 
-> "Summer afternoon — summer afternoon; to me those have always been the two most beautiful words in the English language."
-> — Henry James
+> I am he that walks with the tender and growing night,
+> I call to the earth and sea half-held by the night.
+> Press close bare-bosom'd night—press close magnetic nourishing night!
+> Night of south winds—night of the large few stars!
+> Still nodding night—mad naked summer night.
+> Smile O voluptuous cool-breath'd earth!
+> Earth of the slumbering and liquid trees!
+> — Walt Whitman, "Song of Myself," 21 (Leaves of Grass, 1892)
 
-The longest day, the sun at the very top of its arc, the year at full flood. From here the days shorten again, so the light is worth spending while there is this much of it. Be outside. Stay up. Don't rush the sunset — it is the latest it will fall all year.
+**Sources:** [Full text — Leaves of Grass (Project Gutenberg)](https://www.gutenberg.org/files/1322/1322-h/1322-h.htm) · [Song of Myself, 21 (Academy of American Poets)](https://poets.org/poem/song-myself-21)

@@ -21,10 +21,10 @@ A grave day. At dawn, or whenever you can, light a single candle and keep a minu
 
 ## Reading
 
-> "Now I am become Death, the destroyer of worlds."
-> — J. Robert Oppenheimer, recalling the Bhagavad Gita
+> The effects could well be called unprecedented, magnificent, beautiful, stupendous, and terrifying. ... The whole country was lighted by a searing light with the intensity many times that of the midday sun. It was golden, purple, violet, gray, and blue. ... the strong, sustained, awesome roar which warned of doomsday and made us feel that we puny things were blasphemous to dare tamper with the forces heretofore reserved to The Almighty.
+> — Brig. Gen. Thomas F. Farrell, eyewitness account of the Trinity test, in Gen. Leslie R. Groves's memorandum to the Secretary of War, 18 July 1945
 
-> "Now we are all sons of bitches."
-> — Kenneth Bainbridge, the test director, to Oppenheimer
+> Now I am become Death, the destroyer of worlds.
+> — J. Robert Oppenheimer, recalling the Bhagavad Gita (1965)
 
-Before dawn on 16 July 1945, in a stretch of New Mexico desert, human beings lit a fire that had never existed on Earth — and for the first time a species could destroy itself on purpose. The men who built it were among the most brilliant of their age, and were not certain, until it fired, that it would not ignite the sky. We have lived every day since under the small permanent shadow of that morning. The knowledge cannot be unlearned; all that is left to us is the choosing, every single day, not to use it.
+**Sources:** [Full text — Report on the Trinity Test by Gen. Groves, 1945 (atomicarchive.com)](https://www.atomicarchive.com/resources/documents/trinity/groves.html) · [Trinity — the first nuclear test (Wikipedia)](https://en.wikipedia.org/wiki/Trinity_(nuclear_test))

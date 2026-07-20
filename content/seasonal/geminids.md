@@ -25,3 +25,5 @@ Blankets, hot chocolate, hats, and the darkest yard you can find. Bundle up and 
 > — Walt Whitman
 
 The Geminids are the year's most generous meteor shower, and they make you earn it in the December cold. The reward for bundling up is a dark, clear sky throwing more stars than any night in summer. Whitman had it right: the charts and the numbers are wonderful, but there is a knowing that only comes from standing out in the cold and simply looking up in silence. Blankets, hot chocolate, and the darkest yard you can find.
+
+**Sources:** [Learn more — Geminids (Wikipedia)](https://en.wikipedia.org/wiki/Geminids)

@@ -21,7 +21,10 @@ A light-hearted echo the day after Valentine's: a brisk walk or run outdoors to 
 
 ## Reading
 
-> "Forget not, in your speed, Antonius, / To touch Calpurnia; for our elders say, / The barren, touched in this holy chase, / Shake off their sterile curse."
-> — Shakespeare, Julius Caesar (set during the Lupercal)
+> You ask, Why then do the Luperci run? and why do they strip themselves and bear their bodies naked, for so it is their wont to run? The god himself loves to scamper, fleet of foot, about the high mountains, and he himself takes suddenly to flight. The god himself is nude and bids his ministers go nude: besides, raiment sorted not well with running.
+> — Ovid, Fasti II.283–290, trans. James G. Frazer (1931)
 
-One of Rome's oldest and strangest rites: half-naked young men ran through the streets striking passers-by with strips of goat-hide, a wild rite of purification and fertility at winter's end. Shakespeare opens his Caesar on this very festival. Disreputable, bloody, joyous, it marked the moment the year began to lean back toward life — and left its distant, tangled fingerprints on our own February feast of love.
+> He slew a he-goat, and at his bidding the damsels offered their backs to be beaten with thongs cut from the hide. When in her tenth circuit the moon was renewing her horns, the husband was suddenly made a father and the wife a mother.
+> — Ovid, Fasti II.445–452, trans. James G. Frazer (1931)
+
+**Sources:** [Full text — Ovid, Fasti Book 2 (Frazer trans.), ToposText](https://topostext.org/work/143) · [The Fasti of Ovid, ed. & trans. J. G. Frazer (Macmillan, 1929) — Internet Archive](https://archive.org/details/in.ernet.dli.2015.459434)

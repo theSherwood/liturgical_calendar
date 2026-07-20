@@ -21,7 +21,7 @@ Light a candle for the things that pass. Read a little about what was lost that 
 
 ## Reading
 
-> The City is fallen. Hush, my lady, and weep no more — for years and ages pass, and yet, in time, again these things shall be ours.
-> — from the Greek folk lament for the City
+> Amidst these multitudes, the emperor, who accomplished all the duties of a general and a soldier, was long seen and finally lost. The prudent despair of Constantine cast away the purple: amidst the tumult he fell by an unknown hand, and his body was buried under a mountain of the slain. … The distress and fall of the last Constantine are more glorious than the long prosperity of the Byzantine Caesars.
+> — Edward Gibbon, The History of the Decline and Fall of the Roman Empire, ch. 68 (1788)
 
-Everything ends: the empire that thought itself eternal, the age that could not imagine its own last day. Knowing this is not despair. It is the reason to hold what we love a little more carefully.
+**Sources:** [Full text — Gibbon, Decline and Fall, ch. 68 (CCEL)](https://www.ccel.org/g/gibbon/decline/volume2/chap68.htm) · [Full text — Decline and Fall (Project Gutenberg)](https://www.gutenberg.org/files/25717/25717-h/25717-h.htm)

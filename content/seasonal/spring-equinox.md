@@ -21,7 +21,11 @@ Plant something — seeds indoors, a tree outdoors, whatever the season allows. 
 
 ## Reading
 
-> "In the spring, at the end of the day, you should smell like dirt."
-> — Margaret Atwood
+> Rise up, my love, my fair one, and come away.
+> For, lo, the winter is past, the rain is over and gone;
+> The flowers appear on the earth; the time of the singing of birds is come, and the voice of the turtle is heard in our land;
+> The fig tree putteth forth her green figs, and the vines with the tender grape give a good smell.
+> Arise, my love, my fair one, and come away.
+> — Song of Solomon 2:10–13, King James Version (1611)
 
-Day and night stand exactly equal, and after today the light wins. It is the oldest new year on Earth — Babylon, Persia, and Rome all began their year about now — and its business is the honest, hands-in-the-soil business of beginnings. Atwood's line is the whole of it: spring is not an abstraction to admire through a window but a thing you are meant to get your hands dirty in.
+**Sources:** [Full text — Song of Solomon (KJV), Wikisource](https://en.wikisource.org/wiki/Bible_(King_James)/Song_of_Solomon)

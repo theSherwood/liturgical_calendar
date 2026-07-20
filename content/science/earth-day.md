@@ -21,7 +21,7 @@ Do one concrete thing for the planet: pick up litter on a walk, plant something,
 
 ## Reading
 
-> "Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives."
-> — Carl Sagan, Pale Blue Dot
+> The Earth is the only world known so far to harbor life. There is nowhere else, at least in the near future, to which our species could migrate. Visit, yes. Settle, not yet. Like it or not, for the moment the Earth is where we make our stand. […] To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known.
+> — Carl Sagan, Pale Blue Dot: A Vision of the Human Future in Space (1994)
 
-There is, so far, exactly one place in the universe known to hold life, and we are standing on it. Every person you will ever love shares this single fragile rock. Earth Day is just the reminder to act like we know that.
+**Sources:** [Full passage — A Pale Blue Dot (The Planetary Society)](https://www.planetary.org/worlds/pale-blue-dot) · [Pale Blue Dot (Wikipedia)](https://en.wikipedia.org/wiki/Pale_Blue_Dot)

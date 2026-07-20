@@ -25,3 +25,5 @@ Stay up late, drive somewhere dark, and lie on your backs. No phones — eyes ne
 > — Vincent van Gogh
 
 Every August the Earth plows through the dust trail of an ancient comet, and for a few warm nights the sky throws sparks. The Perseids are the friendliest meteor shower of the year — warm enough to lie out under, generous enough to reward patience. Drive somewhere dark, lie on your backs, and give your eyes twenty minutes to drink in the black. Each falling star is a fleck of comet-dust, older than the Earth, ending its long journey in a streak of light over your upturned faces.
+
+**Sources:** [Learn more — Perseids (Wikipedia)](https://en.wikipedia.org/wiki/Perseids)

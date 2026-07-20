@@ -21,7 +21,18 @@ Bake bread together, or buy a really good loaf and break it by hand. As you eat,
 
 ## Reading
 
-> "There was three kings into the east, three kings both great and high, / and they hae sworn a solemn oath / John Barleycorn should die… / But the cheerful spring came kindly on, / and show'rs began to fall; / John Barleycorn got up again, / and sore surprised them all."
-> — Robert Burns, John Barleycorn
+> There was three kings into the east,
+> Three kings both great and high,
+> And they hae sworn a solemn oath
+> John Barleycorn should die.
+> They took a plough and plough'd him down,
+> Put clods upon his head,
+> And they hae sworn a solemn oath
+> John Barleycorn was dead.
+> But the cheerful Spring came kindly on,
+> And show'rs began to fall;
+> John Barleycorn got up again,
+> And sore surpris'd them all.
+> — Robert Burns, "John Barleycorn: A Ballad" (1782)
 
-The first of the three harvest festivals, when the first grain was cut and the year's long work began to pay out. Burns's old ballad tells the deepest truth of the harvest as a riddle: the grain is cut down and seems to die, and is buried, and rises again next spring — the bread on the table and the seed for next year being the very same thing. Break a loaf by hand today, and taste a whole year's labor.
+**Sources:** [Full text — John Barleycorn (Wikisource)](https://en.wikisource.org/wiki/A_First_Series_of_Hymns_and_Songs/Descriptive_Songs/John_Barleycorn) · [John Barleycorn — meaning & Burns's 1782 version (Wikipedia)](https://en.wikipedia.org/wiki/John_Barleycorn)

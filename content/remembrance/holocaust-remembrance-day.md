@@ -21,8 +21,24 @@ The gravest day of the year. Light candles — six, by tradition — and keep si
 
 ## Reading
 
-> "It happened, therefore it can happen again: this is the core of what we have to say."
-> — Primo Levi, survivor of Auschwitz
+> You who live secure
+> In your warm houses,
+> Who return at evening to find
+> Hot food and friendly faces:
+> Consider whether this is a man,
+> Who labors in the mud
+> Who knows no peace
+> Who fights for a crust of bread
+> Who dies at a yes or a no.
+> Consider whether this is a woman,
+> Without hair or name
+> With no more strength to remember,
+> Eyes empty and womb cold
+> As a frog in winter.
+> Consider that this has been:
+> I commend these words to you.
+> Engrave them on your hearts …
+> Repeat them to your children.
+> — Primo Levi, "Shemà" (1946), trans. Ruth Feldman and Brian Swann — the poem Levi set as the epigraph to If This Is a Man
 
-> First they came for the socialists, and I did not speak out — because I was not a socialist. Then they came for the trade unionists… Then they came for the Jews… Then they came for me — and there was no one left to speak for me.
-> — Martin Niemöller
+**Sources:** [Shema: Collected Poems of Primo Levi (Internet Archive — Feldman & Swann translation)](https://archive.org/details/shemacollectedpo0000levi) · [Full poem text — Primo Levi, "Shema" (My Jewish Learning)](https://www.myjewishlearning.com/article/hear-amp-act/)

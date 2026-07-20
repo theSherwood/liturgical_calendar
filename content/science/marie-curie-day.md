@@ -21,10 +21,10 @@ A day for stubborn, patient curiosity in the face of every obstacle — poverty,
 
 ## Reading
 
-> "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less."
+> The glass roof did not afford complete shelter against rain; the heat was suffocating in summer, and the bitter cold of winter was only a little lessened by the iron stove. Yet it was in this miserable old shed that we passed the best and happiest years of our life, devoting our entire days to our work. One of our joys was to go into our workroom at night; we then perceived on all sides the feebly luminous silhouettes of the bottles or capsules containing our products. It was really a lovely sight.
+> — Marie Curie, Autobiographical Notes, in Pierre Curie (1923), trans. Charlotte and Vernon Kellogg
+
+> Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.
 > — Marie Curie
 
-> "Be less curious about people and more curious about ideas."
-> — Marie Curie
-
-The woman who discovered that atoms are not eternal — that some come quietly apart, radiating energy, a phenomenon she named radioactivity. She won a Nobel in Physics and another in Chemistry, the only person ever to take both, working in a cold shed with dangerous materials, and paid for the knowledge with her life; her notebooks are still too radioactive to handle safely. A day for stubborn, patient curiosity in the teeth of every obstacle — poverty, prejudice, and a world that kept telling her no.
+**Sources:** [Full text — Pierre Curie, with Autobiographical Notes (Project Gutenberg)](https://www.gutenberg.org/files/69617/69617-h/69617-h.htm) · [Curie's own words on the shed (AIP History exhibit)](https://history.aip.org/exhibits/curie/brief/06_quotes/quotes_08.html)

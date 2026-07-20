@@ -22,7 +22,12 @@ Adopt one Saturnalian rule for a day: the children give the orders, or the paren
 
 ## Reading
 
-> "Saturnalia, best of days!"
-> — Catullus
+In Lucian's dialogue the god Saturn describes his own festival.
 
-For a week the Roman world turned upside down. The courts shut, the toga was traded for bright dinner clothes, candles and little clay figures passed as gifts, gambling was legal, and — most startling of all — masters waited on their own slaves at table. It was a licensed holiday from hierarchy itself, a yearly reminder that the social order is a costume the world agrees to wear and can, for a week, agree to take off. Half of what we still do each December — the feasting, the gifts, the misrule, the greenery — the Romans did first, and called it the best of days.
+> Mine is a limited monarchy, you see. To begin with, it only lasts a week; that over, I am a private person, just a man in the street. Secondly, during my week the serious is barred; no business allowed. Drinking and being drunk, noise and games and dice, appointing of kings and feasting of slaves, singing naked, clapping of tremulous hands, an occasional ducking of corked faces in icy water — such are the functions over which I preside.
+> — Lucian of Samosata, Saturnalia, trans. H. W. Fowler & F. G. Fowler (1905)
+
+> Saturnalibus, optimo dierum! — "The Saturnalia, best of days!"
+> — Catullus, Carmen 14, l. 15
+
+**Sources:** [Full text — Lucian, Saturnalia (Fowler trans., Lucian of Samosata Project)](https://lucianofsamosata.info/wiki/doku.php?id=home:texts_and_library:dialogues:saturnalia) · [Latin text — Catullus, Carmen 14 (Perseus)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0003:poem%3D14) · [Saturnalia — the Roman festival (Wikipedia)](https://en.wikipedia.org/wiki/Saturnalia)

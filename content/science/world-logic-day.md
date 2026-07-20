@@ -21,10 +21,11 @@ Do a logic puzzle together, or learn one common reasoning mistake (a logical fal
 
 ## Reading
 
-> "The propositions of logic are tautologies."
-> — Ludwig Wittgenstein
+> 6.1 The propositions of logic are tautologies.
+> 6.11 The propositions of logic therefore say nothing. (They are the analytical propositions.)
+> 6.13 Logic is not a theory but a reflexion of the world. Logic is transcendental.
+> . . .
+> 7 Whereof one cannot speak, thereof one must be silent.
+> — Ludwig Wittgenstein, Tractatus Logico-Philosophicus (1922), trans. C. K. Ogden
 
-> "It is the mark of an educated mind to be able to entertain a thought without accepting it."
-> — attributed to Aristotle
-
-A day for the quiet machinery under every good argument, every working program, every honest proof. It falls on the death of Kurt Gödel and the birth of Alfred Tarski — two minds who mapped both the reach of reason and the exact places it runs out. Do a logic puzzle together, or learn one common reasoning mistake and spend the day spotting it in the wild. Reward the good argument over the loud one.
+**Sources:** [Full text — Tractatus Logico-Philosophicus (Wikisource, Ogden trans.)](https://en.wikisource.org/wiki/Tractatus_Logico-Philosophicus) · [Propositions 6.x (Wikisource) — source of the excerpt](https://en.wikisource.org/wiki/Tractatus_Logico-Philosophicus/6)

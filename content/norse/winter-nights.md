@@ -21,7 +21,15 @@ A harvest-home meal from the pantry and the last of the garden. Raise a glass to
 
 ## Reading
 
-> "Cattle die, kinsmen die, and so at last one dies oneself; but the fair fame never dies of one who has done well."
-> — Hávamál
+> Cattle die, and kinsmen die,
+> And so one dies one's self;
+> But a noble name will never die,
+> If good renown one gets.
+>
+> Cattle die, and kinsmen die,
+> And so one dies one's self;
+> One thing I know that never dies,
+> The fame of a dead man's deeds.
+> — Hávamál, stanzas 77–78, trans. Henry Adams Bellows (1923)
 
-The Norse split the year in two, and Winter Nights was the doorway into the dark half — the harvest safely in, the herds brought down from the pastures, and a feast for the ancestors and the spirits of the land before the long cold set in. The old poem offers the north's clear-eyed comfort: everything that lives will die, and the one thing that outlasts us is what we did and how we were remembered. A fitting night to speak the names of the dead.
+**Sources:** [Full text — Hávamál (Bellows trans., voluspa.org, Old Norse & English)](http://www.voluspa.org/havamal76-80.htm) · [Overview — Hávamál (Wikipedia)](https://en.wikipedia.org/wiki/H%C3%A1vam%C3%A1l)

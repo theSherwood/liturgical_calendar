@@ -21,9 +21,10 @@ Keep it the way we keep Petrov Day: quietly, and with attention. Read Arkhipov's
 
 ## Reading
 
-On 27 October 1962, aboard a submarine cut off from the world and convinced war had begun, three officers had to agree before a nuclear torpedo could fly. Two agreed. One did not.
+> If you were born before 27 October 1962, Vasili Alexandrovich Arkhipov saved your life. It was the most dangerous day in history. … The launch of the B-59's nuclear torpedo required the consent of all three senior officers aboard. Arkhipov was alone in refusing permission.
+> — Edward Wilson, "Thank you Vasili Arkhipov, the man who stopped nuclear war," The Guardian, 27 October 2012
 
-> "A guy named Vasili Arkhipov saved the world."
-> — Thomas Blanton, National Security Archive
+> Arkhipov was "the man who saved the world."
+> — Thomas S. Blanton, director, National Security Archive, 2002
 
-Two names now hold the highest honor this calendar can give — Petrov and Arkhipov — and both earned it the same way: by staying calm, distrusting the certainty in the room, and refusing to be the one who ended everything.
+**Sources:** [Edward Wilson essay — The Guardian (2012)](https://www.theguardian.com/commentisfree/2012/oct/27/vasili-arkhipov-stopped-nuclear-war) · [Vasily Arkhipov — Wikipedia (full account, Blanton quote)](https://en.wikipedia.org/wiki/Vasily_Arkhipov) · [The Underwater Cuban Missile Crisis at 60 — National Security Archive (primary documents)](https://nsarchive.gwu.edu/briefing-book/russia-programs/2022-10-03/soviet-submarines-nuclear-torpedoes-cuban-missile-crisis)

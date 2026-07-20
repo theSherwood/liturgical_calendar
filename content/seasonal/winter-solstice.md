@@ -21,7 +21,17 @@ Turn off every light in the house at dusk. Sit together in the full dark for a m
 
 ## Reading
 
-> "In the depth of winter, I finally learned that within me there lay an invincible summer."
-> — Albert Camus
+Under the old Julian calendar, St. Lucy's Day fell on the solstice — the year's longest night.
 
-The longest, darkest night is also the turning point: from here, imperceptibly at first, the light comes back. Every midwinter festival humanity has ever kept is, underneath, the same wager Camus makes — that even at the very bottom of the cold and the dark, something in us and in the world is already leaning back toward the light. The dark is real, and worth sitting with honestly. So is the turning.
+> 'Tis the year's midnight, and it is the day's,
+> Lucy's, who scarce seven hours herself unmasks;
+> The sun is spent, and now his flasks
+> Send forth light squibs, no constant rays;
+> The world's whole sap is sunk;
+> The general balm th' hydroptic earth hath drunk,
+> Whither, as to the bed's-feet, life is shrunk,
+> Dead and interr'd; yet all these seem to laugh,
+> Compared with me, who am their epitaph.
+> — John Donne, "A Nocturnal upon St. Lucy's Day, Being the Shortest Day" (written c. 1627; publ. 1633)
+
+**Sources:** [Full text — A Nocturnal Upon S. Lucy's Day (Wikisource)](https://en.wikisource.org/wiki/A_Nocturnal_Upon_S._Lucy%27s_Day,_Being_the_Shortest_Day) · [Full text & notes — Poetry Foundation](https://www.poetryfoundation.org/poems/44122/a-nocturnal-upon-st-lucys-day)

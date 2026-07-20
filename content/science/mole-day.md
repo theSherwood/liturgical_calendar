@@ -25,3 +25,5 @@ Celebrate from 6:02 to 6:02 (a.m. to p.m., naturally). Make guacaMOLE. Try to pi
 > — Marie Curie
 
 A mole of water is a mouthful; a mole of seconds is a hundred trillion times the age of the universe. The same little number, 6.02 × 10²³, connects the atom in your fingertip to the star it was forged in.
+
+**Sources:** [Learn more — Mole Day (Wikipedia)](https://en.wikipedia.org/wiki/Mole_Day)
