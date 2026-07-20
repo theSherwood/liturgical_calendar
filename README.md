@@ -12,7 +12,7 @@ It is **one source of truth → three synced outputs**:
 | Output | File | Use |
 | --- | --- | --- |
 | 📆 Subscribable feed | `dist/calendar.ics` | Subscribe on every phone; holidays appear with their meaning & observance |
-| 🌐 Website | `dist/site/index.html` | "What's today?" plus the whole annotated year, grouped by season |
+| 🌐 Website | `dist/site/index.html` | Interactive dashboard: today (in your timezone), jump to any date, filter by category, search — plus the whole annotated year by season |
 | 🖨️ Printable calendar | `dist/calendar.pdf` | A year-at-a-glance booklet for the wall or fridge |
 
 All three are generated from the Markdown files in [`content/`](content/). No
@@ -139,10 +139,54 @@ To retitle a season or rewrite its intro, edit its file in `content/seasons/`
 The website and the PDF share one stylesheet ([`src/emit/styles.ts`](src/emit/styles.ts)),
 so they always look like the same calendar.
 
+## Hosting & subscribing
+
+A GitHub Actions workflow builds the calendar and deploys it to **GitHub Pages**
+on every push to `main`, plus once a year (see the note on the schedule below) and
+on demand. It publishes:
+
+- the dashboard at **`https://thesherwood.github.io/liturgical_calendar/`**
+- the feed at **`…/calendar.ics`** and the booklet at **`…/calendar.pdf`**
+
+**Activating it (one-time).** The workflow source lives in
+[`.github/workflows_src/pages.yml`](.github/workflows_src/pages.yml) rather than
+the usual `.github/workflows/`, because the automation credential can't write to
+that gated path. Copy it into place from a machine whose git has the `workflow`
+scope:
+
+```sh
+cp -r .github/workflows_src/. .github/workflows/
+git add .github/workflows && git commit -m "Activate Pages deploy" && git push
+```
+
+Then set **Settings → Pages → Build and deployment → Source: GitHub Actions**
+(the workflow also tries to enable this itself). Re-copy whenever the source
+changes.
+
+**Why only yearly** (not daily): the dashboard is a small client-side app — the
+browser computes "today" in the *viewer's* timezone and lets you jump to any date,
+filter by category, and search, so the page never goes stale between builds. The
+yearly rebuild exists only to roll the forward-looking horizons onward (the `.ics`
+spans build-year − 1 … + 5, the embedded dashboard data build-year − 2 … + 8).
+Content and code changes still deploy immediately on push.
+
+**Subscribing on phones** — the dashboard's "Subscribe on your phone" button uses
+a `webcal://…/calendar.ics` link, which opens straight into Apple/Google Calendar
+as a *subscription* (it refreshes on the client's own schedule). Set the public
+URL in [`src/config.ts`](src/config.ts) (`siteUrl`) if you move to a custom domain.
+
+### Options for hosting the `.ics`
+
+| Option | How | Notes |
+| --- | --- | --- |
+| **GitHub Pages** (this repo) | served at `…/calendar.ics` | Free, versioned with the site, refreshed daily by the Action. The natural choice. |
+| `webcal://` subscribe link | same URL, `webcal://` scheme | Not separate hosting — just the one-click *subscribe* form of the Pages URL. |
+| Raw GitHub URL | `raw.githubusercontent.com/…/calendar.ics` | Works without CI if you commit the file, but served as `text/plain` with a short cache; some calendar apps are fussy. |
+| A calendar service / Worker | e.g. a Cloudflare Worker that regenerates on request | Overkill here — the Pages feed already spans current year − 1 … + 5 and rebuilds daily. |
+
 ## Roadmap ideas
 
-- Publish `dist/` via CI (e.g. GitHub Pages) so the `.ics` has a stable URL to
-  subscribe to and the site is always live.
 - A `family` category for birthdays and anniversaries (the model already
   supports it — just add a folder).
 - More entries: the curated year is a strong start, not a closed set.
+- Make the "Today" panel compute client-side so it's exact between daily builds.

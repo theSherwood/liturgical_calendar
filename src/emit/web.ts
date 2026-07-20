@@ -2,18 +2,12 @@ import { formatInTimeZone } from "date-fns-tz";
 import type { Config } from "../config.js";
 import type { Holiday, SeasonDoc } from "../core/load.js";
 import { resolveYear, type ResolvedHoliday } from "../core/resolve.js";
-import { SEASONS, type Season } from "../core/schema.js";
-
-type SeasonMap = Map<Season, SeasonDoc>;
-import {
-  CATEGORY_LABELS,
-  SEASON_LABELS,
-  formatDate,
-  formatShort,
-  parseSections,
-} from "./util.js";
+import { CATEGORIES, SEASONS, type Season } from "../core/schema.js";
+import { CATEGORY_LABELS, SEASON_LABELS, formatDate, parseSections } from "./util.js";
 import { marked } from "marked";
 import { styles } from "./styles.js";
+
+type SeasonMap = Map<Season, SeasonDoc>;
 
 marked.use({ breaks: true, gfm: true });
 
@@ -26,66 +20,18 @@ const paras = (s: string) =>
     .map((p) => `<p>${esc(p.trim())}</p>`)
     .join("");
 
-/**
- * Render a reading as Markdown: blockquotes (verse lines preserved via hard
- * breaks), framing paragraphs, emphasis, and — crucially — links out to full
- * texts and source essays. Content is trusted (our own files), so marked output
- * is used directly.
- */
+/** Render a reading as Markdown (blockquotes, links, emphasis). Content is trusted. */
 function readingHtml(reading: string): string {
   return `<div class="reading">${marked.parse(reading) as string}</div>`;
 }
 
-function bodyHtml(r: ResolvedHoliday): string {
-  const { meaning, observance, reading } = parseSections(r.holiday.body);
-  return `<div class="body">
-    <h4>Meaning</h4>${paras(meaning)}
-    <h4>Observance</h4>${paras(observance)}
-    <h4>Reading</h4>${readingHtml(reading)}
-  </div>`;
+/** The Meaning/Observance/Reading body — date-independent, so it's built once per holiday. */
+function bodyHtmlFor(holiday: Holiday): string {
+  const { meaning, observance, reading } = parseSections(holiday.body);
+  return `<div class="body"><h4>Meaning</h4>${paras(meaning)}<h4>Observance</h4>${paras(observance)}<h4>Reading</h4>${readingHtml(reading)}</div>`;
 }
 
-/** A single holiday card. `open` forces the detail section expanded (print). */
-function renderCard(r: ResolvedHoliday, open: boolean): string {
-  const m = r.holiday.meta;
-  const details = open
-    ? `<div class="body-wrap">${bodyHtml(r)}</div>`
-    : `<details><summary>Meaning, observance &amp; reading</summary>${bodyHtml(r)}</details>`;
-  return `<article class="card ${m.category}">
-    <div class="head">
-      <h3 class="title">${esc(m.title)}</h3>
-      <div class="when">${formatDate(r)}</div>
-    </div>
-    <div class="badge">${esc(CATEGORY_LABELS[m.category])}</div>
-    <p class="blurb">${esc(m.blurb)}</p>
-    ${details}
-  </article>`;
-}
-
-function seasonSections(resolved: ResolvedHoliday[], seasons: SeasonMap, open: boolean): string {
-  return SEASONS.map((season) => {
-    const inSeason = resolved.filter((r) => r.holiday.meta.season === season);
-    if (inSeason.length === 0) return "";
-    const doc = seasons.get(season);
-    const theme = doc
-      ? `<p class="season-theme">${esc(doc.meta.title)}</p>
-         <p class="season-essence">${esc(doc.meta.blurb)}</p>
-         ${doc.body ? `<div class="season-intro">${paras(doc.body)}</div>` : ""}`
-      : "";
-    return `<section class="season ${season}">
-      <h2>${SEASON_LABELS[season]}</h2>
-      ${theme}
-      ${inSeason.map((r) => renderCard(r, open)).join("\n")}
-    </section>`;
-  }).join("\n");
-}
-
-function todayInTz(config: Config): { year: number; iso: string } {
-  const iso = formatInTimeZone(new Date(), config.timezone, "yyyy-MM-dd");
-  return { year: Number(iso.slice(0, 4)), iso };
-}
-
-function page(title: string, bodyInner: string, bodyClass = ""): string {
+function page(title: string, headExtra: string, bodyInner: string, bodyClass = ""): string {
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -98,62 +44,196 @@ function page(title: string, bodyInner: string, bodyClass = ""): string {
 <div class="wrap">
 ${bodyInner}
 </div>
+${headExtra}
 </body>
 </html>`;
 }
 
-/** The interactive website (index.html): today, upcoming, and the full year. */
+function todayInTz(config: Config): { year: number } {
+  return { year: Number(formatInTimeZone(new Date(), config.timezone, "yyyy")) };
+}
+
+// ─────────────────────────── Interactive website ───────────────────────────
+
+/**
+ * The dashboard is a small client-side app: all holidays for a span of years are
+ * embedded as JSON, and the browser computes "today" (in the *viewer's* timezone),
+ * lets you jump to any date, and filters by category or search. Because nothing is
+ * baked to a build-time date, the site never goes stale between builds.
+ */
 export function renderSite(holidays: Holiday[], seasons: SeasonMap, config: Config): string {
-  const { year, iso } = todayInTz(config);
-  const thisYear = resolveYear(holidays, year, config);
-  const nextYear = resolveYear(holidays, year + 1, config);
-  const timeline = [...thisYear, ...nextYear];
+  const base = todayInTz(config).year;
+  const from = base - 2;
+  const to = base + 8;
 
-  const todayMs = Date.parse(`${iso}T00:00:00Z`);
-  const todays = timeline.filter((r) => {
-    const s = r.start.getTime();
-    return todayMs >= s && todayMs < s + r.durationDays * 86_400_000;
-  });
-  const upcoming = timeline.filter((r) => r.start.getTime() > todayMs).slice(0, 6);
+  const occ: { id: string; iso: string }[] = [];
+  for (let y = from; y <= to; y++) {
+    for (const r of resolveYear(holidays, y, config)) {
+      const d = r.date;
+      occ.push({ id: r.holiday.meta.id, iso: `${d.year}-${String(d.month).padStart(2, "0")}-${String(d.day).padStart(2, "0")}` });
+    }
+  }
+  occ.sort((a, b) => (a.iso < b.iso ? -1 : a.iso > b.iso ? 1 : 0));
 
-  const feature = todays[0] ?? upcoming[0];
-  const featureBlock = feature
-    ? `<section class="today">
-        <p class="eyebrow">${todays.length ? "Today" : "Coming up"}</p>
-        <h2>${esc(feature.holiday.meta.title)}</h2>
-        <div class="date">${formatDate(feature, true)} · ${esc(CATEGORY_LABELS[feature.holiday.meta.category])}</div>
-        <p class="blurb">${esc(feature.holiday.meta.blurb)}</p>
-      </section>`
-    : "";
+  const ids = new Set(occ.map((o) => o.id));
+  const h: Record<string, unknown> = {};
+  for (const holiday of holidays) {
+    const m = holiday.meta;
+    if (!ids.has(m.id)) continue;
+    h[m.id] = {
+      title: m.title, category: m.category, season: m.season, region: m.region,
+      tone: m.tone, tags: m.tags, blurb: m.blurb, durationDays: m.durationDays,
+      body: bodyHtmlFor(holiday),
+    };
+  }
 
-  const upcomingBlock = upcoming.length
-    ? `<section class="upcoming">
-        <h3>On the horizon</h3>
-        <ul>${upcoming
-          .map(
-            (r) => `<li>
-              <span class="when">${formatShort(r)}</span>
-              <span class="what"><strong>${esc(r.holiday.meta.title)}</strong> — <span>${esc(r.holiday.meta.blurb)}</span></span>
-            </li>`,
-          )
-          .join("")}</ul>
-      </section>`
-    : "";
+  const presentCats = CATEGORIES.filter((c) => [...ids].some((id) => (h[id] as { category: string }).category === c));
+  const categories: Record<string, string> = {};
+  for (const c of presentCats) categories[c] = CATEGORY_LABELS[c];
 
+  const seasonsArr = SEASONS.map((s) => {
+    const doc = seasons.get(s);
+    return doc ? { season: s, title: doc.meta.title, blurb: doc.meta.blurb, body: doc.body ? paras(doc.body) : "" } : null;
+  }).filter(Boolean);
+
+  const data = {
+    familyName: config.familyName,
+    categories,
+    seasonLabels: SEASON_LABELS,
+    seasons: seasonsArr,
+    range: { from, to },
+    h,
+    occ,
+  };
+  const json = JSON.stringify(data).replace(/</g, "\\u003c");
+
+  const webcal = config.siteUrl.replace(/^https?:\/\//, "webcal://") + "/calendar.ics";
   const inner = `
 <header class="masthead">
   <h1>The ${esc(config.familyName)} Family Calendar</h1>
-  <p>A secular liturgical year · ${thisYear.length} observances · ${year}</p>
+  <p>A secular liturgical year · ${ids.size} observances</p>
+  <div class="subscribe">
+    <a class="subscribe-primary" href="${webcal}">📆 Subscribe on your phone</a>
+    <a href="calendar.ics">Download .ics</a>
+    <a href="calendar.pdf">Printable PDF</a>
+  </div>
 </header>
-${featureBlock}
-${upcomingBlock}
-${seasonSections(thisYear, seasons, false)}
-<footer>Generated from a single source of truth · dates shown for ${year} (${config.timezone})</footer>`;
 
-  return page(`The ${config.familyName} Family Calendar`, inner);
+<section class="controls">
+  <div class="date-nav">
+    <button data-nav="-1" aria-label="Previous day">‹</button>
+    <input type="date" id="asof" aria-label="Show this date">
+    <button data-nav="1" aria-label="Next day">›</button>
+    <button id="todayBtn">Today</button>
+  </div>
+  <input type="search" id="search" placeholder="Search by name, theme, or tag…" aria-label="Search holidays">
+  <div class="chips" id="chips"></div>
+</section>
+
+<noscript><p class="empty-note">This dashboard needs JavaScript. Or grab the <a href="calendar.ics">.ics</a> / <a href="calendar.pdf">PDF</a>.</p></noscript>
+<section id="feature"></section>
+<section id="upcoming"></section>
+<div id="year"></div>
+<footer>Explore any date · data spans ${from}–${to} · one source, three outputs (site · .ics · PDF)</footer>`;
+
+  const scripts = `<script>window.__CAL__=${json};</script>\n<script>${APP_JS}</script>`;
+  return page(`The ${config.familyName} Family Calendar`, scripts, inner);
 }
 
-/** The print/PDF layout: the full year, everything expanded, page-break aware. */
+/** Inline client app. Vanilla JS, no deps; string-concatenation only (no template literals). */
+const APP_JS = `(function(){
+  var D=window.__CAL__;
+  var MONTHS=["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var WD=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  var SEASONS=["winter","spring","summer","autumn"];
+  var pad=function(n){return (n<10?"0":"")+n;};
+  var esc=function(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");};
+  var toMs=function(iso){var p=iso.split("-");return Date.UTC(+p[0],+p[1]-1,+p[2]);};
+  var fmt=function(iso,wy){var p=iso.split("-").map(Number);var dt=new Date(Date.UTC(p[0],p[1]-1,p[2]));return WD[dt.getUTCDay()]+", "+MONTHS[p[1]-1]+" "+p[2]+(wy?", "+p[0]:"");};
+  var sfmt=function(iso){var p=iso.split("-").map(Number);return MONTHS[p[1]-1].slice(0,3)+" "+p[2];};
+  var localToday=function(){var t=new Date();return t.getFullYear()+"-"+pad(t.getMonth()+1)+"-"+pad(t.getDate());};
+  var state={date:localToday(),cats:new Set(Object.keys(D.categories)),q:""};
+  var $=function(id){return document.getElementById(id);};
+
+  var activeOn=function(iso){var t=toMs(iso);return D.occ.filter(function(o){var s=toMs(o.iso);var dur=D.h[o.id].durationDays||1;return t>=s&&t<s+dur*864e5;});};
+  var after=function(iso,n){var t=toMs(iso),r=[];for(var i=0;i<D.occ.length;i++){if(toMs(D.occ[i].iso)>t){r.push(D.occ[i]);if(r.length>=n)break;}}return r;};
+  var pass=function(id){var hh=D.h[id];if(!state.cats.has(hh.category))return false;if(state.q){var q=state.q.toLowerCase();var hay=(hh.title+" "+hh.blurb+" "+(hh.tags||[]).join(" ")+" "+D.categories[hh.category]).toLowerCase();if(hay.indexOf(q)<0)return false;}return true;};
+
+  var card=function(o){var hh=D.h[o.id];return '\\n<article class="card '+hh.category+'"><div class="head"><h3 class="title">'+esc(hh.title)+'</h3><div class="when">'+fmt(o.iso)+'</div></div><div class="badge">'+esc(D.categories[hh.category])+'</div><p class="blurb">'+esc(hh.blurb)+'</p><details><summary>Meaning, observance &amp; reading</summary>'+hh.body+'</details></article>';};
+
+  function renderFeature(){
+    var on=activeOn(state.date);on.sort(function(a,b){return((a.iso===state.date)?0:1)-((b.iso===state.date)?0:1);});
+    var isToday=state.date===localToday(),el=$("feature");
+    if(on.length){var hh=D.h[on[0].id];
+      var more=on.length>1?'<p class="also">Also on this day: '+on.slice(1).map(function(o){return esc(D.h[o.id].title);}).join(" · ")+'</p>':'';
+      el.innerHTML='<div class="today"><p class="eyebrow">'+(isToday?"Today":fmt(state.date,true))+'</p><h2>'+esc(hh.title)+'</h2><div class="date">'+fmt(on[0].iso,true)+' · '+esc(D.categories[hh.category])+'</div><p class="blurb">'+esc(hh.blurb)+'</p>'+more+'</div>';
+    }else{var nx=after(state.date,1);
+      el.innerHTML='<div class="today empty"><p class="eyebrow">'+(isToday?"Today":fmt(state.date,true))+'</p><p class="blurb">Nothing marked'+(isToday?" today":" on this day")+'.'+(nx.length?' Next: <strong>'+esc(D.h[nx[0].id].title)+'</strong>, '+fmt(nx[0].iso)+'.':'')+'</p></div>';
+    }
+  }
+  function renderUpcoming(){
+    var up=after(state.date,6),el=$("upcoming");
+    el.innerHTML=up.length?'<h3>On the horizon</h3><ul>'+up.map(function(o){var hh=D.h[o.id];return '<li><span class="when">'+sfmt(o.iso)+'</span><span class="what"><strong>'+esc(hh.title)+'</strong> — <span>'+esc(hh.blurb)+'</span></span></li>';}).join("")+'</ul>':'';
+  }
+  function renderYear(){
+    var y=state.date.slice(0,4);
+    var occ=D.occ.filter(function(o){return o.iso.slice(0,4)===y&&pass(o.id);});
+    var html='<div class="yearhead"><h2>'+y+'</h2><span class="count">'+occ.length+' shown</span></div>';
+    SEASONS.forEach(function(s){
+      var list=occ.filter(function(o){return D.h[o.id].season===s;});if(!list.length)return;
+      var sd=null;for(var i=0;i<D.seasons.length;i++){if(D.seasons[i].season===s){sd=D.seasons[i];break;}}
+      var theme=sd?'<p class="season-theme">'+esc(sd.title)+'</p><p class="season-essence">'+esc(sd.blurb)+'</p>'+(sd.body?'<div class="season-intro">'+sd.body+'</div>':''):'';
+      html+='<section class="season '+s+'"><h2>'+D.seasonLabels[s]+'</h2>'+theme+list.map(card).join("")+'</section>';
+    });
+    if(!occ.length)html+='<p class="empty-note">No holidays match your filters in '+y+'.</p>';
+    $("year").innerHTML=html;
+  }
+  function renderChips(){
+    $("chips").innerHTML=Object.keys(D.categories).map(function(c){return '<button class="chip'+(state.cats.has(c)?" on":"")+'" data-cat="'+c+'">'+esc(D.categories[c])+'</button>';}).join("")+'<button class="chip clear" data-all="1">Reset</button>';
+  }
+  function refresh(){renderFeature();renderUpcoming();renderYear();}
+  function setDate(iso){state.date=iso;$("asof").value=iso;refresh();}
+
+  document.addEventListener("click",function(e){
+    var b=e.target.closest("button");if(!b)return;
+    if(b.dataset.cat){state.cats.has(b.dataset.cat)?state.cats.delete(b.dataset.cat):state.cats.add(b.dataset.cat);renderChips();renderYear();}
+    else if(b.dataset.all){state.cats=new Set(Object.keys(D.categories));state.q="";$("search").value="";renderChips();renderYear();}
+    else if(b.dataset.nav){setDate(new Date(toMs(state.date)+(+b.dataset.nav)*864e5).toISOString().slice(0,10));}
+    else if(b.id==="todayBtn"){setDate(localToday());}
+  });
+  $("asof").addEventListener("change",function(e){if(e.target.value)setDate(e.target.value);});
+  $("search").addEventListener("input",function(e){state.q=e.target.value.trim();renderYear();});
+
+  $("asof").value=state.date;renderChips();refresh();
+})();`;
+
+// ─────────────────────────── Print / PDF (server-rendered) ──────────────────
+
+function renderCardPrint(r: ResolvedHoliday): string {
+  const m = r.holiday.meta;
+  return `<article class="card ${m.category}">
+    <div class="head"><h3 class="title">${esc(m.title)}</h3><div class="when">${formatDate(r)}</div></div>
+    <div class="badge">${esc(CATEGORY_LABELS[m.category])}</div>
+    <p class="blurb">${esc(m.blurb)}</p>
+    <div class="body-wrap">${bodyHtmlFor(r.holiday)}</div>
+  </article>`;
+}
+
+function seasonSectionsPrint(resolved: ResolvedHoliday[], seasons: SeasonMap): string {
+  return SEASONS.map((season) => {
+    const inSeason = resolved.filter((r) => r.holiday.meta.season === season);
+    if (inSeason.length === 0) return "";
+    const doc = seasons.get(season);
+    const theme = doc
+      ? `<p class="season-theme">${esc(doc.meta.title)}</p>
+         <p class="season-essence">${esc(doc.meta.blurb)}</p>
+         ${doc.body ? `<div class="season-intro">${paras(doc.body)}</div>` : ""}`
+      : "";
+    return `<section class="season ${season}"><h2>${SEASON_LABELS[season]}</h2>${theme}${inSeason.map(renderCardPrint).join("\n")}</section>`;
+  }).join("\n");
+}
+
+/** The print/PDF layout: the full year for the current build year, everything expanded. */
 export function renderPrint(holidays: Holiday[], seasons: SeasonMap, config: Config): string {
   const { year } = todayInTz(config);
   const thisYear = resolveYear(holidays, year, config);
@@ -162,7 +242,7 @@ export function renderPrint(holidays: Holiday[], seasons: SeasonMap, config: Con
   <h1>The ${esc(config.familyName)} Family Calendar</h1>
   <p>A secular liturgical year · ${year}</p>
 </header>
-${seasonSections(thisYear, seasons, true)}
+${seasonSectionsPrint(thisYear, seasons)}
 <footer>The ${esc(config.familyName)} family liturgical calendar · ${year}</footer>`;
-  return page(`The ${config.familyName} Family Calendar — ${year}`, inner, "print");
+  return page(`The ${config.familyName} Family Calendar — ${year}`, "", inner, "print");
 }
