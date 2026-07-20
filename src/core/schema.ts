@@ -90,6 +90,9 @@ export const CATEGORIES = [
   "mesopotamian",
   "science",
   "rationalist",
+  "remembrance",
+  "progress",
+  "history",
 ] as const;
 export type Category = (typeof CATEGORIES)[number];
 

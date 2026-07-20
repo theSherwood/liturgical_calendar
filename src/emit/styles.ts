@@ -80,6 +80,15 @@ header.masthead p { color: var(--muted); font-family: var(--sans); font-size: .9
 .summer .card { border-left-color: var(--season-summer); }
 .autumn .card { border-left-color: var(--season-autumn); }
 
+/* Remembrance days read as grave, whatever their season. */
+.card.remembrance { border-left-color: #6b7280; background: color-mix(in srgb, var(--surface) 92%, #6b7280); }
+.card.remembrance .badge { border-color: #6b7280; color: #6b7280; }
+.card.remembrance .title::before { content: "✦ "; color: #6b7280; }
+@media (prefers-color-scheme: dark) {
+  .card.remembrance { border-left-color: #9aa3b2; background: color-mix(in srgb, var(--surface) 88%, #9aa3b2); }
+  .card.remembrance .badge, .card.remembrance .title::before { border-color: #9aa3b2; color: #9aa3b2; }
+}
+
 .card .head { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
 .card .title { font-size: 1.25rem; font-weight: 600; margin: 0; }
 .card .when { font-family: var(--sans); font-size: .82rem; color: var(--muted); white-space: nowrap; }

@@ -59,12 +59,12 @@ function renderCard(r: ResolvedHoliday, open: boolean): string {
   const details = open
     ? `<div class="body-wrap">${bodyHtml(r)}</div>`
     : `<details><summary>Meaning, observance &amp; reading</summary>${bodyHtml(r)}</details>`;
-  return `<article class="card">
+  return `<article class="card ${m.category}">
     <div class="head">
       <h3 class="title">${esc(m.title)}</h3>
       <div class="when">${formatDate(r)}</div>
     </div>
-    <div class="badge">${CATEGORY_LABELS[m.category]}</div>
+    <div class="badge">${esc(CATEGORY_LABELS[m.category])}</div>
     <p class="blurb">${esc(m.blurb)}</p>
     ${details}
   </article>`;
@@ -129,7 +129,7 @@ export function renderSite(holidays: Holiday[], seasons: SeasonMap, config: Conf
     ? `<section class="today">
         <p class="eyebrow">${todays.length ? "Today" : "Coming up"}</p>
         <h2>${esc(feature.holiday.meta.title)}</h2>
-        <div class="date">${formatDate(feature, true)} · ${CATEGORY_LABELS[feature.holiday.meta.category]}</div>
+        <div class="date">${formatDate(feature, true)} · ${esc(CATEGORY_LABELS[feature.holiday.meta.category])}</div>
         <p class="blurb">${esc(feature.holiday.meta.blurb)}</p>
       </section>`
     : "";
