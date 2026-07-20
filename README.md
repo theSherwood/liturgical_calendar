@@ -141,16 +141,34 @@ so they always look like the same calendar.
 
 ## Hosting & subscribing
 
-[`.github/workflows/pages.yml`](.github/workflows/pages.yml) builds the calendar
-and deploys it to **GitHub Pages** on every push to `main`, plus once a day (so
-the "Today" panel and the rolling year span stay current) and on demand. It
-publishes:
+A GitHub Actions workflow builds the calendar and deploys it to **GitHub Pages**
+on every push to `main`, plus once a day (see the note on the schedule below) and
+on demand. It publishes:
 
 - the dashboard at **`https://thesherwood.github.io/liturgical_calendar/`**
 - the feed at **`…/calendar.ics`** and the booklet at **`…/calendar.pdf`**
 
-**One-time setup:** in the repo, go to **Settings → Pages → Build and deployment
-→ Source: GitHub Actions**. (The workflow also tries to enable this automatically.)
+**Activating it (one-time).** The workflow source lives in
+[`.github/workflows_src/pages.yml`](.github/workflows_src/pages.yml) rather than
+the usual `.github/workflows/`, because the automation credential can't write to
+that gated path. Copy it into place from a machine whose git has the `workflow`
+scope:
+
+```sh
+cp -r .github/workflows_src/. .github/workflows/
+git add .github/workflows && git commit -m "Activate Pages deploy" && git push
+```
+
+Then set **Settings → Pages → Build and deployment → Source: GitHub Actions**
+(the workflow also tries to enable this itself). Re-copy whenever the source
+changes.
+
+**Why the daily rebuild** (not redundant with the push trigger): the site is a
+static build whose output depends on the *build-time date* — the "Today" and "On
+the horizon" panels and the current-year view are all computed then. Between
+pushes those would freeze, and the year view would lag at New Year. A daily build
+keeps them current. (Compute "Today" client-side and this could drop to a yearly
+run that only rolls the `.ics` horizon forward.)
 
 **Subscribing on phones** — the dashboard's "Subscribe on your phone" button uses
 a `webcal://…/calendar.ics` link, which opens straight into Apple/Google Calendar
