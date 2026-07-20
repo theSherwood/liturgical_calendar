@@ -21,4 +21,7 @@ A quiet science moment. Look up how far away 'closest' actually is (about 147 mi
 
 ## Reading
 
-> "The first principle is that you must not fool yourself — and you are the easiest person to fool." — Richard Feynman
+> "I know that I am mortal by nature, and ephemeral; but when I trace at my pleasure the wheeling to and fro of the heavenly bodies, my feet no longer touch the earth."
+> — Ptolemy, the astronomer
+
+Today the Earth is as close to the sun as it ever comes — and yet it is the depth of northern winter, a quiet lesson that the seasons come from the planet's tilt, not its distance. Ptolemy, charting the heavens eighteen centuries ago, knew the strange lift that comes from understanding the sky: mortal and small, we can still, with our minds, walk among the stars. A good day to be reminded how easily our intuitions about the world are wrong, and how far careful thought can carry us past them.

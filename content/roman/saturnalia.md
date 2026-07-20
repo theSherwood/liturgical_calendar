@@ -22,4 +22,7 @@ Adopt one Saturnalian rule for a day: the children give the orders, or the paren
 
 ## Reading
 
-> "Io Saturnalia! Now is the time when the toga is set aside and every man is a king." — after Seneca and Lucian
+> "Saturnalia, best of days!"
+> — Catullus
+
+For a week the Roman world turned upside down. The courts shut, the toga was traded for bright dinner clothes, candles and little clay figures passed as gifts, gambling was legal, and — most startling of all — masters waited on their own slaves at table. It was a licensed holiday from hierarchy itself, a yearly reminder that the social order is a costume the world agrees to wear and can, for a week, agree to take off. Half of what we still do each December — the feasting, the gifts, the misrule, the greenery — the Romans did first, and called it the best of days.

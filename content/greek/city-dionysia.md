@@ -22,4 +22,7 @@ See a play, or watch a great film together as a family, and afterward do what th
 
 ## Reading
 
-> "The object of art is to give life a shape." — William Shakespeare (the tradition Dionysia began)
+> "Blessèd is he who, being fortunate and knowing the rites of the gods, keeps his life pure."
+> — Euripides, The Bacchae
+
+The festival that invented the theatre. Each spring Athens staged new tragedies and comedies in open-air competition, and a whole city sat together in daylight to watch human beings pretend — and, in pretending, tell the truth about grief, power, and fate. The Bacchae itself was written for this stage. Nearly every play and film you will ever love is a descendant of this Athenian spring, when storytelling first became a civic act, done in public, for everyone.

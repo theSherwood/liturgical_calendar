@@ -21,4 +21,7 @@ Celebrate your own city or town. Take a walk to a landmark you're proud of, lear
 
 ## Reading
 
-> "We do not imitate, but are a model to others." — Pericles, Funeral Oration
+> "Sing, goddess, of the wrath of Achilles, son of Peleus, that ruinous wrath that brought countless sorrows upon the Achaeans."
+> — Homer, the opening of the Iliad, recited at the Panathenaia
+
+Athens' great birthday for itself: a procession up to the Acropolis, athletic and musical contests, and — every four years — the whole of Homer performed aloud, in order, over days. Beneath the religion it is a festival of belonging: the idea that a city is worth loving, that its stories are worth reciting together, and that helping to build such a place is worth a party. Celebrate your own city as the Athenians did theirs.

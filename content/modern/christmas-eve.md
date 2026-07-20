@@ -20,4 +20,7 @@ Pajamas early, one small gift each, a shared story or film by the tree. Leave so
 
 ## Reading
 
-> "Christmas Eve was a night of song that wrapped itself about you like a shawl." — Bess Streeter Aldrich
+> "'Twas the night before Christmas, when all through the house / not a creature was stirring, not even a mouse…"
+> — Clement Clarke Moore
+
+The most magical night of the year is arguably the one before the day. Christmas Eve is a festival of pure anticipation — the hush, the lit windows against the dark, the held breath of a whole house waiting together for morning. And waiting-together, it turns out, is one of the quiet great pleasures of a family: the magic lives mostly in the eve, and the small ones are quite right to find sleep nearly impossible.

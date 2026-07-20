@@ -22,4 +22,7 @@ A festival of renewal and humility. Forgive one small debt or grudge. Put one th
 
 ## Reading
 
-> "Go home and sit at your table, eat and drink, and make merry." — The Epic of Gilgamesh
+> "When on high the heaven had not been named, and the firm ground below had not been called by name… when no gods whatever had been brought into being — then it was that the gods were formed."
+> — the Enūma Eliš, recited each year at Akitu
+
+One of the oldest festivals ever recorded — the Babylonian New Year, kept at the first new moon after the spring equinox for over four thousand years. Across its twelve days the great creation poem was recited aloud, the world symbolically made new, debts forgiven, and even the king stripped of his regalia and struck, to remind him he was only a man. When we begin our year in the spring, we are keeping a rhythm older than the pyramids.

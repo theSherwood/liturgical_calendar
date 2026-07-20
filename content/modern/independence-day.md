@@ -20,4 +20,7 @@ The full American summer ritual: grilling, being outside, and fireworks after da
 
 ## Reading
 
-> "We hold these truths to be self-evident, that all men are created equal…" — The Declaration of Independence, 1776
+> "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness."
+> — the Declaration of Independence, 1776
+
+Thirteen colonies declared that people could govern themselves — a radical, unfinished, still-arguing experiment in self-rule. John Adams imagined the day marked forever "with pomp and parade… bonfires and illuminations, from one end of this continent to the other," and so it is. Grill, be outside, watch the sky burn after dark — and somewhere in the day read that one line aloud, the one about self-evident truths, and remember the country is still trying to live up to it.

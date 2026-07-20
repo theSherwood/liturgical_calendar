@@ -22,4 +22,7 @@ Wear your brightest colors. Bring flowers into the house and scatter petals on t
 
 ## Reading
 
-> "Mother of flowers, you must be honored with games… come, and shake out your bright hair." — after Ovid, Fasti
+> "Enjoy life's flower while it is in bloom; the thorn, once the roses have fallen, is scorned."
+> — Ovid, Fasti (the goddess Flora speaking)
+
+Six days for Flora, goddess of flowers — the Mediterranean cousin of May Day. Romans swapped their white togas for colors, wore garlands, scattered petals, and let their hair down, literally. Flora's own message, as Ovid gives it, is the sweet urgent wisdom of spring: the bloom does not last, so spend it. Take the day while it is bright; the petals are already, gently, on their way down.

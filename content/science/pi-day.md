@@ -22,6 +22,6 @@ Eat pie — savory and sweet both count. Memorize a few digits of π together (3
 ## Reading
 
 > "Pure mathematics is, in its way, the poetry of logical ideas."
-> — Albert Einstein
+> — Albert Einstein (whose birthday this also is)
 
-π hides in every circle, every wave, every orbit — a number that never ends and never repeats, computed to trillions of digits and still going. That so much of the universe should turn on one strange, unfinished number is either a joke or a clue. Also, it rhymes with pie.
+The friendliest math holiday there is: 3/14, for π, the number hiding in every circle, wave, and orbit in the universe. It never ends and never repeats — computed now to trillions of digits and still going — and it turns up in places that have nothing obviously to do with circles at all, which is either a joke or a clue. That so much of reality should turn on one strange, unfinished number is worth a moment's awe. Eat pie, memorize a few digits together, or measure a round thing with a string and discover π for yourselves.

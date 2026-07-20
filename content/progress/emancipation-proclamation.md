@@ -24,5 +24,7 @@ A fitting weight to add to New Year's Day. Read a few lines of the Proclamation 
 > "…all persons held as slaves… are, and henceforward shall be free."
 > — the Emancipation Proclamation, 1 January 1863
 
-> "In giving freedom to the slave, we assure freedom to the free — honorable alike in what we give, and what we preserve."
-> — Abraham Lincoln
+> "Power concedes nothing without a demand. It never did and it never will."
+> — Frederick Douglass
+
+On New Year's Day 1863, in the middle of the deadliest war in the country's history, Lincoln declared the enslaved people of the rebelling states forever free — turning a war to preserve a union into a war to end slavery. It freed no one instantly and everyone eventually; the news did not reach the enslaved people of Texas until 19 June 1865, the day now kept as Juneteenth. Freedom, like most good things, arrived by proclamation first and by long, demanded struggle after.

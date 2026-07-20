@@ -21,4 +21,7 @@ A Janus reflection to pair with New Year's Day: each person says one thing they 
 
 ## Reading
 
-> "Janus, who unlocks the year… to you the first prayer goes." — after Ovid, Fasti
+> "The ancients called me Chaos, for a being from of old am I."
+> — Ovid, Fasti (Janus speaking)
+
+The Romans gave the year's first day to Janus, the two-faced god of doorways, who looks backward and forward in the same instant. Ovid, in the poem he wrote about the Roman calendar itself, lets the god speak: older than the gods, he is the hinge on which beginnings turn. It is the truest image of a new year we have — you cannot pass through a door without seeing, at once, the room you are leaving and the room you are entering.

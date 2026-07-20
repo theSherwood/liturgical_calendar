@@ -24,4 +24,4 @@ The calendar's own birthday — a good day to appreciate this very project. Marv
 > "Give us our eleven days!"
 > — the cry attached (perhaps only in legend) to Britain's 1752 calendar change
 
-Whether or not anyone truly rioted over the lost days, the feeling is real: we forget that time's map is our own handiwork — until someone redraws it and the days go missing.
+The most fitting holiday a calendar could keep. By 1582 the old Julian calendar had drifted ten days out of step with the sun, and the seasons were sliding off their dates — so the reformers simply deleted ten days: in the countries that switched, the 4th of October was followed directly by the 15th, days that for millions of people never existed at all. Britain held out until 1752 and then had to skip eleven. It is a delicious reminder that the calendar is a human invention — patched, argued over, and doing its best to pin the wheeling heavens onto a tidy grid.

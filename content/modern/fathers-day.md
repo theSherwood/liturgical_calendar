@@ -20,4 +20,7 @@ The fathers pick the day's activity and are excused from all chores. A handwritt
 
 ## Reading
 
-> "A father is someone you look up to no matter how tall you grow." — Anonymous
+> "He didn't tell me how to live; he lived, and let me watch him do it."
+> — Clarence Budington Kelland, of his father
+
+That is how most fathering actually happens — not in speeches or advice but in the quiet, daily example of an ordinary man doing ordinary things decently. It is the least-announced kind of teaching, and often the least thanked, precisely because it never calls itself teaching at all. Today is the day to notice it out loud, and to say the specific thing you are grateful for rather than assume it was always understood.

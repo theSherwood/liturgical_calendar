@@ -24,4 +24,7 @@ A day to honor the people who kept pushing when the cause looked hopeless — Eq
 > "Am I not a man and a brother?"
 > — the abolitionist emblem, 1787
 
-The question was addressed to a society that had built its wealth on answering it wrongly. That it now sounds obvious is the whole measure of the distance travelled — and proof that the distance can be travelled at all.
+> "Tortures, murder, and every other imaginable barbarity… are practised upon the poor slaves with impunity. Surely this traffic cannot be good."
+> — Olaudah Equiano, who had been enslaved himself
+
+After twenty years of campaigning — and centuries of unimaginable suffering — Britain outlawed the Atlantic slave trade in 1807. It did not end slavery itself; that took another generation, and the fight goes on against its modern forms. But it was the moment a great power admitted that buying and selling human beings was a crime, and began to act like it. That the abolitionist's question now sounds obvious is the whole measure of the distance travelled — and proof the distance can be travelled at all.

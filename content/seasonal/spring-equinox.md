@@ -21,7 +21,7 @@ Plant something — seeds indoors, a tree outdoors, whatever the season allows. 
 
 ## Reading
 
-> "No winter lasts forever; no spring skips its turn."
-> — Hal Borland
+> "In the spring, at the end of the day, you should smell like dirt."
+> — Margaret Atwood
 
-Day and night stand exactly equal, and after today the light wins. It is the oldest new year on Earth — Babylon, Persia, and Rome all began the year about now, when the ground softens and the world, against all the evidence of February, decides once more to live.
+Day and night stand exactly equal, and after today the light wins. It is the oldest new year on Earth — Babylon, Persia, and Rome all began their year about now — and its business is the honest, hands-in-the-soil business of beginnings. Atwood's line is the whole of it: spring is not an abstraction to admire through a window but a thing you are meant to get your hands dirty in.

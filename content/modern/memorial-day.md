@@ -20,4 +20,7 @@ A moment of quiet at some point in the day for those who didn't come home. Then,
 
 ## Reading
 
-> "The willingness of America's veterans to sacrifice for our country has earned them our lasting gratitude." — Jeff Miller
+> "…that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion — that these dead shall not have died in vain."
+> — Abraham Lincoln, the Gettysburg Address
+
+A day of remembrance for those who died in the country's service, and — more quietly — the unofficial doorway into summer. The two moods are not in conflict: a life freely and fully lived is the truest way to honor a life given. Keep a moment of stillness at some point for those who did not come home. Then, in their honor, hold the first proper cookout of the season — because days exactly like this one were the point of the sacrifice.

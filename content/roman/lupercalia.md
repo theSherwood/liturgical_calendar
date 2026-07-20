@@ -21,4 +21,7 @@ A light-hearted echo the day after Valentine's: a brisk walk or run outdoors to 
 
 ## Reading
 
-> "Beware the ides of March." — William Shakespeare, Julius Caesar (the Roman calendar's long shadow)
+> "Forget not, in your speed, Antonius, / To touch Calpurnia; for our elders say, / The barren, touched in this holy chase, / Shake off their sterile curse."
+> — Shakespeare, Julius Caesar (set during the Lupercal)
+
+One of Rome's oldest and strangest rites: half-naked young men ran through the streets striking passers-by with strips of goat-hide, a wild rite of purification and fertility at winter's end. Shakespeare opens his Caesar on this very festival. Disreputable, bloody, joyous, it marked the moment the year began to lean back toward life — and left its distant, tangled fingerprints on our own February feast of love.

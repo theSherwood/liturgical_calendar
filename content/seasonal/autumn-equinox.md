@@ -24,4 +24,4 @@ Cook something from the harvest — an apple pie, a squash, bread. Around the ta
 > "Autumn is a second spring when every leaf is a flower."
 > — Albert Camus
 
-Day and night are equal once more, but now the dark is gaining. It is the great harvest hinge — the season of gathering in, of taking stock, of getting ready. Gratitude and preparation turn out to be the same gesture: both are how we face the coming winter unafraid.
+Day and night stand equal again, but now the dark is gaining, and the year tips toward its inward, gathering half. It is the great hinge of the harvest — and Camus catches the strange consolation of it: the very dying of the leaves is its own kind of flowering, a last blaze of colour before the rest. To gather in and to let go turn out, here, to be the same graceful motion.

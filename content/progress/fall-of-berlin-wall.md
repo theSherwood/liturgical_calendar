@@ -24,4 +24,7 @@ A celebration of walls coming down — literal and otherwise. Watch the footage 
 > "Mr. Gorbachev, tear down this wall!"
 > — Ronald Reagan at the Brandenburg Gate, 1987
 
-Two years later they did — or rather, the people did, with their own hands and a lot of hammers. Nothing built to divide human beings is as permanent as it pretends to be.
+> "Wir sind das Volk." ("We are the people.")
+> — the chant of the East German crowds, 1989
+
+For twenty-eight years a wall cut a city and a people in two, and anyone who tried to cross could be shot. On the night of 9 November 1989, after a confused announcement and an unstoppable crowd, the guards simply stood aside — and Berliners poured through, wept, and danced on top of the wall with hammers in their hands. It is one of the great joyful days of modern history: proof that even the coldest, most permanent-seeming divisions can end, and faster than anyone dared hope, once ordinary people decide they have had enough.

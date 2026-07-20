@@ -20,7 +20,7 @@ Dye and hunt for eggs; the children lead. Fill the house with flowers and open e
 
 ## Reading
 
-> "The day the Lord created hope was probably the same day he created spring."
-> — Bernard Williams
+> "Nothing is so beautiful as spring — / when weeds, in wheels, shoot long and lovely and lush."
+> — Gerard Manley Hopkins
 
-Every year the world performs the same quiet miracle: what looked dead was only waiting. The egg, the seed, the bare branch — all of them are promises the spring keeps.
+Whatever the theology, Easter is the spring festival Europe has kept under one name or another since long before it had that name — a celebration of new life bursting out of a world that looked dead all winter. Eggs and hares and green shoots are older than any church; they are simply what spring looks like. Every year the world performs the same quiet miracle: what seemed finished was only waiting. Dye and hunt for eggs, fill the house with flowers, and ask what, in your own life, might yet come back to life.

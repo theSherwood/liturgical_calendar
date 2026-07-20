@@ -21,4 +21,7 @@ Get outside and make it a bit riotous. Bring flowers or greenery into the house.
 
 ## Reading
 
-> "The world's favorite season is the spring. All things seem possible in May." — Edwin Way Teale
+> "I am the wind on the sea; I am the wave of the sea; I am the stag of seven battles; I am the eagle on the rock; I am a flash from the sun; I am the most beautiful of plants."
+> — the Song of Amergin, ancient Irish
+
+The Song of Amergin, said to be the first poem ever made in Ireland, is a shout of pure life-force — the world naming itself into being through a single exultant voice. That is exactly the pulse of Beltane, the old fire-festival at the flood-tide of spring: not a quiet gratitude but a loud, green, slightly wild gladness at simply being alive in a world coming back into leaf. The hawthorn is in flower; the year has thrown off its coat.
