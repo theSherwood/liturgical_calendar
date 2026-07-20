@@ -16,16 +16,13 @@ on:
   push:
     branches: [main]
 
-  # Also rebuild on a schedule — NOT redundant with the push trigger. The site is
-  # a *static* build, but its output depends on the current date: the "Today" and
-  # "On the horizon" panels and the "current year" view are all computed with the
-  # build-time date. Between pushes (which may be weeks apart) those would freeze
-  # and, at New Year, the whole year view would lag until someone pushed. A daily
-  # build keeps them accurate on their own. (If we ever compute "Today" in the
-  # browser instead, this can drop to a yearly run that just rolls the .ics
-  # horizon forward.)
+  # The dashboard computes "today" in the browser, so it never goes stale between
+  # builds — no daily run needed. This yearly rebuild (Jan 1) exists only to roll
+  # the forward-looking horizons onward: the .ics spans build-year − 1 … + 5, the
+  # embedded dashboard data build-year − 2 … + 8, and the PDF renders the build
+  # year. Content/code changes still deploy immediately via the push trigger.
   schedule:
-    - cron: "17 6 * * *"
+    - cron: "0 6 1 1 *"
 
   # And on demand.
   workflow_dispatch:

@@ -12,7 +12,7 @@ It is **one source of truth → three synced outputs**:
 | Output | File | Use |
 | --- | --- | --- |
 | 📆 Subscribable feed | `dist/calendar.ics` | Subscribe on every phone; holidays appear with their meaning & observance |
-| 🌐 Website | `dist/site/index.html` | "What's today?" plus the whole annotated year, grouped by season |
+| 🌐 Website | `dist/site/index.html` | Interactive dashboard: today (in your timezone), jump to any date, filter by category, search — plus the whole annotated year by season |
 | 🖨️ Printable calendar | `dist/calendar.pdf` | A year-at-a-glance booklet for the wall or fridge |
 
 All three are generated from the Markdown files in [`content/`](content/). No
@@ -142,7 +142,7 @@ so they always look like the same calendar.
 ## Hosting & subscribing
 
 A GitHub Actions workflow builds the calendar and deploys it to **GitHub Pages**
-on every push to `main`, plus once a day (see the note on the schedule below) and
+on every push to `main`, plus once a year (see the note on the schedule below) and
 on demand. It publishes:
 
 - the dashboard at **`https://thesherwood.github.io/liturgical_calendar/`**
@@ -163,12 +163,12 @@ Then set **Settings → Pages → Build and deployment → Source: GitHub Action
 (the workflow also tries to enable this itself). Re-copy whenever the source
 changes.
 
-**Why the daily rebuild** (not redundant with the push trigger): the site is a
-static build whose output depends on the *build-time date* — the "Today" and "On
-the horizon" panels and the current-year view are all computed then. Between
-pushes those would freeze, and the year view would lag at New Year. A daily build
-keeps them current. (Compute "Today" client-side and this could drop to a yearly
-run that only rolls the `.ics` horizon forward.)
+**Why only yearly** (not daily): the dashboard is a small client-side app — the
+browser computes "today" in the *viewer's* timezone and lets you jump to any date,
+filter by category, and search, so the page never goes stale between builds. The
+yearly rebuild exists only to roll the forward-looking horizons onward (the `.ics`
+spans build-year − 1 … + 5, the embedded dashboard data build-year − 2 … + 8).
+Content and code changes still deploy immediately on push.
 
 **Subscribing on phones** — the dashboard's "Subscribe on your phone" button uses
 a `webcal://…/calendar.ics` link, which opens straight into Apple/Google Calendar

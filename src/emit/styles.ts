@@ -46,6 +46,36 @@ header.masthead p { color: var(--muted); font-family: var(--sans); font-size: .9
 .subscribe .subscribe-primary { background: var(--accent); color: var(--surface); border-color: var(--accent); font-weight: 600; }
 @media print { .subscribe { display: none; } }
 
+/* ── Interactive controls (date picker, search, category chips) ── */
+.controls { display: flex; flex-direction: column; gap: .75rem; margin: 0 0 2.2rem; }
+.date-nav { display: flex; gap: .4rem; align-items: center; font-family: var(--sans); flex-wrap: wrap; }
+.date-nav input[type="date"], #search {
+  font: inherit; font-family: var(--sans); background: var(--surface); color: var(--ink);
+  border: 1px solid var(--line); border-radius: 8px; padding: .4rem .6rem;
+}
+#search { font-size: .9rem; width: 100%; max-width: 22rem; }
+.date-nav button, #todayBtn {
+  font-family: var(--sans); font-size: .85rem; cursor: pointer; background: var(--surface);
+  color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: .4rem .65rem; line-height: 1;
+}
+.date-nav button[data-nav] { font-size: 1.1rem; padding: .3rem .6rem; }
+#todayBtn { color: var(--accent); font-weight: 600; }
+.date-nav button:hover, #todayBtn:hover, .chip:hover { border-color: var(--accent); }
+.chips { display: flex; flex-wrap: wrap; gap: .4rem; }
+.chip {
+  font-family: var(--sans); font-size: .74rem; cursor: pointer; color: var(--muted);
+  background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: .28rem .75rem;
+}
+.chip.on { background: var(--accent); color: var(--surface); border-color: var(--accent); }
+.chip.clear { color: var(--accent); }
+.yearhead { display: flex; align-items: baseline; gap: .8rem; border-bottom: 2px solid var(--line); margin: 2rem 0 1.2rem; padding-bottom: .4rem; }
+.yearhead h2 { margin: 0; font-size: 1.6rem; }
+.yearhead .count { font-family: var(--sans); font-size: .8rem; color: var(--muted); }
+.today .also { font-family: var(--sans); font-size: .85rem; color: var(--muted); margin: .6rem 0 0; }
+.today.empty { border-top-color: var(--line); }
+.empty-note { color: var(--muted); font-style: italic; }
+@media print { .controls { display: none; } }
+
 .today {
   background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
   padding: 1.5rem 1.6rem; box-shadow: var(--shadow); margin-bottom: 2.5rem;
