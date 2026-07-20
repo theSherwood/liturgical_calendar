@@ -91,6 +91,8 @@ export const CATEGORIES = [
   "science",
   "rationalist",
   "remembrance",
+  "progress",
+  "history",
 ] as const;
 export type Category = (typeof CATEGORIES)[number];
 

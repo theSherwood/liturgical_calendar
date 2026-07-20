@@ -34,10 +34,17 @@ Light*; Spring — *Renewal & Beginnings*; Summer — *Abundance & Height*; Autu
 Solstice, Yule, Saturnalia, Newtonmas, Christmas, and the Secular Solstice all
 pile up into one high season.
 
-There are currently **73 curated observances**. A holiday's `## Reading` can be a
+There are currently **82 curated observances**. A holiday's `## Reading` can be a
 single line or a long, multi-part passage — several stanzas, a litany, framing
 prose — and the rationalist entries lean on the LessWrong canon and the
 Sequences (the Litany of Gendlin, the Litany of Tarski, and the like).
+
+Alongside the ancient-culture and science threads, two more run through the year:
+**Liberty & Progress** (the Abolition of the Slave Trade, the Emancipation
+Proclamation, Human Rights Day, the Fall of the Berlin Wall, Magna Carta) — days
+that mark humanity getting morally better — and **Turning Points** (the meeting of
+the Old and New Worlds in 1492, the Gutenberg Bible, the Gregorian calendar) for
+the civilizational pivots, not all of them happy.
 
 Not every day is a celebration. A small **Remembrance** thread (Trinity Day, the
 Fall of Constantinople, Holocaust Remembrance, Remembrance Day) marks the solemn
@@ -64,7 +71,7 @@ Create a file under the right category folder in `content/`, e.g.
 ---
 id: petrov-day            # unique, kebab-case
 title: Petrov Day
-category: rationalist      # seasonal | modern | roman | greek | norse | celtic | mesopotamian | science | rationalist | remembrance
+category: rationalist      # seasonal | modern | roman | greek | norse | celtic | mesopotamian | science | rationalist | remembrance | progress | history
 region: both               # both | US | UK
 season: autumn             # winter | spring | summer | autumn
 dateRule: { type: fixed, month: 9, day: 26 }

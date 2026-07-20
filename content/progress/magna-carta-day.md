@@ -1,7 +1,7 @@
 ---
 id: magna-carta-day
 title: "Magna Carta Day"
-category: modern
+category: progress
 region: both
 season: summer
 dateRule: {"type":"fixed","month":6,"day":15}
