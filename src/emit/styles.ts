@@ -105,6 +105,14 @@ header.masthead p { color: var(--muted); font-family: var(--sans); font-size: .9
 .card .body blockquote p { margin: 0; }
 .card .body blockquote + blockquote { margin-top: .5rem; }
 .card .body .reading-note { color: var(--ink); font-style: normal; margin: .5rem 0; }
+.card .body .reading p { margin: .5rem 0; }
+.card .body .reading a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; overflow-wrap: anywhere; }
+/* The trailing "Sources:" line, set apart. */
+.card .body .reading p:last-child:has(a) { font-family: var(--sans); font-size: .82rem; margin-top: .8rem; padding-top: .6rem; border-top: 1px dotted var(--line); }
+@media print {
+  /* On paper links can't be clicked — show the URL so the reference survives. */
+  .card .body .reading a[href^="http"]::after { content: " (" attr(href) ")"; font-size: .82em; color: #555; overflow-wrap: anywhere; }
+}
 
 footer { text-align: center; color: var(--muted); font-family: var(--sans); font-size: .8rem; padding: 2rem 0; border-top: 1px solid var(--line); margin-top: 2rem; }
 

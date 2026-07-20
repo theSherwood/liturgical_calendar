@@ -12,7 +12,10 @@ import {
   formatShort,
   parseSections,
 } from "./util.js";
+import { marked } from "marked";
 import { styles } from "./styles.js";
+
+marked.use({ breaks: true, gfm: true });
 
 const esc = (s: string) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -24,24 +27,13 @@ const paras = (s: string) =>
     .join("");
 
 /**
- * Render a (possibly long) reading. Blocks are separated by blank lines. A block
- * whose lines start with `>` becomes a blockquote — each line preserved as a
- * hard break, so litanies and attributions read correctly. Any other block is a
- * plain framing paragraph.
+ * Render a reading as Markdown: blockquotes (verse lines preserved via hard
+ * breaks), framing paragraphs, emphasis, and — crucially — links out to full
+ * texts and source essays. Content is trusted (our own files), so marked output
+ * is used directly.
  */
 function readingHtml(reading: string): string {
-  return reading
-    .split(/\n{2,}/)
-    .map((block) => {
-      const b = block.trim();
-      if (!b) return "";
-      if (b.startsWith(">")) {
-        const lines = b.split("\n").map((l) => esc(l.replace(/^>\s?/, "").trim()));
-        return `<blockquote><p>${lines.join("<br>")}</p></blockquote>`;
-      }
-      return `<p class="reading-note">${esc(b)}</p>`;
-    })
-    .join("");
+  return `<div class="reading">${marked.parse(reading) as string}</div>`;
 }
 
 function bodyHtml(r: ResolvedHoliday): string {
