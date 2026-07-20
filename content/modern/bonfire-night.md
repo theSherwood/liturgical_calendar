@@ -21,4 +21,7 @@ Fireworks and a bonfire if you can, sparklers if you can't. Toffee, warm hands, 
 
 ## Reading
 
-> "Remember, remember, the fifth of November, / Gunpowder, treason and plot." — Traditional English rhyme
+> "Remember, remember, the fifth of November, / gunpowder, treason and plot; / I see no reason why gunpowder treason / should ever be forgot."
+> — traditional English rhyme
+
+Britain's great autumn fire night, marking the foiling of the 1605 plot to blow up Parliament. Four centuries on, it is less about the politics and more about the oldest pleasures there are: a huge fire and a sky full of sparks in the cold November dark. Fireworks and a bonfire if you can, sparklers if you can't; toffee, warm hands, cold noses. Recite the old rhyme, and let the little ones stay up past their bedtime for the last rocket.

@@ -24,4 +24,7 @@ Do a logic puzzle together, or learn one common reasoning mistake (a logical fal
 > "The propositions of logic are tautologies."
 > — Ludwig Wittgenstein
 
-Logic is the quiet machinery under every good argument, every working program, every honest proof. This day falls on the death of Kurt Gödel and the birth of Alfred Tarski — two minds who mapped both the reach of reason and the exact places it runs out.
+> "It is the mark of an educated mind to be able to entertain a thought without accepting it."
+> — attributed to Aristotle
+
+A day for the quiet machinery under every good argument, every working program, every honest proof. It falls on the death of Kurt Gödel and the birth of Alfred Tarski — two minds who mapped both the reach of reason and the exact places it runs out. Do a logic puzzle together, or learn one common reasoning mistake and spend the day spotting it in the wild. Reward the good argument over the loud one.

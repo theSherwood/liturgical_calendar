@@ -24,4 +24,4 @@ Celebrate the birthday of a city 2,700-odd years old. Eat Roman — bread, olive
 > "To these I set no bounds in space or time; I have granted them empire without end."
 > — Virgil, Aeneid (Jupiter's prophecy for Rome)
 
-The empire ended, of course. But the roads, the laws, and the words outlived the legions — which is its own kind of empire without end.
+By tradition Romulus founded Rome on this day in 753 BC, and the Romans kept it every year as the birthday of their city. From a village on seven hills grew an empire that handed the West its law, its roads, its calendar, its languages, and half its imagination. The empire ended — twice, if you count Constantinople — but the roads and the laws and the words outlived the legions, which is its own kind of empire without end. Eat Roman tonight, and go looking for Rome in the months, the alphabet, and the very word "republic."

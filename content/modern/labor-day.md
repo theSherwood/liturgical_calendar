@@ -20,4 +20,7 @@ Do nothing useful, on purpose. One last summer cookout, one last late evening ou
 
 ## Reading
 
-> "Rest is not idleness… to lie sometimes on the grass on a summer day is by no means a waste of time." — John Lubbock
+> "I hear America singing, the varied carols I hear… / each singing what belongs to him or her and to none else, / the day what belongs to the day."
+> — Walt Whitman
+
+A holiday that honors labor by insisting everyone stop doing it — won by generations who fought for the weekend, the eight-hour day, and the idea that a life is worth more than a job. Rest is not the opposite of respecting work; it is the reward the work was for. Do nothing useful, on purpose — one last cookout, one last late summer evening outdoors before the year turns toward school and dark. And thank, by name, the people whose labor you rely on and rarely see.

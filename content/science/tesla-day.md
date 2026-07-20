@@ -21,7 +21,7 @@ Notice the invisible ocean of electricity you swim in all day, and that one obse
 
 ## Reading
 
-> "The present is theirs; the future, for which I really worked, is mine."
+> "Let the future tell the truth, and evaluate each one according to his work and accomplishments. The present is theirs; the future, for which I really worked, is mine."
 > — Nikola Tesla
 
-He was right more often than his bank balance ever showed. Much of the world he imagined and could not sell, we now switch on without a thought.
+The birthday of a brilliant, eccentric visionary who lit the modern world and largely died broke doing it. Tesla's alternating current is the electricity in your walls; his ideas seeded the motors, the radio, and the wireless age we now take for granted. He dreamed further than his century could fund, and imagined a world humming with free energy and instant communication — much of which quietly arrived. Notice the invisible ocean of electricity you swim in all day, and root, for once, for the dreamer over the businessman.

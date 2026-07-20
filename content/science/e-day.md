@@ -23,4 +23,4 @@ Bake something (an 'e'-clair?) and talk about compound growth — how a small th
 > "The greatest shortcoming of the human race is our inability to understand the exponential function."
 > — Albert Bartlett
 
-The number e, about 2.718, is the mathematics of anything that grows in proportion to how much of it already exists — savings, populations, pandemics, compound habits. Small and steady, left alone, becomes staggering. Few instincts serve us worse than our blindness to that.
+A little sibling to Pi Day for the other great constant — e, about 2.718, the number that governs anything growing in proportion to how much of it already exists: savings, populations, pandemics, compound habits. Small and steady, left alone, becomes staggering — and few instincts serve us worse than our blindness to it. Bake something and talk about compound growth: how a tiny thing that grows a little every day becomes, given time, an enormous thing. A quiet lesson about patience, savings, and the habits you keep hides inside the number e.

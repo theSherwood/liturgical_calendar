@@ -24,4 +24,4 @@ Two rituals, one sitting. First, open last year's sealed predictions and grade t
 > "The average expert was roughly as accurate as a dart-throwing chimpanzee."
 > — Philip Tetlock, on pundits who never check their record
 
-The humbling news is that confidence and accuracy are nearly unrelated. The hopeful news is that accuracy is a skill — and like any skill, you build it by practicing, measuring, and being willing to be wrong on the record.
+A quiet discipline hiding inside New Year's Day: not vague resolutions but real, falsifiable predictions with probabilities attached. Tetlock's research showed that ordinary people who track their guesses and grade themselves honestly can become genuinely better at seeing the future than credentialed experts who never keep score — because confidence and accuracy, it turns out, are nearly unrelated. Open last year's sealed predictions and grade them, celebrating the honest misses; then write this year's, and put a number on each. Accuracy is a skill, and this is how you practise it.

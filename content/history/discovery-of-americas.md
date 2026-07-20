@@ -24,4 +24,4 @@ A day for looking at history without flinching. Eat something from the great exc
 > "They would make fine servants… With fifty men we could subjugate them all and make them do whatever we want."
 > — Christopher Columbus, journal, 1492
 
-He wrote that of people who had swum out to greet him with gifts. The world he opened was real and world-changing; so was the price, paid by others. Honor the truth, not the legend.
+On 12 October 1492 two halves of the human world, separated for millennia, made permanent contact — and nothing was ever the same for either. It remade global trade, food, language, and the map, and set the modern world in motion. It was also a catastrophe: for the peoples already here, it began centuries of conquest, enslavement, and disease that killed the overwhelming majority of them. Columbus wrote those words of people who had swum out to greet him with gifts. We hold both truths at once, because history is not owed our applause — only our honesty.

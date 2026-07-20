@@ -24,9 +24,7 @@ A grave day. At dawn, or whenever you can, light a single candle and keep a minu
 > "Now I am become Death, the destroyer of worlds."
 > — J. Robert Oppenheimer, recalling the Bhagavad Gita
 
-Another witness put it more plainly:
-
 > "Now we are all sons of bitches."
 > — Kenneth Bainbridge, the test director, to Oppenheimer
 
-The knowledge cannot be unlearned. All that is left to us is the choosing, every single day, not to use it.
+Before dawn on 16 July 1945, in a stretch of New Mexico desert, human beings lit a fire that had never existed on Earth — and for the first time a species could destroy itself on purpose. The men who built it were among the most brilliant of their age, and were not certain, until it fired, that it would not ignite the sky. We have lived every day since under the small permanent shadow of that morning. The knowledge cannot be unlearned; all that is left to us is the choosing, every single day, not to use it.

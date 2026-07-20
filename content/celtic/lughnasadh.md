@@ -21,4 +21,7 @@ Bake bread together, or buy a really good loaf and break it by hand. As you eat,
 
 ## Reading
 
-> "To everything there is a season, and a time to every purpose under heaven." — Ecclesiastes 3:1
+> "There was three kings into the east, three kings both great and high, / and they hae sworn a solemn oath / John Barleycorn should die… / But the cheerful spring came kindly on, / and show'rs began to fall; / John Barleycorn got up again, / and sore surprised them all."
+> — Robert Burns, John Barleycorn
+
+The first of the three harvest festivals, when the first grain was cut and the year's long work began to pay out. Burns's old ballad tells the deepest truth of the harvest as a riddle: the grain is cut down and seems to die, and is buried, and rises again next spring — the bread on the table and the seed for next year being the very same thing. Break a loaf by hand today, and taste a whole year's labor.

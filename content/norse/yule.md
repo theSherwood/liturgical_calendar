@@ -22,4 +22,7 @@ Burn a Yule log (or light a large candle to stand in for one) and keep some ligh
 
 ## Reading
 
-> "Cattle die, kinsmen die… but the fair fame never dies of one who has done well." — Hávamál
+> "Fire is best among the sons of men, and the sight of the sun; health, too, if a man may keep it, and a life not stained with sin."
+> — Hávamál, the sayings of the High One
+
+The great Norse midwinter feast, kept over roughly twelve nights around the solstice — and the source of half our Christmas: the Yule log, the evergreen brought indoors, the wassailing and feasting in the teeth of the cold. The old poem names the two things a northern winter makes you treasure above all others — fire, and the returning sun. Keep a light burning through the long nights, and outlast the dark together. Skål.

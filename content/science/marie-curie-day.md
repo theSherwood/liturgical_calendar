@@ -24,4 +24,7 @@ A day for stubborn, patient curiosity in the face of every obstacle — poverty,
 > "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less."
 > — Marie Curie
 
-She understood more than almost anyone of her age, and it cost her everything, and she would have done it again. Knowledge is not free, and it is still worth the price.
+> "Be less curious about people and more curious about ideas."
+> — Marie Curie
+
+The woman who discovered that atoms are not eternal — that some come quietly apart, radiating energy, a phenomenon she named radioactivity. She won a Nobel in Physics and another in Chemistry, the only person ever to take both, working in a cold shed with dangerous materials, and paid for the knowledge with her life; her notebooks are still too radioactive to handle safely. A day for stubborn, patient curiosity in the teeth of every obstacle — poverty, prejudice, and a world that kept telling her no.

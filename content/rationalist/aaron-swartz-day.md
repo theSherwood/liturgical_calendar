@@ -21,5 +21,7 @@ Read something that's normally locked away, and support the things that keep kno
 
 ## Reading
 
-> "Information is power. But like all power, there are those who want to keep it for themselves… There is no justice in following unjust laws. It's time to come into the light and, in the grand tradition of civil disobedience, declare our opposition to this private theft of public culture… Sharing isn't immoral — it's a moral imperative."
+> "Information is power. But like all power, there are those who want to keep it for themselves… Sharing isn't immoral — it's a moral imperative."
 > — Aaron Swartz, Guerilla Open Access Manifesto
+
+A day both to celebrate and to mourn. Swartz helped build the modern web — RSS, Creative Commons, the early Reddit — before he was twenty, and spent his short life fighting to make human knowledge free to everyone. Facing an aggressive federal prosecution for downloading academic papers he believed should be public, he took his own life at twenty-six. Read something normally locked away, support the things that keep knowledge open, and be gentle with the intense young people trying hardest to fix the world.

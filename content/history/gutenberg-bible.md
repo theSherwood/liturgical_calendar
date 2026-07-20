@@ -22,6 +22,9 @@ A day to appreciate the humble, world-shaking act of copying and sharing what we
 ## Reading
 
 > "Printing, gunpowder, and the compass: these three have changed the whole face and state of things throughout the world."
-> — Francis Bacon, Novum Organum
+> — Francis Bacon
 
-Of the three, printing may be the one that changed us most — because it changed what everyone else could know.
+> "The book will kill the building." ("Ceci tuera cela.")
+> — Victor Hugo, on how the printed word would overthrow the old authorities
+
+Around 1455, in Mainz, Johannes Gutenberg printed a Bible with movable metal type and quietly detonated the old world. Before him, every book was copied by hand — slow, rare, and dear — and knowledge belonged to the few who could afford it. After him, ideas could be copied by the thousand and could no longer be contained; the fuse was lit under the Reformation, the Scientific Revolution, and mass literacy itself. Almost every good thing on this calendar that depends on shared knowledge traces back through this one machine.

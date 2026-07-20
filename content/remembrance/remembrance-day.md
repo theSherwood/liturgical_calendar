@@ -21,10 +21,10 @@ Keep the two minutes' silence at the eleventh hour if you can. Wear a poppy. Rea
 
 ## Reading
 
-> They shall grow not old, as we that are left grow old:
-> Age shall not weary them, nor the years condemn.
-> At the going down of the sun and in the morning,
-> We will remember them.
-> — Laurence Binyon, "For the Fallen"
+> "In Flanders fields the poppies blow / Between the crosses, row on row."
+> — John McCrae
 
-Lest we forget.
+> "They shall grow not old, as we that are left grow old… / At the going down of the sun and in the morning, / We will remember them."
+> — Laurence Binyon, For the Fallen
+
+At the eleventh hour of the eleventh day of the eleventh month, 1918, the guns of the First World War fell silent, and a generation counted its dead. The day has come to hold all the war dead — of every war, every side, every uniform and none. The red poppy grew in the churned fields where so many were buried; we wear it to say the peace we live in was paid for by people who did not get to keep it. Keep the two minutes' silence. Lest we forget.

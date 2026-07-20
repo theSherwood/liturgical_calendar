@@ -21,4 +21,7 @@ Name one venture — a project, a trip, a goal — that you're launching this wa
 
 ## Reading
 
-> "The unwise man is awake all night… but a weary man when morning comes finds his woes as they were." — Hávamál
+> "Young was I once, and wandered alone, and knew nothing of the road; rich did I feel when I found a companion, for man is the joy of man."
+> — Hávamál
+
+The other hinge of the Norse year: the first day of summer, when the seas opened and the season's ventures — voyages, plantings, undertakings — began, with a blessing for victory and good luck. The Hávamál, the wisdom a wanderer earns on the road, knows the venture is only half of it; the other half is the company you keep along the way. Name the thing you are setting out to do — and the people you will do it with.

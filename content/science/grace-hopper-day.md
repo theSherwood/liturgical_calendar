@@ -21,7 +21,10 @@ Try a little code together — even one line, even a kids' block-coding game. Ad
 
 ## Reading
 
+> "A ship in port is safe, but that is not what ships are built for. Sail out to sea and do new things."
+> — Grace Hopper
+
 > "It's easier to ask forgiveness than it is to get permission."
 > — Grace Hopper
 
-A Navy admiral and computing pioneer who insisted machines could be taught something close to human language — an idea the experts called impossible, and every programming language since has proved right. She also taped a real moth into a logbook and gave us the word 'debugging.'
+A US Navy admiral and computing pioneer who insisted machines could be taught something close to human language — an idea most experts called impossible, and every programming language since has proved right. She also taped a real moth into a logbook and gave us the word "debugging." Try a little code together, even one line; adopt her motto for a problem you're stuck on; and when something breaks today, call it a bug and go find the moth.

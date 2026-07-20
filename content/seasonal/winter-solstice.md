@@ -24,4 +24,4 @@ Turn off every light in the house at dusk. Sit together in the full dark for a m
 > "In the depth of winter, I finally learned that within me there lay an invincible summer."
 > — Albert Camus
 
-The longest night of the year, and the hinge on which the whole year turns — from here the light only grows. Every winter festival humans have ever kept is, underneath, the same promise made in the dark: hold on; the sun comes back. Tonight we make it again.
+The longest, darkest night is also the turning point: from here, imperceptibly at first, the light comes back. Every midwinter festival humanity has ever kept is, underneath, the same wager Camus makes — that even at the very bottom of the cold and the dark, something in us and in the world is already leaning back toward the light. The dark is real, and worth sitting with honestly. So is the turning.

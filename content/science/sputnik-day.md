@@ -24,4 +24,4 @@ Look up. There are thousands of satellites overhead now — and with an app you 
 > "The Earth is the cradle of humanity, but one cannot live in the cradle forever."
 > — Konstantin Tsiolkovsky
 
-It began with a beep from a metal ball no one could quite believe was real. Twelve years later we were standing on the Moon. Once a species learns to leave, it does not soon stop.
+On this night in 1957 a polished metal sphere the size of a beach ball went beeping over the heads of the whole human race, and nothing was ever the same. Sputnik was barely more than a radio and a battery, but it was ours — the first thing humans ever placed in orbit — and everyone who could went outside to watch the little man-made star cross the sky. Twelve years later we were standing on the Moon. Once a species learns to leave the cradle, it does not soon stop.

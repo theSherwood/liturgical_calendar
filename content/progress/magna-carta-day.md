@@ -26,3 +26,5 @@ A day to appreciate the unglamorous machinery of liberty: courts, rights, due pr
 
 > "The greatest constitutional document of all times — the foundation of the freedom of the individual against the arbitrary authority of the despot."
 > — Lord Denning
+
+At a meadow called Runnymede, rebel barons forced a cornered King John to seal a charter with a revolutionary idea inside it: that even the king is bound by the law. Most of its clauses are long dead; that idea never was. It is the taproot of due process, habeas corpus, and every later charter of rights on both sides of the Atlantic — the slow, hard-won principle that power must answer to law.
