@@ -164,14 +164,14 @@ const APP_JS = `(function(){
   var $=function(id){return document.getElementById(id);};
 
   var activeOn=function(iso){var t=toMs(iso);return D.occ.filter(function(o){var s=toMs(o.iso);var dur=D.h[o.id].durationDays||1;return t>=s&&t<s+dur*864e5;});};
-  var after=function(iso,n){var t=toMs(iso),r=[];for(var i=0;i<D.occ.length;i++){if(toMs(D.occ[i].iso)>t){r.push(D.occ[i]);if(r.length>=n)break;}}return r;};
+  var after=function(iso,n){var t=toMs(iso),r=[];for(var i=0;i<D.occ.length;i++){var o=D.occ[i];if(toMs(o.iso)>t&&pass(o.id)){r.push(o);if(r.length>=n)break;}}return r;};
   var pass=function(id){var hh=D.h[id];if(!state.cats.has(hh.category))return false;if(state.q){var q=state.q.toLowerCase();var hay=(hh.title+" "+hh.blurb+" "+(hh.tags||[]).join(" ")+" "+D.categories[hh.category]).toLowerCase();if(hay.indexOf(q)<0)return false;}return true;};
 
   var card=function(o,open){var hh=D.h[o.id];return '\\n<details class="card '+hh.category+'"'+(open?" open":"")+'><summary><div class="head"><h3 class="title">'+esc(hh.title)+'</h3><div class="when">'+fmt(o.iso)+'</div></div><div class="badge">'+esc(D.categories[hh.category])+'</div><p class="blurb">'+esc(hh.blurb)+'</p></summary>'+hh.body+'</details>';};
 
   // "On this day" — each holiday active on the selected date gets its own (open) card.
   function renderDay(){
-    var on=activeOn(state.date);on.sort(function(a,b){return((a.iso===state.date)?0:1)-((b.iso===state.date)?0:1);});
+    var on=activeOn(state.date).filter(function(o){return pass(o.id);});on.sort(function(a,b){return((a.iso===state.date)?0:1)-((b.iso===state.date)?0:1);});
     var isToday=state.date===localToday(),el=$("feature");
     var head='<h2 class="dayhead">'+(isToday?"Today · ":"")+fmt(state.date,true)+(on.length>1?' · '+on.length+' observances':'')+'</h2>';
     if(on.length){
@@ -200,7 +200,7 @@ const APP_JS = `(function(){
   // GitHub-style heatmap for the selected year: one cell per day, shaded by count.
   function renderHeatmap(){
     var y=state.date.slice(0,4),counts={};
-    for(var i=0;i<D.occ.length;i++){var o=D.occ[i];if(o.iso.slice(0,4)===y)counts[o.iso]=(counts[o.iso]||0)+1;}
+    for(var i=0;i<D.occ.length;i++){var o=D.occ[i];if(o.iso.slice(0,4)===y&&pass(o.id))counts[o.iso]=(counts[o.iso]||0)+1;}
     var first=Date.UTC(+y,0,1),end=Date.UTC(+y,11,31),sd=new Date(first).getUTCDay();
     var cells=[],months=[],seen={},p;
     for(p=0;p<sd;p++)cells.push('<span class="hcell pad"></span>');
@@ -222,14 +222,14 @@ const APP_JS = `(function(){
 
   document.addEventListener("click",function(e){
     var b=e.target.closest("button");if(!b)return;
-    if(b.dataset.cat){state.cats.has(b.dataset.cat)?state.cats.delete(b.dataset.cat):state.cats.add(b.dataset.cat);renderChips();renderYear();}
-    else if(b.dataset.all){state.cats=new Set(Object.keys(D.categories));state.q="";$("search").value="";renderChips();renderYear();}
+    if(b.dataset.cat){state.cats.has(b.dataset.cat)?state.cats.delete(b.dataset.cat):state.cats.add(b.dataset.cat);renderChips();refresh();}
+    else if(b.dataset.all){state.cats=new Set(Object.keys(D.categories));state.q="";$("search").value="";renderChips();refresh();}
     else if(b.dataset.nav){setDate(new Date(toMs(state.date)+(+b.dataset.nav)*864e5).toISOString().slice(0,10));}
     else if(b.dataset.d){setDate(b.dataset.d);}
     else if(b.id==="todayBtn"){setDate(localToday());}
   });
   $("asof").addEventListener("change",function(e){if(e.target.value)setDate(e.target.value);});
-  $("search").addEventListener("input",function(e){state.q=e.target.value.trim();renderYear();});
+  $("search").addEventListener("input",function(e){state.q=e.target.value.trim();refresh();});
 
   $("asof").value=state.date;renderChips();refresh();
 })();`;
