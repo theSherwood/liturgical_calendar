@@ -58,7 +58,7 @@ header.masthead p { color: var(--muted); font-family: var(--sans); font-size: .9
   font-family: var(--sans); font-size: .85rem; cursor: pointer; background: var(--surface);
   color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: .4rem .65rem; line-height: 1;
 }
-.date-nav button[data-nav] { font-size: 1.1rem; padding: .3rem .6rem; }
+.date-nav button[data-unit] { font-size: .9rem; padding: .35rem .5rem; letter-spacing: -.06em; font-variant-numeric: tabular-nums; }
 #todayBtn { color: var(--accent); font-weight: 600; }
 .date-nav button:hover, #todayBtn:hover, .chip:hover { border-color: var(--accent); }
 .chips { display: flex; flex-wrap: wrap; gap: .4rem; }

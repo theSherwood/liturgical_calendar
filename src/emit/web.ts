@@ -120,14 +120,18 @@ export function renderSite(holidays: Holiday[], seasons: SeasonMap, config: Conf
 </header>
 
 <section class="controls">
-  <div class="date-nav">
-    <button data-nav="-1" aria-label="Previous day">‹</button>
-    <input type="date" id="asof" aria-label="Show this date">
-    <button data-nav="1" aria-label="Next day">›</button>
-    <button id="todayBtn">Today</button>
-  </div>
   <input type="search" id="search" placeholder="Search by name, theme, or tag…" aria-label="Search holidays">
   <div class="chips" id="chips"></div>
+  <div class="date-nav">
+    <button data-unit="year" data-dir="-1" title="Previous year" aria-label="Previous year">&lt;&lt;&lt;</button>
+    <button data-unit="month" data-dir="-1" title="Previous month" aria-label="Previous month">&lt;&lt;</button>
+    <button data-unit="day" data-dir="-1" title="Previous day" aria-label="Previous day">&lt;</button>
+    <input type="date" id="asof" aria-label="Show this date">
+    <button data-unit="day" data-dir="1" title="Next day" aria-label="Next day">&gt;</button>
+    <button data-unit="month" data-dir="1" title="Next month" aria-label="Next month">&gt;&gt;</button>
+    <button data-unit="year" data-dir="1" title="Next year" aria-label="Next year">&gt;&gt;&gt;</button>
+    <button id="todayBtn">Today</button>
+  </div>
 </section>
 
 <section class="heatmap-sec">
@@ -160,6 +164,11 @@ const APP_JS = `(function(){
   var fmt=function(iso,wy){var p=iso.split("-").map(Number);var dt=new Date(Date.UTC(p[0],p[1]-1,p[2]));return WD[dt.getUTCDay()]+", "+MONTHS[p[1]-1]+" "+p[2]+(wy?", "+p[0]:"");};
   var sfmt=function(iso){var p=iso.split("-").map(Number);return MONTHS[p[1]-1].slice(0,3)+" "+p[2];};
   var localToday=function(){var t=new Date();return t.getFullYear()+"-"+pad(t.getMonth()+1)+"-"+pad(t.getDate());};
+  var shift=function(iso,unit,dir){var p=iso.split("-").map(Number),y=p[0],m=p[1]-1,d=p[2];
+    if(unit==="day")return new Date(Date.UTC(y,m,d)+dir*864e5).toISOString().slice(0,10);
+    if(unit==="month")m+=dir;else y+=dir;
+    var ny=y+Math.floor(m/12),nm=((m%12)+12)%12,last=new Date(Date.UTC(ny,nm+1,0)).getUTCDate();
+    return ny+"-"+pad(nm+1)+"-"+pad(Math.min(d,last));};
   var state={date:localToday(),cats:new Set(Object.keys(D.categories)),q:""};
   var $=function(id){return document.getElementById(id);};
 
@@ -223,7 +232,7 @@ const APP_JS = `(function(){
     var b=e.target.closest("button");if(!b)return;
     if(b.dataset.cat){state.cats.has(b.dataset.cat)?state.cats.delete(b.dataset.cat):state.cats.add(b.dataset.cat);renderChips();refresh();}
     else if(b.dataset.all){state.cats=new Set(Object.keys(D.categories));state.q="";$("search").value="";renderChips();refresh();}
-    else if(b.dataset.nav){setDate(new Date(toMs(state.date)+(+b.dataset.nav)*864e5).toISOString().slice(0,10));}
+    else if(b.dataset.unit){setDate(shift(state.date,b.dataset.unit,+b.dataset.dir));}
     else if(b.dataset.d){setDate(b.dataset.d);}
     else if(b.id==="todayBtn"){setDate(localToday());}
   });
