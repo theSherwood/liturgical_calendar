@@ -1,0 +1,24 @@
+---
+id: beltane
+title: "Beltane / May Day"
+category: celtic
+region: both
+season: spring
+dateRule: {"type":"fixed","month":5,"day":1}
+tags: ["fire-festival","spring","green"]
+tone: festive
+blurb: "The green, riotous middle of spring — fires, flowers, and all."
+origin: "The Gaelic festival of summer's beginning, with bonfires and cattle driven between the flames."
+---
+
+## Meaning
+
+Beltane is spring at full throttle — the hawthorn in flower, the world green and loud. The old fire festival of the year's warm half, it's a day of doing things outdoors simply because you can, and welcoming warmth back like a returning friend.
+
+## Observance
+
+Get outside and make it a bit riotous. Bring flowers or greenery into the house. If you can have a fire — a fire pit, a grill, a single candle — do. Dance to something loud.
+
+## Reading
+
+> "The world's favorite season is the spring. All things seem possible in May." — Edwin Way Teale
