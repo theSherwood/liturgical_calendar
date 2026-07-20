@@ -38,7 +38,7 @@ body {
 .wrap { max-width: 900px; margin: 0 auto; padding: clamp(1.2rem, 4vw, 3rem); }
 
 header.masthead { text-align: center; padding: 2rem 0 1rem; border-bottom: 2px solid var(--line); margin-bottom: 2rem; }
-header.masthead h1 { font-size: clamp(1.8rem, 5vw, 2.8rem); margin: 0 0 .3rem; letter-spacing: .01em; }
+header.masthead h1 { font-size: clamp(1.35rem, 3.2vw, 1.9rem); margin: 0 0 .3rem; letter-spacing: .01em; }
 header.masthead p { color: var(--muted); font-family: var(--sans); font-size: .95rem; margin: 0; }
 .subscribe { display: flex; gap: .6rem; justify-content: center; flex-wrap: wrap; margin-top: 1.1rem; font-family: var(--sans); }
 .subscribe a { font-size: .85rem; text-decoration: none; color: var(--accent); border: 1px solid var(--line); border-radius: 999px; padding: .35rem .9rem; }
@@ -67,7 +67,7 @@ header.masthead p { color: var(--muted); font-family: var(--sans); font-size: .9
   background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: .28rem .75rem;
 }
 .chip.on { background: var(--accent); color: var(--surface); border-color: var(--accent); }
-.chip.clear { color: var(--accent); }
+.chip.util { color: var(--accent); font-weight: 600; }
 .yearhead { display: flex; align-items: baseline; gap: .8rem; border-bottom: 2px solid var(--line); margin: 2rem 0 1.2rem; padding-bottom: .4rem; }
 .yearhead h2 { margin: 0; font-size: 1.6rem; }
 .yearhead .count { font-family: var(--sans); font-size: .8rem; color: var(--muted); }

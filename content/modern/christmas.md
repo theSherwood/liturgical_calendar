@@ -20,11 +20,15 @@ Gifts in the morning, a big meal, and no agenda but each other. The rule of the 
 
 ## Reading
 
-> But I am sure I have always thought of Christmas time, when it has come round—apart from the veneration due to its sacred name and origin, if anything belonging to it can be apart from that—as a good time; a kind, forgiving, charitable, pleasant time; the only time I know of, in the long calendar of the year, when men and women seem by one consent to open their shut-up hearts freely, and to think of people below them as if they really were fellow-passengers to the grave, and not another race of creatures bound on other journeys.
-> — Charles Dickens, A Christmas Carol (1843), Stave One — spoken by Scrooge's nephew Fred
+> And there were in the same country shepherds abiding in the field, keeping watch over their flock by night. And, lo, the angel of the Lord came upon them, and the glory of the Lord shone round about them: and they were sore afraid. And the angel said unto them, Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people. For unto you is born this day in the city of David a Saviour, which is Christ the Lord. … And suddenly there was with the angel a multitude of the heavenly host praising God, and saying, Glory to God in the highest, and on earth peace, good will toward men.
+> — The Gospel of Luke 2:8–14 (King James Version)
+
+> I have always thought of Christmas time … as a good time; a kind, forgiving, charitable, pleasant time; the only time I know of, in the long calendar of the year, when men and women seem by one consent to open their shut-up hearts freely.
+> — Charles Dickens, A Christmas Carol (1843)
 
 **Sources**
 
+- [The Nativity — Luke 2 (King James Version, Wikisource)](https://en.wikisource.org/wiki/Bible_(King_James)/Luke)
+- [Carol — "Hark! the Herald Angels Sing" (Wikipedia)](https://en.wikipedia.org/wiki/Hark!_The_Herald_Angels_Sing)
 - [Full text — A Christmas Carol (Project Gutenberg)](https://www.gutenberg.org/cache/epub/46/pg46.txt)
-- [A Christmas Carol (Wikisource, 1843 edition)](https://en.wikisource.org/wiki/A_Christmas_Carol_(Dickens))
 - [Overview — Christmas (Wikipedia)](https://en.wikipedia.org/wiki/Christmas)

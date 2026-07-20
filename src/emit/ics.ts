@@ -11,7 +11,7 @@ import { CATEGORY_LABELS, parseSections, toPlainText } from "./util.js";
  */
 export function buildIcs(holidays: Holiday[], config: Config): string {
   const cal = ical({
-    name: `${config.familyName} Family Liturgical Calendar`,
+    name: `Family Liturgical Calendar`,
     prodId: { company: config.familyName, product: "liturgical-calendar", language: "EN" },
     description: "A secular family calendar of modern, ancient, scientific, and rationalist observances.",
     ttl: 60 * 60 * 24, // clients may refresh daily
