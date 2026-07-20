@@ -1,0 +1,28 @@
+---
+id: magna-carta-day
+title: "Magna Carta Day"
+category: modern
+region: both
+season: summer
+dateRule: {"type":"fixed","month":6,"day":15}
+tags: ["liberty","law","britain","civic","rights"]
+tone: reflective
+blurb: "The day a king was made to admit he was not above the law — 1215."
+origin: "On 15 June 1215, at Runnymede, King John sealed Magna Carta, conceding that the crown itself was bound by law."
+---
+
+## Meaning
+
+At a meadow called Runnymede in 1215, rebel barons forced a cornered King John to put his seal to a charter with a revolutionary idea inside it: that even the king is bound by the law, and that a free person cannot simply be seized at a ruler's whim. Most of its clauses are long dead, but that idea never was. It is the taproot of due process, habeas corpus, and every later charter of rights on both sides of the Atlantic — the slow, hard-won principle that power must answer to law.
+
+## Observance
+
+A day to appreciate the unglamorous machinery of liberty: courts, rights, due process, the boring paperwork that stops the powerful from doing as they please. Read the one clause that still lives. Talk about why no one — no king, no president, no parent — should be wholly above the rules.
+
+## Reading
+
+> "No free man shall be seized or imprisoned, or stripped of his rights or possessions… except by the lawful judgment of his equals or by the law of the land."
+> — Magna Carta, clause 39, 1215
+
+> "The greatest constitutional document of all times — the foundation of the freedom of the individual against the arbitrary authority of the despot."
+> — Lord Denning

@@ -57,6 +57,7 @@ export const CATEGORY_LABELS: Record<string, string> = {
   mesopotamian: "Mesopotamian",
   science: "Science, Tech & Math",
   rationalist: "Rationalist",
+  remembrance: "Remembrance",
 };
 
 export const SEASON_LABELS: Record<string, string> = {

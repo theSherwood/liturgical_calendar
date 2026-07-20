@@ -1,8 +1,8 @@
 ---
-id: fathers-day-us
+id: fathers-day
 title: "Father's Day"
 category: modern
-region: US
+region: both
 season: summer
 dateRule: {"type":"nthWeekday","month":6,"weekday":0,"n":3}
 tags: ["family","gratitude","fathers"]

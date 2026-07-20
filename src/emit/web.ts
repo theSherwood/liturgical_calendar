@@ -59,7 +59,7 @@ function renderCard(r: ResolvedHoliday, open: boolean): string {
   const details = open
     ? `<div class="body-wrap">${bodyHtml(r)}</div>`
     : `<details><summary>Meaning, observance &amp; reading</summary>${bodyHtml(r)}</details>`;
-  return `<article class="card">
+  return `<article class="card ${m.category}">
     <div class="head">
       <h3 class="title">${esc(m.title)}</h3>
       <div class="when">${formatDate(r)}</div>
