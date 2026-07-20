@@ -21,4 +21,7 @@ Slip a little science into the Christmas warmth: drop an apple and talk about wh
 
 ## Reading
 
-> "If I have seen further it is by standing on the shoulders of giants." — Isaac Newton
+> "If I have seen further it is by standing on the shoulders of giants."
+> — Isaac Newton
+
+Born (by the old calendar) on Christmas Day, Newton took the humble fall of an apple and the majestic sweep of the planets and showed they obey the very same law. 'Newtonmas' celebrates the audacious faith that the universe runs on knowable rules — and that a human mind, patient enough, can find them.

@@ -21,4 +21,10 @@ Gather with candles as the sun sets on the longest night. Start bright and warm.
 
 ## Reading
 
-> "The world is awful. The world is much better. The world can be much better. All three are true." — Max Roser
+> The world is awful. The world is much better. The world can be much better.
+> — Max Roser
+
+We do not look away from the dark. We look straight at it — the cold immensity of the universe, the odds against us, the people we have lost — and we choose to carry the light forward anyway. That choice, made without illusions, is the whole point.
+
+> What is true is already so. Owning up to it doesn't make it worse. Not being open about it doesn't make it go away. And because it's true, it is what is there to be interacted with. People can stand what is true, for they are already enduring it.
+> — Eugene Gendlin

@@ -21,4 +21,7 @@ Plant something — seeds indoors, a tree outdoors, whatever the season allows. 
 
 ## Reading
 
-> "No winter lasts forever; no spring skips its turn." — Hal Borland
+> "No winter lasts forever; no spring skips its turn."
+> — Hal Borland
+
+Day and night stand exactly equal, and after today the light wins. It is the oldest new year on Earth — Babylon, Persia, and Rome all began the year about now, when the ground softens and the world, against all the evidence of February, decides once more to live.

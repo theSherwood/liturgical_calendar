@@ -20,4 +20,7 @@ Gifts in the morning, a big meal, and no agenda but each other. The rule of the 
 
 ## Reading
 
-> "I will honour Christmas in my heart, and try to keep it all the year." — Charles Dickens, A Christmas Carol
+> "I will honour Christmas in my heart, and try to keep it all the year. I will live in the Past, the Present, and the Future. The Spirits of all Three shall strive within me."
+> — Charles Dickens, A Christmas Carol
+
+Whatever else it has meant, Christmas is the midwinter festival humanity keeps returning to — a day of family, generosity, and light kindled against the longest dark. You don't have to believe the theology to keep the warmth. The warmth was always the point.

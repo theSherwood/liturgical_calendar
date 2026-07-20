@@ -21,4 +21,9 @@ A celebration of progress. Learn how the eradication was actually done — the r
 
 ## Reading
 
-> "Smallpox is dead." — World Health Organization, 1980
+> "Smallpox is dead."
+> — World Health Organization, 8 May 1980
+
+For ten thousand years it killed and blinded and scarred. Then, within a single human lifetime, an army of ordinary people — vaccinators walking village to village across a Cold-War-divided world — hunted it to extinction. It is the only human disease we have ever deliberately destroyed.
+
+No god did this. People did. If you want a miracle to believe in, believe in that — and then ask what we could end next.

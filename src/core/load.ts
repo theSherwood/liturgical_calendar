@@ -1,7 +1,13 @@
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 import matter from "gray-matter";
-import { frontmatterSchema, type Frontmatter } from "./schema.js";
+import {
+  frontmatterSchema,
+  seasonMetaSchema,
+  type Frontmatter,
+  type Season,
+  type SeasonMeta,
+} from "./schema.js";
 
 export interface Holiday {
   meta: Frontmatter;
@@ -11,12 +17,17 @@ export interface Holiday {
   source: string;
 }
 
+/** Subdirectories of content/ that are not holidays. */
+const NON_HOLIDAY_DIRS = new Set(["seasons"]);
+
 function walk(dir: string): string[] {
   const out: string[] = [];
   for (const entry of readdirSync(dir)) {
     const full = join(dir, entry);
-    if (statSync(full).isDirectory()) out.push(...walk(full));
-    else if (entry.endsWith(".md")) out.push(full);
+    if (statSync(full).isDirectory()) {
+      if (NON_HOLIDAY_DIRS.has(entry)) continue;
+      out.push(...walk(full));
+    } else if (entry.endsWith(".md")) out.push(full);
   }
   return out;
 }
@@ -45,4 +56,40 @@ export function loadHolidays(contentDir: string): Holiday[] {
 
   if (holidays.length === 0) throw new Error(`No holidays found under ${contentDir}`);
   return holidays;
+}
+
+export interface SeasonDoc {
+  meta: SeasonMeta;
+  /** Intro prose shown above the season's holidays. */
+  body: string;
+  source: string;
+}
+
+/**
+ * Load the four season theme files from `seasonsDir` (content/seasons/*.md),
+ * keyed by season. Missing seasons are simply absent from the map, so the site
+ * degrades gracefully. Throws on malformed frontmatter or a duplicate season.
+ */
+export function loadSeasons(seasonsDir: string): Map<Season, SeasonDoc> {
+  const seasons = new Map<Season, SeasonDoc>();
+  let files: string[];
+  try {
+    files = readdirSync(seasonsDir).filter((f) => f.endsWith(".md"));
+  } catch {
+    return seasons; // no seasons directory yet — fine
+  }
+
+  for (const name of files.sort()) {
+    const file = join(seasonsDir, name);
+    const { data, content } = matter(readFileSync(file, "utf8"));
+    const parsed = seasonMetaSchema.safeParse(data);
+    if (!parsed.success) {
+      throw new Error(`Invalid season frontmatter in ${file}:\n${parsed.error.toString()}`);
+    }
+    if (seasons.has(parsed.data.season)) {
+      throw new Error(`Duplicate season "${parsed.data.season}" in ${file}`);
+    }
+    seasons.set(parsed.data.season, { meta: parsed.data, body: content.trim(), source: file });
+  }
+  return seasons;
 }

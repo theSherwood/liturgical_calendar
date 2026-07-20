@@ -68,4 +68,18 @@ describe("relative", () => {
     const rule: DateRule = { type: "relative", offset: 1, base: { type: "fixed", month: 12, day: 31 } };
     expect(fmt(rule, 2026)).toBe("2027-01-01");
   });
+
+  it("Giving Tuesday 2026 (Tue after 4th-Thu-Nov Thanksgiving) is Dec 1", () => {
+    const rule: DateRule = {
+      type: "relative",
+      offset: 5,
+      base: { type: "nthWeekday", month: 11, weekday: 4, n: 4 },
+    };
+    expect(fmt(rule, 2026)).toBe("2026-12-01");
+  });
+
+  it("Mothering Sunday 2026 (Easter − 21) is Mar 15", () => {
+    const rule: DateRule = { type: "relative", offset: -21, base: { type: "easter", offset: 0 } };
+    expect(fmt(rule, 2026)).toBe("2026-03-15");
+  });
 });

@@ -5,7 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { config } from "./config.js";
-import { loadHolidays } from "./core/load.js";
+import { loadHolidays, loadSeasons } from "./core/load.js";
 import { buildIcs } from "./emit/ics.js";
 import { buildPdf } from "./emit/pdf.js";
 import { renderPrint, renderSite } from "./emit/web.js";
@@ -15,7 +15,8 @@ const want = (name: string) => !only || only === name;
 
 async function main() {
   const holidays = loadHolidays("content");
-  console.log(`Loaded ${holidays.length} holidays.`);
+  const seasons = loadSeasons("content/seasons");
+  console.log(`Loaded ${holidays.length} holidays, ${seasons.size} season themes.`);
 
   const outDir = config.outDir;
   const siteDir = join(outDir, "site");
@@ -30,11 +31,11 @@ async function main() {
 
   let printHtml = "";
   if (want("web") || want("pdf")) {
-    printHtml = renderPrint(holidays, config);
+    printHtml = renderPrint(holidays, seasons, config);
   }
 
   if (want("web")) {
-    writeFileSync(join(siteDir, "index.html"), renderSite(holidays, config), "utf8");
+    writeFileSync(join(siteDir, "index.html"), renderSite(holidays, seasons, config), "utf8");
     writeFileSync(join(siteDir, "print.html"), printHtml, "utf8");
     console.log(`✓ web    → ${join(siteDir, "index.html")}`);
   }

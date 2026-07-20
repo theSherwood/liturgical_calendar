@@ -21,4 +21,7 @@ Turn off every light in the house at dusk. Sit together in the full dark for a m
 
 ## Reading
 
-> "In the depth of winter, I finally learned that within me there lay an invincible summer." — Albert Camus
+> "In the depth of winter, I finally learned that within me there lay an invincible summer."
+> — Albert Camus
+
+The longest night of the year, and the hinge on which the whole year turns — from here the light only grows. Every winter festival humans have ever kept is, underneath, the same promise made in the dark: hold on; the sun comes back. Tonight we make it again.

@@ -21,4 +21,7 @@ Watch a bit of Cosmos, or read the 'Pale Blue Dot' passage aloud under the night
 
 ## Reading
 
-> "We are made of star-stuff. We are a way for the cosmos to know itself." — Carl Sagan
+> "We are made of star-stuff. We are a way for the cosmos to know itself."
+> — Carl Sagan
+
+More than anyone, he taught ordinary people to feel the scale and the wonder of the universe — and to demand good evidence while they did it. Sagan married awe and skepticism so gracefully that neither had to lose. The atoms in your hand were forged in stars that died before the Sun was born.

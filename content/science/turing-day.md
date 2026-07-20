@@ -21,4 +21,7 @@ Marvel at the device in your hand — every one of them is a descendant of Turin
 
 ## Reading
 
-> "We can only see a short distance ahead, but we can see plenty there that needs to be done." — Alan Turing
+> "We can only see a short distance ahead, but we can see plenty there that needs to be done."
+> — Alan Turing
+
+He imagined the computer before one existed, helped break the Enigma code and shorten a world war, and asked whether a machine could think. His country then prosecuted him for being gay and drove him to an early death. We celebrate the genius and refuse to forget the injustice.

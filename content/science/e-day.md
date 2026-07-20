@@ -20,4 +20,7 @@ Bake something (an 'e'-clair?) and talk about compound growth — how a small th
 
 ## Reading
 
-> "The greatest shortcoming of the human race is our inability to understand the exponential function." — Albert Bartlett
+> "The greatest shortcoming of the human race is our inability to understand the exponential function."
+> — Albert Bartlett
+
+The number e, about 2.718, is the mathematics of anything that grows in proportion to how much of it already exists — savings, populations, pandemics, compound habits. Small and steady, left alone, becomes staggering. Few instincts serve us worse than our blindness to that.

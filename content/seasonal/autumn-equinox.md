@@ -21,4 +21,7 @@ Cook something from the harvest — an apple pie, a squash, bread. Around the ta
 
 ## Reading
 
-> "Autumn is a second spring when every leaf is a flower." — Albert Camus
+> "Autumn is a second spring when every leaf is a flower."
+> — Albert Camus
+
+Day and night are equal once more, but now the dark is gaining. It is the great harvest hinge — the season of gathering in, of taking stock, of getting ready. Gratitude and preparation turn out to be the same gesture: both are how we face the coming winter unafraid.

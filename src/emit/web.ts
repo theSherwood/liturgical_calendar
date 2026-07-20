@@ -1,8 +1,10 @@
 import { formatInTimeZone } from "date-fns-tz";
 import type { Config } from "../config.js";
-import type { Holiday } from "../core/load.js";
+import type { Holiday, SeasonDoc } from "../core/load.js";
 import { resolveYear, type ResolvedHoliday } from "../core/resolve.js";
-import { SEASONS } from "../core/schema.js";
+import { SEASONS, type Season } from "../core/schema.js";
+
+type SeasonMap = Map<Season, SeasonDoc>;
 import {
   CATEGORY_LABELS,
   SEASON_LABELS,
@@ -21,9 +23,25 @@ const paras = (s: string) =>
     .map((p) => `<p>${esc(p.trim())}</p>`)
     .join("");
 
+/**
+ * Render a (possibly long) reading. Blocks are separated by blank lines. A block
+ * whose lines start with `>` becomes a blockquote — each line preserved as a
+ * hard break, so litanies and attributions read correctly. Any other block is a
+ * plain framing paragraph.
+ */
 function readingHtml(reading: string): string {
-  const text = reading.replace(/^>\s?/gm, "").trim();
-  return `<blockquote>${esc(text)}</blockquote>`;
+  return reading
+    .split(/\n{2,}/)
+    .map((block) => {
+      const b = block.trim();
+      if (!b) return "";
+      if (b.startsWith(">")) {
+        const lines = b.split("\n").map((l) => esc(l.replace(/^>\s?/, "").trim()));
+        return `<blockquote><p>${lines.join("<br>")}</p></blockquote>`;
+      }
+      return `<p class="reading-note">${esc(b)}</p>`;
+    })
+    .join("");
 }
 
 function bodyHtml(r: ResolvedHoliday): string {
@@ -52,12 +70,19 @@ function renderCard(r: ResolvedHoliday, open: boolean): string {
   </article>`;
 }
 
-function seasonSections(resolved: ResolvedHoliday[], open: boolean): string {
+function seasonSections(resolved: ResolvedHoliday[], seasons: SeasonMap, open: boolean): string {
   return SEASONS.map((season) => {
     const inSeason = resolved.filter((r) => r.holiday.meta.season === season);
     if (inSeason.length === 0) return "";
+    const doc = seasons.get(season);
+    const theme = doc
+      ? `<p class="season-theme">${esc(doc.meta.title)}</p>
+         <p class="season-essence">${esc(doc.meta.blurb)}</p>
+         ${doc.body ? `<div class="season-intro">${paras(doc.body)}</div>` : ""}`
+      : "";
     return `<section class="season ${season}">
       <h2>${SEASON_LABELS[season]}</h2>
+      ${theme}
       ${inSeason.map((r) => renderCard(r, open)).join("\n")}
     </section>`;
   }).join("\n");
@@ -86,7 +111,7 @@ ${bodyInner}
 }
 
 /** The interactive website (index.html): today, upcoming, and the full year. */
-export function renderSite(holidays: Holiday[], config: Config): string {
+export function renderSite(holidays: Holiday[], seasons: SeasonMap, config: Config): string {
   const { year, iso } = todayInTz(config);
   const thisYear = resolveYear(holidays, year, config);
   const nextYear = resolveYear(holidays, year + 1, config);
@@ -130,14 +155,14 @@ export function renderSite(holidays: Holiday[], config: Config): string {
 </header>
 ${featureBlock}
 ${upcomingBlock}
-${seasonSections(thisYear, false)}
+${seasonSections(thisYear, seasons, false)}
 <footer>Generated from a single source of truth · dates shown for ${year} (${config.timezone})</footer>`;
 
   return page(`The ${config.familyName} Family Calendar`, inner);
 }
 
 /** The print/PDF layout: the full year, everything expanded, page-break aware. */
-export function renderPrint(holidays: Holiday[], config: Config): string {
+export function renderPrint(holidays: Holiday[], seasons: SeasonMap, config: Config): string {
   const { year } = todayInTz(config);
   const thisYear = resolveYear(holidays, year, config);
   const inner = `
@@ -145,7 +170,7 @@ export function renderPrint(holidays: Holiday[], config: Config): string {
   <h1>The ${esc(config.familyName)} Family Calendar</h1>
   <p>A secular liturgical year · ${year}</p>
 </header>
-${seasonSections(thisYear, true)}
+${seasonSections(thisYear, seasons, true)}
 <footer>The ${esc(config.familyName)} family liturgical calendar · ${year}</footer>`;
   return page(`The ${config.familyName} Family Calendar — ${year}`, inner, "print");
 }
