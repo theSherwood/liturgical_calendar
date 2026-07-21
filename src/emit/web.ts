@@ -223,13 +223,16 @@ const APP_JS = `(function(){
     }
   }
   // The weekly Sabbath — an ordered reading plan that plays one entry per week
-  // and loops. Independent of the category filters. Mirrors core/sabbath.ts.
-  // The plan's start date (which entry lands on week one) is adjustable in the
-  // UI: it overrides the config default, persists to localStorage, and rides in
-  // the URL (?s=) so a chosen start is shareable. The .ics feed still uses the
-  // config default — set config.sabbath.epoch to bake a start into the feed.
+  // and loops. Independent of the category filters. The panel shows the UPCOMING
+  // Sabbath (the sabbath weekday on or after the selected date — today, if today
+  // is that weekday), so mid-week you're looking ahead to this Sunday's reading.
+  // Mirrors sabbathOnOrAfter in core/sabbath.ts. The plan's start date (which
+  // entry lands on week one) is adjustable in the UI: it overrides the config
+  // default, persists to localStorage, and rides in the URL (?s=) so a chosen
+  // start is shareable. The .ics feed uses the config default — set
+  // config.sabbath.epoch to bake a start into the feed.
   var sab=D.sabbath||{track:[]};
-  var sabDate=function(iso){var ms=toMs(iso);var back=((new Date(ms).getUTCDay()-sab.weekday)%7+7)%7;return new Date(ms-back*864e5).toISOString().slice(0,10);};
+  var sabDate=function(iso){var ms=toMs(iso);var fwd=((sab.weekday-new Date(ms).getUTCDay())%7+7)%7;return new Date(ms+fwd*864e5).toISOString().slice(0,10);};
   var sabWeeks=function(siso){return Math.round((toMs(siso)-toMs(state.sabStart))/(7*864e5));};
   var sabIndex=function(siso){var n=sab.track.length;if(!n)return -1;var w=sabWeeks(siso);return ((w%n)+n)%n;};
   var isDate=function(v){return typeof v==="string"&&/^\\d{4}-\\d{2}-\\d{2}$/.test(v);};
