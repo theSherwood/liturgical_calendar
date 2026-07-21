@@ -77,7 +77,7 @@ Create a file under the right category folder in `content/`, e.g.
 ---
 id: petrov-day            # unique, kebab-case
 title: Petrov Day
-category: rationalist      # seasonal | modern | roman | greek | norse | celtic | mesopotamian | science | rationalist | remembrance | progress | history
+category: rationalist      # seasonal | modern | christian | roman | greek | norse | celtic | mesopotamian | science | rationalist | remembrance | progress | history
 region: both               # both | US | UK
 season: autumn             # winter | spring | summer | autumn
 dateRule: { type: fixed, month: 9, day: 26 }

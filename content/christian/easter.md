@@ -1,7 +1,7 @@
 ---
 id: easter
 title: "Easter"
-category: modern
+category: christian
 region: both
 season: spring
 dateRule: {"type":"easter","offset":0}

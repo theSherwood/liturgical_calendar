@@ -1,7 +1,7 @@
 ---
 id: christmas-eve
 title: "Christmas Eve"
-category: modern
+category: christian
 region: both
 season: winter
 dateRule: {"type":"fixed","month":12,"day":24}
