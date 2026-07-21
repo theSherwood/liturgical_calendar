@@ -3,7 +3,7 @@ import type { Config } from "../config.js";
 import type { Holiday, SeasonDoc } from "../core/load.js";
 import { resolveYear, type ResolvedHoliday } from "../core/resolve.js";
 import { CATEGORIES, SEASONS, type Season } from "../core/schema.js";
-import { CATEGORY_LABELS, SEASON_LABELS, formatDate, parseSections } from "./util.js";
+import { CATEGORY_LABELS, SEASON_LABELS, formatWhen, parseSections } from "./util.js";
 import { marked } from "marked";
 import { styles } from "./styles.js";
 
@@ -172,15 +172,18 @@ const APP_JS = `(function(){
   var state={date:localToday(),cats:new Set(Object.keys(D.categories)),q:""};
   var $=function(id){return document.getElementById(id);};
 
-  var activeOn=function(iso){var t=toMs(iso);return D.occ.filter(function(o){var s=toMs(o.iso);var dur=D.h[o.id].durationDays||1;return t>=s&&t<s+dur*864e5;});};
+  // A holiday belongs to its START date only — matching how the heatmap counts it.
+  // Multi-day festivals show once (on day one); the card carries the full span.
+  var activeOn=function(iso){return D.occ.filter(function(o){return o.iso===iso;});};
+  var whenText=function(o){var dur=D.h[o.id].durationDays||1;if(dur<=1)return fmt(o.iso);var e=new Date(toMs(o.iso)+(dur-1)*864e5).toISOString().slice(0,10);return sfmt(o.iso)+" – "+sfmt(e)+" · "+dur+" days";};
   var after=function(iso,n){var t=toMs(iso),r=[];for(var i=0;i<D.occ.length;i++){var o=D.occ[i];if(toMs(o.iso)>t&&pass(o.id)){r.push(o);if(r.length>=n)break;}}return r;};
   var pass=function(id){var hh=D.h[id];if(!state.cats.has(hh.category))return false;if(state.q){var q=state.q.toLowerCase();var hay=(hh.title+" "+hh.blurb+" "+(hh.tags||[]).join(" ")+" "+D.categories[hh.category]).toLowerCase();if(hay.indexOf(q)<0)return false;}return true;};
 
-  var card=function(o,open){var hh=D.h[o.id];return '\\n<details class="card '+hh.category+'"'+(open?" open":"")+'><summary><div class="head"><h3 class="title">'+esc(hh.title)+'</h3><div class="when">'+fmt(o.iso)+'</div></div><div class="badge">'+esc(D.categories[hh.category])+'</div><p class="blurb">'+esc(hh.blurb)+'</p></summary>'+hh.body+'</details>';};
+  var card=function(o,open){var hh=D.h[o.id];return '\\n<details class="card '+hh.category+'"'+(open?" open":"")+'><summary><div class="head"><h3 class="title">'+esc(hh.title)+'</h3><div class="when">'+whenText(o)+'</div></div><div class="badge">'+esc(D.categories[hh.category])+'</div><p class="blurb">'+esc(hh.blurb)+'</p></summary>'+hh.body+'</details>';};
 
   // "On this day" — each holiday active on the selected date gets its own (open) card.
   function renderDay(){
-    var on=activeOn(state.date).filter(function(o){return pass(o.id);});on.sort(function(a,b){return((a.iso===state.date)?0:1)-((b.iso===state.date)?0:1);});
+    var on=activeOn(state.date).filter(function(o){return pass(o.id);});
     var isToday=state.date===localToday(),el=$("feature");
     var head='<h2 class="dayhead">'+(isToday?"Today · ":"")+fmt(state.date,true)+(on.length>1?' · '+on.length+' observances':'')+'</h2>';
     if(on.length){
@@ -250,7 +253,7 @@ const APP_JS = `(function(){
 function renderCardPrint(r: ResolvedHoliday): string {
   const m = r.holiday.meta;
   return `<article class="card ${m.category}">
-    <div class="head"><h3 class="title">${esc(m.title)}</h3><div class="when">${formatDate(r)}</div></div>
+    <div class="head"><h3 class="title">${esc(m.title)}</h3><div class="when">${formatWhen(r)}</div></div>
     <div class="badge">${esc(CATEGORY_LABELS[m.category])}</div>
     <p class="blurb">${esc(m.blurb)}</p>
     <div class="body-wrap">${bodyHtmlFor(r.holiday)}</div>

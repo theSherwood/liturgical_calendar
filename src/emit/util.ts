@@ -53,6 +53,20 @@ export function formatShort(r: ResolvedHoliday): string {
   return `${MONTHS[r.date.month - 1].slice(0, 3)} ${r.date.day}`;
 }
 
+/**
+ * When-label for a card. Single-day → the full date; multi-day festivals →
+ * a span from the start date, e.g. "Dec 21 – Jan 1 · 12 days" — the holiday
+ * shows once, on its start date, so the label carries the duration.
+ */
+export function formatWhen(r: ResolvedHoliday): string {
+  const dur = r.durationDays || 1;
+  if (dur <= 1) return formatDate(r);
+  const end = new Date(r.start.getTime() + (dur - 1) * 86_400_000);
+  const startShort = `${MONTHS[r.date.month - 1].slice(0, 3)} ${r.date.day}`;
+  const endShort = `${MONTHS[end.getUTCMonth()].slice(0, 3)} ${end.getUTCDate()}`;
+  return `${startShort} – ${endShort} · ${dur} days`;
+}
+
 /** Human label for a category. */
 export const CATEGORY_LABELS: Record<string, string> = {
   seasonal: "Seasonal & Sky",
