@@ -111,7 +111,6 @@ export function renderSite(holidays: Holiday[], seasons: SeasonMap, config: Conf
   const inner = `
 <header class="masthead">
   <h1>The Family Calendar</h1>
-  <p>A secular liturgical year · ${ids.size} observances</p>
   <div class="subscribe">
     <a class="subscribe-primary" href="${webcal}">📆 Subscribe on your phone</a>
     <a href="calendar.ics">Download .ics</a>
@@ -193,7 +192,7 @@ const APP_JS = `(function(){
   // On the horizon — upcoming holidays within three months of the selected date.
   function renderUpcoming(){
     var end=shift(state.date,"month",3),up=[],el=$("upcoming");
-    for(var i=0;i<D.occ.length;i++){var o=D.occ[i];if(o.iso>state.date&&o.iso<=end&&pass(o.id))up.push(o);}
+    for(var i=0;i<D.occ.length;i++){var o=D.occ[i];if(o.iso>state.date&&o.iso<=end&&pass(o.id)){up.push(o);if(up.length>=8)break;}}
     el.innerHTML=up.length?'<h3>On the horizon <span class="hz-note">next 3 months</span></h3><ul>'+up.map(function(o){var hh=D.h[o.id];return '<li><button class="hz" data-d="'+o.iso+'"><span class="when">'+sfmt(o.iso)+'</span><span class="what"><strong>'+esc(hh.title)+'</strong><span class="dash"> — </span><span class="bl">'+esc(hh.blurb)+'</span></span></button></li>';}).join("")+'</ul>':'';
   }
   function renderYear(){

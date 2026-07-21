@@ -37,7 +37,7 @@ body {
 }
 .wrap { max-width: 900px; margin: 0 auto; padding: clamp(1.2rem, 4vw, 3rem); }
 
-header.masthead { text-align: center; padding: 2rem 0 1rem; border-bottom: 2px solid var(--line); margin-bottom: 2rem; }
+header.masthead { text-align: center; padding: .6rem 0 1rem; border-bottom: 2px solid var(--line); margin-bottom: 1.6rem; }
 header.masthead h1 { font-size: clamp(1.35rem, 3.2vw, 1.9rem); margin: 0 0 .3rem; letter-spacing: .01em; }
 header.masthead p { color: var(--muted); font-family: var(--sans); font-size: .95rem; margin: 0; }
 .subscribe { display: flex; gap: .6rem; justify-content: center; flex-wrap: wrap; margin-top: 1.1rem; font-family: var(--sans); }
