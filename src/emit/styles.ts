@@ -155,6 +155,11 @@ button.hcell { cursor: pointer; }
 .sabbath-sec { margin: 1.6rem 0; }
 .sabbath-head { font-family: var(--sans); text-transform: uppercase; letter-spacing: .08em; font-size: .85rem; color: #6d64a0; margin: 0 0 .8rem; }
 .sabbath-head .hz-note { text-transform: none; letter-spacing: 0; color: var(--muted); font-weight: 400; }
+.sab-controls { display: flex; align-items: center; flex-wrap: wrap; gap: .5rem; margin: 0 0 .8rem; font-family: var(--sans); font-size: .82rem; }
+.sab-controls label { color: var(--muted); text-transform: uppercase; letter-spacing: .06em; font-size: .72rem; }
+.sab-controls input[type="date"] { font: inherit; padding: .25rem .5rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
+.sab-controls input[type="date"]:hover { border-color: #6d64a0; }
+.sab-controls .sab-hint { color: var(--muted); font-style: italic; }
 .card.sabbath { border-left-color: #6d64a0; border-left-width: 6px; background: color-mix(in srgb, var(--surface) 94%, #6d64a0); }
 .card.sabbath .badge { border-color: #6d64a0; color: #6d64a0; }
 .card.sabbath .title::before { content: "✧ "; color: #6d64a0; }

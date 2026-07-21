@@ -208,18 +208,37 @@ const APP_JS = `(function(){
       el.innerHTML='<div class="onday empty">'+head+'<p class="empty-note">Nothing marked'+(isToday?" today":" on this day")+'.'+(nx.length?' Next: <strong>'+esc(D.h[nx[0].id].title)+'</strong>, '+fmt(nx[0].iso)+'.':'')+'</p></div>';
     }
   }
-  // The weekly Sabbath — a separate track that cycles through its entries, one
-  // per week. Independent of the category filters. Mirrors core/sabbath.ts.
+  // The weekly Sabbath — an ordered reading plan that plays one entry per week
+  // and loops. Independent of the category filters. Mirrors core/sabbath.ts.
+  // The plan's start date (which entry lands on week one) is adjustable in the
+  // UI: it overrides the config default, persists to localStorage, and rides in
+  // the URL (?s=) so a chosen start is shareable. The .ics feed still uses the
+  // config default — set config.sabbath.epoch to bake a start into the feed.
   var sab=D.sabbath||{track:[]};
   var sabDate=function(iso){var ms=toMs(iso);var back=((new Date(ms).getUTCDay()-sab.weekday)%7+7)%7;return new Date(ms-back*864e5).toISOString().slice(0,10);};
-  var sabWeeks=function(siso){return Math.round((toMs(siso)-toMs(sab.epoch))/(7*864e5));};
+  var sabWeeks=function(siso){return Math.round((toMs(siso)-toMs(state.sabStart))/(7*864e5));};
   var sabIndex=function(siso){var n=sab.track.length;if(!n)return -1;var w=sabWeeks(siso);return ((w%n)+n)%n;};
+  var isDate=function(v){return typeof v==="string"&&/^\\d{4}-\\d{2}-\\d{2}$/.test(v);};
+  var defaultStart=function(){return sabDate(isDate(sab.epoch)?sab.epoch:localToday());};
+  var readSabStart=function(){
+    var v=null;try{v=(new URLSearchParams(location.search)).get("s");}catch(e){}
+    if(!isDate(v)){try{v=localStorage.getItem("sabStart");}catch(e){}}
+    return isDate(v)?sabDate(v):defaultStart();
+  };
+  function setSabStart(iso,persist){if(!isDate(iso))return;state.sabStart=sabDate(iso);
+    try{if(persist===false){localStorage.removeItem("sabStart");}else{localStorage.setItem("sabStart",state.sabStart);}}catch(e){}
+    writeUrl();renderSabbath();}
   function renderSabbath(){
     var el=$("sabbath");if(!sab.track.length){el.innerHTML="";return;}
     var s=sabDate(state.date),idx=sabIndex(s),e=sab.track[idx];
+    var custom=state.sabStart!==defaultStart();
     el.innerHTML='<h3 class="sabbath-head">This week\\u2019s Sabbath <span class="hz-note">'+fmt(s,true)+'</span></h3>'
+      +'<div class="sab-controls"><label for="sabStart">Reading plan begins</label>'
+      +'<input type="date" id="sabStart" value="'+state.sabStart+'">'
+      +(custom?'<button class="chip util" data-sabreset="1">Reset</button>':'')
+      +'<span class="sab-hint">entry 1 lands on this Sabbath</span></div>'
       +'<article class="card sabbath"><div class="head"><h3 class="title">'+esc(e.title)+'</h3><div class="when">'+fmt(s)+'</div></div>'
-      +'<div class="badge">Sabbath \\u00b7 '+(idx+1)+' of '+sab.track.length+'</div><p class="blurb">'+esc(e.blurb)+'</p>'+e.body+'</article>';
+      +'<div class="badge">Sabbath \\u00b7 reading '+(idx+1)+' of '+sab.track.length+'</div><p class="blurb">'+esc(e.blurb)+'</p>'+e.body+'</article>';
   }
   // On the horizon — upcoming holidays within three months of the selected date.
   function renderUpcoming(){
@@ -260,7 +279,9 @@ const APP_JS = `(function(){
     $("chips").innerHTML=Object.keys(D.categories).map(function(c){return '<button class="chip'+(state.cats.has(c)?" on":"")+'" data-cat="'+c+'">'+esc(D.categories[c])+'</button>';}).join("")+'<button class="chip util" data-all="1">All</button><button class="chip util" data-none="1">None</button>';
   }
   function refresh(){renderHeatmap();renderDay();renderSabbath();renderUpcoming();renderYear();}
-  function setDate(iso){state.date=iso;$("asof").value=iso;try{history.replaceState(null,"",location.pathname+"?d="+iso);}catch(e){}refresh();}
+  // Keep both the selected date (?d) and any custom plan start (?s) in the URL.
+  function writeUrl(){try{var q="?d="+state.date;if(sab.track&&sab.track.length&&state.sabStart&&state.sabStart!==defaultStart())q+="&s="+state.sabStart;history.replaceState(null,"",location.pathname+q);}catch(e){}}
+  function setDate(iso){state.date=iso;$("asof").value=iso;writeUrl();refresh();}
 
   document.addEventListener("click",function(e){
     var b=e.target.closest("button");if(!b)return;
@@ -268,13 +289,17 @@ const APP_JS = `(function(){
     else if(b.dataset.all){state.cats=new Set(Object.keys(D.categories));renderChips();refresh();}
     else if(b.dataset.none){state.cats=new Set();renderChips();refresh();}
     else if(b.dataset.unit){setDate(shift(state.date,b.dataset.unit,+b.dataset.dir));}
+    else if(b.dataset.sabreset){setSabStart(defaultStart(),false);}
     else if(b.dataset.d){setDate(b.dataset.d);}
     else if(b.id==="todayBtn"){setDate(localToday());}
   });
   $("asof").addEventListener("change",function(e){if(e.target.value)setDate(e.target.value);});
+  document.addEventListener("change",function(e){if(e.target&&e.target.id==="sabStart"&&e.target.value)setSabStart(e.target.value);});
   $("search").addEventListener("input",function(e){state.q=e.target.value.trim();refresh();});
 
-  state.date=urlDate()||localToday();$("asof").value=state.date;renderChips();refresh();
+  state.date=urlDate()||localToday();$("asof").value=state.date;
+  state.sabStart=(sab.track&&sab.track.length)?readSabStart():localToday();
+  renderChips();refresh();
 })();`;
 
 // ─────────────────────────── Print / PDF (server-rendered) ──────────────────
