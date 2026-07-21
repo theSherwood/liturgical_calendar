@@ -1,6 +1,6 @@
 import { formatInTimeZone } from "date-fns-tz";
 import type { Config } from "../config.js";
-import type { Holiday, SeasonDoc } from "../core/load.js";
+import type { Holiday, SabbathEntry, SeasonDoc } from "../core/load.js";
 import { resolveYear, type ResolvedHoliday } from "../core/resolve.js";
 import { CATEGORIES, SEASONS, type Season } from "../core/schema.js";
 import { CATEGORY_LABELS, SEASON_LABELS, formatWhen, parseSections } from "./util.js";
@@ -25,10 +25,15 @@ function readingHtml(reading: string): string {
   return `<div class="reading">${marked.parse(reading) as string}</div>`;
 }
 
-/** The Meaning/Observance/Reading body — date-independent, so it's built once per holiday. */
-function bodyHtmlFor(holiday: Holiday): string {
-  const { meaning, observance, reading } = parseSections(holiday.body);
+/** The Meaning/Observance/Reading body from a Markdown source string. */
+function bodyHtml(body: string): string {
+  const { meaning, observance, reading } = parseSections(body);
   return `<div class="body"><h4>Meaning</h4>${paras(meaning)}<h4>Observance</h4>${paras(observance)}<h4>Reading</h4>${readingHtml(reading)}</div>`;
+}
+
+/** The body for a holiday — date-independent, so it's built once per holiday. */
+function bodyHtmlFor(holiday: Holiday): string {
+  return bodyHtml(holiday.body);
 }
 
 function page(title: string, headExtra: string, bodyInner: string, bodyClass = ""): string {
@@ -61,7 +66,7 @@ function todayInTz(config: Config): { year: number } {
  * lets you jump to any date, and filters by category or search. Because nothing is
  * baked to a build-time date, the site never goes stale between builds.
  */
-export function renderSite(holidays: Holiday[], seasons: SeasonMap, config: Config): string {
+export function renderSite(holidays: Holiday[], seasons: SeasonMap, sabbathTrack: SabbathEntry[], config: Config): string {
   const base = todayInTz(config).year;
   const from = base - 2;
   const to = base + 8;
@@ -96,11 +101,21 @@ export function renderSite(holidays: Holiday[], seasons: SeasonMap, config: Conf
     return doc ? { season: s, title: doc.meta.title, blurb: doc.meta.blurb, body: doc.body ? paras(doc.body) : "" } : null;
   }).filter(Boolean);
 
+  const sabbath = {
+    weekday: config.sabbath.weekday,
+    epoch: config.sabbath.epoch,
+    track: sabbathTrack.map((e) => ({
+      id: e.meta.id, title: e.meta.title, blurb: e.meta.blurb,
+      tone: e.meta.tone, tags: e.meta.tags, body: bodyHtml(e.body),
+    })),
+  };
+
   const data = {
     familyName: config.familyName,
     categories,
     seasonLabels: SEASON_LABELS,
     seasons: seasonsArr,
+    sabbath,
     range: { from, to },
     h,
     occ,
@@ -143,6 +158,7 @@ export function renderSite(holidays: Holiday[], seasons: SeasonMap, config: Conf
 
 <noscript><p class="empty-note">This dashboard needs JavaScript. Or grab the <a href="calendar.ics">.ics</a> / <a href="calendar.pdf">PDF</a>.</p></noscript>
 <section id="feature"></section>
+<section id="sabbath" class="sabbath-sec"></section>
 <section id="upcoming" class="upcoming"></section>
 <div id="year"></div>
 <footer>Explore any date · data spans ${from}–${to} · one source, three outputs (site · .ics · PDF)</footer>`;
@@ -192,6 +208,19 @@ const APP_JS = `(function(){
       el.innerHTML='<div class="onday empty">'+head+'<p class="empty-note">Nothing marked'+(isToday?" today":" on this day")+'.'+(nx.length?' Next: <strong>'+esc(D.h[nx[0].id].title)+'</strong>, '+fmt(nx[0].iso)+'.':'')+'</p></div>';
     }
   }
+  // The weekly Sabbath — a separate track that cycles through its entries, one
+  // per week. Independent of the category filters. Mirrors core/sabbath.ts.
+  var sab=D.sabbath||{track:[]};
+  var sabDate=function(iso){var ms=toMs(iso);var back=((new Date(ms).getUTCDay()-sab.weekday)%7+7)%7;return new Date(ms-back*864e5).toISOString().slice(0,10);};
+  var sabWeeks=function(siso){return Math.round((toMs(siso)-toMs(sab.epoch))/(7*864e5));};
+  var sabIndex=function(siso){var n=sab.track.length;if(!n)return -1;var w=sabWeeks(siso);return ((w%n)+n)%n;};
+  function renderSabbath(){
+    var el=$("sabbath");if(!sab.track.length){el.innerHTML="";return;}
+    var s=sabDate(state.date),idx=sabIndex(s),e=sab.track[idx];
+    el.innerHTML='<h3 class="sabbath-head">This week\\u2019s Sabbath <span class="hz-note">'+fmt(s,true)+'</span></h3>'
+      +'<article class="card sabbath"><div class="head"><h3 class="title">'+esc(e.title)+'</h3><div class="when">'+fmt(s)+'</div></div>'
+      +'<div class="badge">Sabbath \\u00b7 '+(idx+1)+' of '+sab.track.length+'</div><p class="blurb">'+esc(e.blurb)+'</p>'+e.body+'</article>';
+  }
   // On the horizon — upcoming holidays within three months of the selected date.
   function renderUpcoming(){
     var end=shift(state.date,"month",3),up=[],el=$("upcoming");
@@ -230,7 +259,7 @@ const APP_JS = `(function(){
   function renderChips(){
     $("chips").innerHTML=Object.keys(D.categories).map(function(c){return '<button class="chip'+(state.cats.has(c)?" on":"")+'" data-cat="'+c+'">'+esc(D.categories[c])+'</button>';}).join("")+'<button class="chip util" data-all="1">All</button><button class="chip util" data-none="1">None</button>';
   }
-  function refresh(){renderHeatmap();renderDay();renderUpcoming();renderYear();}
+  function refresh(){renderHeatmap();renderDay();renderSabbath();renderUpcoming();renderYear();}
   function setDate(iso){state.date=iso;$("asof").value=iso;try{history.replaceState(null,"",location.pathname+"?d="+iso);}catch(e){}refresh();}
 
   document.addEventListener("click",function(e){

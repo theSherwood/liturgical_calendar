@@ -18,6 +18,17 @@ export interface Config {
   familyName: string;
   /** Public base URL where the site is hosted (no trailing slash). Powers the subscribe links. */
   siteUrl: string;
+  /** The weekly Sabbath track. */
+  sabbath: {
+    /** Which weekday the Sabbath falls on: 0 = Sunday … 6 = Saturday. */
+    weekday: number;
+    /**
+     * A reference Sabbath date (ISO `YYYY-MM-DD`) that marks week 0 of the track.
+     * The track entry for any week is chosen by counting whole weeks from here,
+     * so changing this rotates *which* entry lands on a given week.
+     */
+    epoch: string;
+  };
 }
 
 export const config: Config = {
@@ -27,4 +38,5 @@ export const config: Config = {
   outDir: "dist",
   familyName: "Sherwood",
   siteUrl: "https://thesherwood.github.io/liturgical_calendar",
+  sabbath: { weekday: 0, epoch: "2024-01-07" },
 };

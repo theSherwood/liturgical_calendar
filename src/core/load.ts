@@ -3,8 +3,10 @@ import { join } from "node:path";
 import matter from "gray-matter";
 import {
   frontmatterSchema,
+  sabbathEntrySchema,
   seasonMetaSchema,
   type Frontmatter,
+  type SabbathMeta,
   type Season,
   type SeasonMeta,
 } from "./schema.js";
@@ -18,7 +20,7 @@ export interface Holiday {
 }
 
 /** Subdirectories of content/ that are not holidays. */
-const NON_HOLIDAY_DIRS = new Set(["seasons"]);
+const NON_HOLIDAY_DIRS = new Set(["seasons", "sabbath"]);
 
 function walk(dir: string): string[] {
   const out: string[] = [];
@@ -92,4 +94,42 @@ export function loadSeasons(seasonsDir: string): Map<Season, SeasonDoc> {
     seasons.set(parsed.data.season, { meta: parsed.data, body: content.trim(), source: file });
   }
   return seasons;
+}
+
+export interface SabbathEntry {
+  meta: SabbathMeta;
+  /** The Markdown body (Meaning / Observance / Reading sections). */
+  body: string;
+  source: string;
+}
+
+/**
+ * Load the weekly Sabbath track from `sabbathDir` (content/sabbath/*.md),
+ * ordered by each entry's `order` (then filename). Returns an empty array if
+ * the directory is absent. Throws on malformed frontmatter or a duplicate id.
+ */
+export function loadSabbath(sabbathDir: string): SabbathEntry[] {
+  let files: string[];
+  try {
+    files = readdirSync(sabbathDir).filter((f) => f.endsWith(".md"));
+  } catch {
+    return []; // no sabbath directory yet — fine
+  }
+
+  const entries: SabbathEntry[] = [];
+  const seen = new Map<string, string>();
+  for (const name of files.sort()) {
+    const file = join(sabbathDir, name);
+    const { data, content } = matter(readFileSync(file, "utf8"));
+    const parsed = sabbathEntrySchema.safeParse(data);
+    if (!parsed.success) {
+      throw new Error(`Invalid Sabbath frontmatter in ${file}:\n${parsed.error.toString()}`);
+    }
+    const prior = seen.get(parsed.data.id);
+    if (prior) throw new Error(`Duplicate Sabbath id "${parsed.data.id}" in ${file} and ${prior}`);
+    seen.set(parsed.data.id, file);
+    entries.push({ meta: parsed.data, body: content.trim(), source: file });
+  }
+  entries.sort((a, b) => a.meta.order - b.meta.order || a.source.localeCompare(b.source));
+  return entries;
 }

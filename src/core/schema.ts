@@ -133,3 +133,23 @@ export const seasonMetaSchema = z.object({
 });
 
 export type SeasonMeta = z.infer<typeof seasonMetaSchema>;
+
+// ---- Sabbath track ---------------------------------------------------------
+
+/**
+ * Frontmatter for a weekly Sabbath entry (content/sabbath/<slug>.md). Unlike a
+ * holiday, a Sabbath entry has no date rule or season — it's one rung in an
+ * ordered, repeating weekly track, selected by its position in the rotation.
+ */
+export const sabbathEntrySchema = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/, "id must be kebab-case"),
+  title: z.string().min(1),
+  /** Position in the rotation (1-based); entries cycle in this order. */
+  order: z.number().int().min(1),
+  /** One-line summary used in compact views. */
+  blurb: z.string().min(1),
+  tone: z.enum(TONES).default("reflective"),
+  tags: z.array(z.string()).default([]),
+});
+
+export type SabbathMeta = z.infer<typeof sabbathEntrySchema>;

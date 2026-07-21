@@ -57,6 +57,19 @@ Fall of Constantinople, Holocaust Remembrance, Remembrance Day) marks the solemn
 days with a shared grave ritual — a candle, a reading, a minute of silence — and
 those cards are styled to read differently from the festive ones.
 
+### The weekly Sabbath
+
+Running underneath the annual year is a **weekly Sabbath** — a secular day of rest
+that recurs every week and cycles through an ordered *track* of themes (Rest,
+Gratitude, Reflection, Connection, …). It lives in
+[`content/sabbath/`](content/sabbath/), one Markdown file per rung of the rotation
+(`order:` sets the sequence), and it's independent of the annual holidays and their
+category filters. The dashboard shows **"This week's Sabbath"** for whatever date
+you're viewing — step week to week and watch the track turn — and the `.ics` carries
+one Sabbath event per week with that week's reading. The day it falls on is set in
+[`src/config.ts`](src/config.ts) (`sabbath.weekday`, `0` = Sunday), and `sabbath.epoch`
+anchors which rung lands on which week.
+
 ## Quick start
 
 ```sh
