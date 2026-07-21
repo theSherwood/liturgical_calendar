@@ -143,7 +143,7 @@ export function renderSite(holidays: Holiday[], seasons: SeasonMap, sabbathTrack
 </header>
 
 <section class="controls">
-  <input type="search" id="search" placeholder="Search by name, theme, or tag…" aria-label="Search holidays">
+  <input type="search" id="search" placeholder="Search names, themes, tags, and readings…" aria-label="Search holidays">
   <div class="chips" id="chips"></div>
   <div class="date-nav">
     <button data-unit="year" data-dir="-1" title="Previous year" aria-label="Previous year">&lt;&lt;&lt;</button>
@@ -202,7 +202,12 @@ const APP_JS = `(function(){
   var activeOn=function(iso){return D.occ.filter(function(o){return o.iso===iso;});};
   var whenText=function(o){var dur=D.h[o.id].durationDays||1;if(dur<=1)return fmt(o.iso);var e=new Date(toMs(o.iso)+(dur-1)*864e5).toISOString().slice(0,10);return sfmt(o.iso)+" – "+sfmt(e)+" · "+dur+" days";};
   var after=function(iso,n){var t=toMs(iso),r=[];for(var i=0;i<D.occ.length;i++){var o=D.occ[i];if(toMs(o.iso)>t&&pass(o.id)){r.push(o);if(r.length>=n)break;}}return r;};
-  var pass=function(id){var hh=D.h[id];if(!state.cats.has(hh.category))return false;if(state.q){var q=state.q.toLowerCase();var hay=(hh.title+" "+hh.blurb+" "+(hh.tags||[]).join(" ")+" "+D.categories[hh.category]).toLowerCase();if(hay.indexOf(q)<0)return false;}return true;};
+  // Full-text search index: title + blurb + tags + category + the card's whole
+  // body (Meaning/Observance/Reading), built lazily from the embedded HTML (so
+  // no extra payload) and memoised per holiday.
+  var searchIndex={};
+  var indexFor=function(id){var s=searchIndex[id];if(s!==undefined)return s;var hh=D.h[id];var tmp=document.createElement("div");tmp.innerHTML=hh.body||"";var body=tmp.textContent||"";s=(hh.title+" "+hh.blurb+" "+(hh.tags||[]).join(" ")+" "+D.categories[hh.category]+" "+body).toLowerCase();searchIndex[id]=s;return s;};
+  var pass=function(id){var hh=D.h[id];if(!state.cats.has(hh.category))return false;if(state.q){if(indexFor(id).indexOf(state.q.toLowerCase())<0)return false;}return true;};
 
   var card=function(o,open){var hh=D.h[o.id];return '\\n<details class="card '+hh.category+'"'+(open?" open":"")+'><summary><div class="head"><h3 class="title">'+esc(hh.title)+'</h3><div class="when">'+whenText(o)+'</div></div><div class="badge">'+esc(D.categories[hh.category])+'</div><p class="blurb">'+esc(hh.blurb)+'</p></summary>'+hh.body+'</details>';};
 

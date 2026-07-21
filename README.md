@@ -18,7 +18,7 @@ It is **one source of truth → three synced outputs**:
 | Output | File | Use |
 | --- | --- | --- |
 | 📆 Subscribable feed | `dist/calendar.ics` | Subscribe on every phone; holidays appear with their meaning & observance |
-| 🌐 Website | `dist/site/index.html` | Interactive dashboard: today (in your timezone), jump to any date, filter by category, search — plus the whole annotated year by season |
+| 🌐 Website | `dist/site/index.html` | Interactive dashboard: today (in your timezone), jump to any date, filter by category, full-text search (names, themes, tags, and the readings themselves) — plus the whole annotated year by season |
 | 🖨️ Printable calendar | `dist/calendar.pdf` | A year-at-a-glance booklet for the wall or fridge |
 
 All three are generated from the Markdown files in [`content/`](content/). No
