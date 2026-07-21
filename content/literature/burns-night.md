@@ -30,5 +30,5 @@ Burns wrote it after turning up a mouse's nest with his plough — proof that ev
 
 **Sources**
 
-- [To a Mouse — Scottish Poetry Library](https://www.scottishpoetrylibrary.org.uk/poem/mouse/)
+- [To a Mouse — Wikipedia (full text)](https://en.wikipedia.org/wiki/To_a_Mouse)
 - [Burns supper — Wikipedia](https://en.wikipedia.org/wiki/Burns_supper)
