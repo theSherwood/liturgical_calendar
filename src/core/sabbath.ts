@@ -27,6 +27,17 @@ export function sabbathOnOrBefore(iso: string, weekday: number): string {
   return utcToIso(ms - back * DAY);
 }
 
+/**
+ * The Sabbath date on or after `iso` — i.e. the next occurrence of the Sabbath
+ * weekday, or `iso` itself if it already falls on that weekday. This is what the
+ * dashboard shows: mid-week, the *upcoming* Sabbath rather than the past one.
+ */
+export function sabbathOnOrAfter(iso: string, weekday: number): string {
+  const ms = isoToUtc(iso);
+  const fwd = ((weekday - new Date(ms).getUTCDay()) % 7 + 7) % 7;
+  return utcToIso(ms + fwd * DAY);
+}
+
 /** Whole weeks between two Sabbath dates (may be negative). */
 export function weeksSinceEpoch(sabbathIso: string, epochIso: string): number {
   return Math.round((isoToUtc(sabbathIso) - isoToUtc(epochIso)) / (7 * DAY));
