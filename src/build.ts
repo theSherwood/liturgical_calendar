@@ -5,7 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { config } from "./config.js";
-import { loadHolidays, loadSeasons } from "./core/load.js";
+import { loadHolidays, loadSabbath, loadSeasons } from "./core/load.js";
 import { buildIcs } from "./emit/ics.js";
 import { buildPdf } from "./emit/pdf.js";
 import { renderPrint, renderSite } from "./emit/web.js";
@@ -16,14 +16,15 @@ const want = (name: string) => !only || only === name;
 async function main() {
   const holidays = loadHolidays("content");
   const seasons = loadSeasons("content/seasons");
-  console.log(`Loaded ${holidays.length} holidays, ${seasons.size} season themes.`);
+  const sabbathTrack = loadSabbath("content/sabbath");
+  console.log(`Loaded ${holidays.length} holidays, ${seasons.size} season themes, ${sabbathTrack.length} Sabbath entries.`);
 
   const outDir = config.outDir;
   const siteDir = join(outDir, "site");
   mkdirSync(siteDir, { recursive: true });
 
   if (want("ics")) {
-    const ics = buildIcs(holidays, config);
+    const ics = buildIcs(holidays, sabbathTrack, config);
     writeFileSync(join(outDir, "calendar.ics"), ics, "utf8");
     const events = (ics.match(/BEGIN:VEVENT/g) ?? []).length;
     console.log(`✓ .ics    → ${join(outDir, "calendar.ics")} (${events} events)`);
@@ -35,7 +36,7 @@ async function main() {
   }
 
   if (want("web")) {
-    writeFileSync(join(siteDir, "index.html"), renderSite(holidays, seasons, config), "utf8");
+    writeFileSync(join(siteDir, "index.html"), renderSite(holidays, seasons, sabbathTrack, config), "utf8");
     writeFileSync(join(siteDir, "print.html"), printHtml, "utf8");
     console.log(`✓ web    → ${join(siteDir, "index.html")}`);
   }

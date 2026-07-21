@@ -151,6 +151,19 @@ button.hcell { cursor: pointer; }
   .card.remembrance .badge, .card.remembrance .title::before { border-color: #9aa3b2; color: #9aa3b2; }
 }
 
+/* The weekly Sabbath — its own quiet colour, set apart from the annual days. */
+.sabbath-sec { margin: 1.6rem 0; }
+.sabbath-head { font-family: var(--sans); text-transform: uppercase; letter-spacing: .08em; font-size: .85rem; color: #6d64a0; margin: 0 0 .8rem; }
+.sabbath-head .hz-note { text-transform: none; letter-spacing: 0; color: var(--muted); font-weight: 400; }
+.card.sabbath { border-left-color: #6d64a0; border-left-width: 6px; background: color-mix(in srgb, var(--surface) 94%, #6d64a0); }
+.card.sabbath .badge { border-color: #6d64a0; color: #6d64a0; }
+.card.sabbath .title::before { content: "✧ "; color: #6d64a0; }
+@media (prefers-color-scheme: dark) {
+  .sabbath-head, .card.sabbath .badge, .card.sabbath .title::before { color: #a99ee0; }
+  .card.sabbath { border-left-color: #a99ee0; background: color-mix(in srgb, var(--surface) 88%, #a99ee0); }
+  .card.sabbath .badge { border-color: #a99ee0; }
+}
+
 .card .head { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
 .card .title { font-size: 1.25rem; font-weight: 600; margin: 0; }
 .card .when { font-family: var(--sans); font-size: .82rem; color: var(--muted); white-space: nowrap; }
