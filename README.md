@@ -60,15 +60,22 @@ those cards are styled to read differently from the festive ones.
 ### The weekly Sabbath
 
 Running underneath the annual year is a **weekly Sabbath** — a secular day of rest
-that recurs every week and cycles through an ordered *track* of themes (Rest,
-Gratitude, Reflection, Connection, …). It lives in
-[`content/sabbath/`](content/sabbath/), one Markdown file per rung of the rotation
-(`order:` sets the sequence), and it's independent of the annual holidays and their
-category filters. The dashboard shows **"This week's Sabbath"** for whatever date
-you're viewing — step week to week and watch the track turn — and the `.ics` carries
-one Sabbath event per week with that week's reading. The day it falls on is set in
-[`src/config.ts`](src/config.ts) (`sabbath.weekday`, `0` = Sunday), and `sabbath.epoch`
-anchors which rung lands on which week.
+built as an ordered **reading plan**: an ordered *track* of entries that plays one
+per week and loops. The seed plan walks the opening of the LessWrong Sequences
+(*Making Beliefs Pay Rent*, *Belief in Belief*, …). It lives in
+[`content/sabbath/`](content/sabbath/), one Markdown file per rung (`order:` sets the
+sequence), and it's independent of the annual holidays and their category filters.
+
+The dashboard shows **"This week's Sabbath"** for whatever date you're viewing, and a
+**"Reading plan begins" date picker** lets you slide where entry 1 lands — set it to a
+given Sunday and the plan plays forward from there, week by week. That choice persists
+(localStorage) and rides in the URL (`?s=YYYY-MM-DD`) so a chosen start is shareable.
+
+The day the Sabbath falls on is set in [`src/config.ts`](src/config.ts)
+(`sabbath.weekday`, `0` = Sunday); `sabbath.epoch` is the default plan start and the
+one the **`.ics` feed** uses (the dashboard picker only overrides the plan start
+in-browser — set `sabbath.epoch` to bake a start into the subscribable feed). The feed
+carries one Sabbath event per week with that week's reading.
 
 ## Quick start
 
