@@ -146,6 +146,8 @@ export const sabbathEntrySchema = z.object({
   title: z.string().min(1),
   /** Position in the rotation (1-based); entries cycle in this order. */
   order: z.number().int().min(1),
+  /** Which seasonal block of the reading plan this entry belongs to. */
+  season: z.enum(SEASONS),
   /** One-line summary used in compact views. */
   blurb: z.string().min(1),
   tone: z.enum(TONES).default("reflective"),
