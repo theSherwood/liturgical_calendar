@@ -1,7 +1,7 @@
 ---
 id: christmas
 title: "Christmas"
-category: modern
+category: christian
 region: both
 season: winter
 dateRule: {"type":"fixed","month":12,"day":25}

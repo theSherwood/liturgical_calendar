@@ -83,6 +83,7 @@ export type DateRule = RuleOutput;
 export const CATEGORIES = [
   "seasonal",
   "modern",
+  "christian",
   "roman",
   "greek",
   "norse",

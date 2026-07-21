@@ -71,6 +71,7 @@ export function formatWhen(r: ResolvedHoliday): string {
 export const CATEGORY_LABELS: Record<string, string> = {
   seasonal: "Seasonal & Sky",
   modern: "Modern & Civic",
+  christian: "Christian",
   roman: "Roman",
   greek: "Greek",
   norse: "Norse & Germanic",
