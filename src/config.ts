@@ -38,5 +38,5 @@ export const config: Config = {
   outDir: "dist",
   familyName: "Sherwood",
   siteUrl: "https://thesherwood.github.io/liturgical_calendar",
-  sabbath: { weekday: 0, epoch: "2024-01-07" },
+  sabbath: { weekday: 0, epoch: "2026-07-26" },
 };
