@@ -60,11 +60,15 @@ those cards are styled to read differently from the festive ones.
 ### The weekly Sabbath
 
 Running underneath the annual year is a **weekly Sabbath** — a secular day of rest
-built as an ordered **reading plan**: an ordered *track* of entries that plays one
-per week and loops. The seed plan walks the opening of the LessWrong Sequences
-(*Making Beliefs Pay Rent*, *Belief in Belief*, …). It lives in
-[`content/sabbath/`](content/sabbath/), one Markdown file per rung (`order:` sets the
-sequence), and it's independent of the annual holidays and their category filters.
+built as an ordered **reading plan**: a 52-week track that plays one entry per week
+and loops. It runs through the rationalist/EA canon in four seasonal blocks —
+**Winter** *(Foundations of Clear Thinking)*, **Spring** *(Changing Your Mind &
+Escaping the Tribe)*, **Summer** *(Acting Well — Altruism & Doing Good)*, and
+**Autumn** *(What Is Worth Wanting — Value & the Far Future)* — from *Making Beliefs
+Pay Rent* through *Meditations on Moloch* to *Letter from Utopia*. It lives in
+[`content/sabbath/`](content/sabbath/), one Markdown file per week (`order:` sets the
+sequence, `season:` its block), and it's independent of the annual holidays and their
+category filters.
 
 The dashboard shows **"This week's Sabbath"** for whatever date you're viewing, and a
 **"Reading plan begins" date picker** lets you slide where entry 1 lands — set it to a

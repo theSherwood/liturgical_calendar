@@ -160,6 +160,8 @@ button.hcell { cursor: pointer; }
 .sab-controls input[type="date"] { font: inherit; padding: .25rem .5rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
 .sab-controls input[type="date"]:hover { border-color: #6d64a0; }
 .sab-controls .sab-hint { color: var(--muted); font-style: italic; }
+.sab-theme { font-family: var(--sans); font-size: .8rem; color: #6d64a0; margin: 0 0 .6rem; font-weight: 600; }
+@media (prefers-color-scheme: dark) { .sab-theme { color: #a99ee0; } }
 .card.sabbath { border-left-color: #6d64a0; border-left-width: 6px; background: color-mix(in srgb, var(--surface) 94%, #6d64a0); }
 .card.sabbath .badge { border-color: #6d64a0; color: #6d64a0; }
 .card.sabbath .title::before { content: "✧ "; color: #6d64a0; }
