@@ -83,9 +83,26 @@ const seasonInstant: Record<string, (s: ReturnType<typeof Astronomy.Seasons>) =>
   decemberSolstice: (s) => s.dec_solstice.date,
 };
 
+/** Gregorian leap year. */
+export function isLeapYear(year: number): boolean {
+  return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+}
+
+/**
+ * Whether a rule yields a date at all in `year`. Everything recurs annually
+ * except `leapDay`, which exists only in leap years — resolveYear skips a
+ * holiday when this is false rather than inventing a Mar 1.
+ */
+export function ruleAppliesInYear(rule: DateRule, year: number): boolean {
+  if (rule.type === "leapDay") return isLeapYear(year);
+  if (rule.type === "relative") return ruleAppliesInYear(rule.base, year);
+  return true;
+}
+
 /**
  * Resolve a date rule to the calendar date it falls on in the given `year`.
  * `tz` localizes astronomical instants; it is irrelevant to purely civil rules.
+ * Callers must gate on `ruleAppliesInYear` first for rules that can be absent.
  */
 export function resolveRule(rule: DateRule, year: number, tz: string): CalendarDate {
   return toCalendarDate(resolveToUtcNoon(rule, year, tz));
@@ -95,6 +112,10 @@ function resolveToUtcNoon(rule: DateRule, year: number, tz: string): Date {
   switch (rule.type) {
     case "fixed":
       return utcNoon(year, rule.month, rule.day);
+
+    case "leapDay":
+      // Only reached in leap years (callers gate on ruleAppliesInYear).
+      return utcNoon(year, 2, 29);
 
     case "nthWeekday":
       return nthWeekday(year, rule.month, rule.weekday, rule.n);

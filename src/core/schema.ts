@@ -53,6 +53,12 @@ const lunarRule = z.object({
   offset: z.number().int().default(0),
 });
 
+// Feb 29 — resolves to the 29th only in leap years, and is skipped entirely in
+// common years (a plain fixed Feb-29 would silently roll to Mar 1).
+const leapDayRule = z.object({
+  type: z.literal("leapDay"),
+});
+
 // `relative` references another rule by inlining it, so it stays self-contained.
 type RuleInput = z.input<typeof baseRule> | { type: "relative"; offset: number; base: RuleInput };
 type RuleOutput = z.output<typeof baseRule> | { type: "relative"; offset: number; base: RuleOutput };
@@ -63,6 +69,7 @@ const baseRule = z.discriminatedUnion("type", [
   easterRule,
   astronomicalRule,
   lunarRule,
+  leapDayRule,
 ]);
 
 export const dateRuleSchema: z.ZodType<RuleOutput, z.ZodTypeDef, RuleInput> = z.lazy(() =>
@@ -84,11 +91,14 @@ export const CATEGORIES = [
   "seasonal",
   "modern",
   "christian",
+  "literature",
   "roman",
   "greek",
   "norse",
   "celtic",
   "mesopotamian",
+  "egyptian",
+  "persian",
   "science",
   "rationalist",
   "remembrance",

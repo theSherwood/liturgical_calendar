@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { easterSunday, resolveRule } from "../src/core/dateRules.js";
+import { easterSunday, isLeapYear, resolveRule, ruleAppliesInYear } from "../src/core/dateRules.js";
 import type { DateRule } from "../src/core/schema.js";
 
 const TZ = "America/Denver";
@@ -81,5 +81,33 @@ describe("relative", () => {
   it("Mothering Sunday 2026 (Easter − 21) is Mar 15", () => {
     const rule: DateRule = { type: "relative", offset: -21, base: { type: "easter", offset: 0 } };
     expect(fmt(rule, 2026)).toBe("2026-03-15");
+  });
+});
+
+describe("leapDay", () => {
+  const rule: DateRule = { type: "leapDay" };
+
+  it("resolves to Feb 29 in a leap year", () => {
+    expect(fmt(rule, 2028)).toBe("2028-02-29");
+    expect(fmt(rule, 2024)).toBe("2024-02-29");
+  });
+
+  it("only applies in leap years", () => {
+    expect(ruleAppliesInYear(rule, 2028)).toBe(true); // leap
+    expect(ruleAppliesInYear(rule, 2026)).toBe(false); // common
+    expect(ruleAppliesInYear(rule, 2027)).toBe(false); // common
+    expect(ruleAppliesInYear(rule, 2100)).toBe(false); // century, not leap
+    expect(ruleAppliesInYear(rule, 2000)).toBe(true); // divisible by 400
+  });
+
+  it("other rules always apply", () => {
+    expect(ruleAppliesInYear({ type: "fixed", month: 6, day: 19 }, 2027)).toBe(true);
+  });
+
+  it("isLeapYear matches the Gregorian rule", () => {
+    expect(isLeapYear(2024)).toBe(true);
+    expect(isLeapYear(2026)).toBe(false);
+    expect(isLeapYear(1900)).toBe(false);
+    expect(isLeapYear(2000)).toBe(true);
   });
 });

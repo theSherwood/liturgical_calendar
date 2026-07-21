@@ -1,5 +1,5 @@
 import type { Config } from "../config.js";
-import { resolveRule, type CalendarDate } from "./dateRules.js";
+import { resolveRule, ruleAppliesInYear, type CalendarDate } from "./dateRules.js";
 import type { Holiday } from "./load.js";
 
 export interface ResolvedHoliday {
@@ -27,6 +27,7 @@ export function resolveYear(holidays: Holiday[], year: number, config: Config): 
   const resolved: ResolvedHoliday[] = [];
   for (const holiday of holidays) {
     if (!appliesToRegion(holiday, config.regions)) continue;
+    if (!ruleAppliesInYear(holiday.meta.dateRule, year)) continue; // e.g. Leap Day in a common year
     const date = resolveRule(holiday.meta.dateRule, year, config.timezone);
     resolved.push({
       holiday,
