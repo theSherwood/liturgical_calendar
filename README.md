@@ -101,7 +101,7 @@ Create a file under the right category folder in `content/`, e.g.
 ---
 id: petrov-day            # unique, kebab-case
 title: Petrov Day
-category: rationalist      # seasonal | modern | christian | roman | greek | norse | celtic | mesopotamian | science | rationalist | remembrance | progress | history
+category: rationalist      # seasonal | modern | christian | literature | roman | greek | norse | celtic | mesopotamian | egyptian | persian | science | rationalist | remembrance | progress | history
 region: both               # both | US | UK
 season: autumn             # winter | spring | summer | autumn
 dateRule: { type: fixed, month: 9, day: 26 }
@@ -138,6 +138,7 @@ Most of these holidays don't fall on a fixed date, so each entry stores a
 | `astronomical` | `event` (`marchEquinox`\|`juneSolstice`\|`septemberEquinox`\|`decemberSolstice`), `offset?` | the solstices & equinoxes, computed precisely |
 | `lunar` | `phase` (`new`\|`full`), `anchor` (a solar event), `count?` | Akitu = first new moon after the March equinox |
 | `relative` | `offset`, `base` (another rule) | Mothering Sunday = Easter − 21 days |
+| `leapDay` | *(none)* | Leap Day = Feb 29, present only in leap years |
 
 Astronomical and lunar instants are localized to the timezone in
 [`src/config.ts`](src/config.ts) (default US Mountain Time) before being reduced
