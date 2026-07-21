@@ -113,10 +113,13 @@ button.hcell { cursor: pointer; }
 .upcoming { margin-bottom: 3rem; }
 .upcoming h3, .season h2 { font-family: var(--sans); text-transform: uppercase; letter-spacing: .1em; font-size: .8rem; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: .5rem; }
 .upcoming ul { list-style: none; padding: 0; margin: 0; }
-.upcoming li { display: flex; gap: 1rem; padding: .5rem 0; border-bottom: 1px dotted var(--line); font-size: .98rem; }
-.upcoming li .when { font-family: var(--sans); color: var(--muted); min-width: 6.5rem; font-size: .85rem; padding-top: .15rem; }
-.upcoming li .what strong { font-weight: 600; }
-.upcoming li .what span { color: var(--muted); }
+.upcoming li { border-bottom: 1px dotted var(--line); }
+.upcoming .hz { display: flex; gap: 1rem; align-items: baseline; width: 100%; text-align: left; background: none; border: 0; margin: 0; padding: .5rem .35rem; cursor: pointer; font: inherit; color: var(--ink); border-radius: 6px; }
+.upcoming .hz:hover { background: color-mix(in srgb, var(--accent) 9%, transparent); }
+.upcoming .when { font-family: var(--sans); color: var(--muted); min-width: 6.5rem; font-size: .85rem; }
+.upcoming .what strong { font-weight: 600; }
+.upcoming .what .bl { color: var(--muted); }
+.upcoming h3 .hz-note { font-family: var(--sans); font-weight: 400; text-transform: none; letter-spacing: 0; color: var(--muted); font-size: .72rem; margin-left: .4rem; }
 
 .season { margin-bottom: 2.5rem; }
 .season h2 { margin-bottom: .2rem; }

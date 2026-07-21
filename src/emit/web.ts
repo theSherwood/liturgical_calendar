@@ -169,6 +169,7 @@ const APP_JS = `(function(){
     if(unit==="month")m+=dir;else y+=dir;
     var ny=y+Math.floor(m/12),nm=((m%12)+12)%12,last=new Date(Date.UTC(ny,nm+1,0)).getUTCDate();
     return ny+"-"+pad(nm+1)+"-"+pad(Math.min(d,last));};
+  var urlDate=function(){try{var d=(new URLSearchParams(location.search)).get("d");if(d&&/^\\d{4}-\\d{2}-\\d{2}$/.test(d))return d;}catch(e){}return null;};
   var state={date:localToday(),cats:new Set(Object.keys(D.categories)),q:""};
   var $=function(id){return document.getElementById(id);};
 
@@ -189,9 +190,11 @@ const APP_JS = `(function(){
       el.innerHTML='<div class="onday empty">'+head+'<p class="empty-note">Nothing marked'+(isToday?" today":" on this day")+'.'+(nx.length?' Next: <strong>'+esc(D.h[nx[0].id].title)+'</strong>, '+fmt(nx[0].iso)+'.':'')+'</p></div>';
     }
   }
+  // On the horizon — upcoming holidays within three months of the selected date.
   function renderUpcoming(){
-    var up=after(state.date,6),el=$("upcoming");
-    el.innerHTML=up.length?'<h3>On the horizon</h3><ul>'+up.map(function(o){var hh=D.h[o.id];return '<li><span class="when">'+sfmt(o.iso)+'</span><span class="what"><strong>'+esc(hh.title)+'</strong><span class="dash"> — </span><span class="bl">'+esc(hh.blurb)+'</span></span></li>';}).join("")+'</ul>':'';
+    var end=shift(state.date,"month",3),up=[],el=$("upcoming");
+    for(var i=0;i<D.occ.length;i++){var o=D.occ[i];if(o.iso>state.date&&o.iso<=end&&pass(o.id))up.push(o);}
+    el.innerHTML=up.length?'<h3>On the horizon <span class="hz-note">next 3 months</span></h3><ul>'+up.map(function(o){var hh=D.h[o.id];return '<li><button class="hz" data-d="'+o.iso+'"><span class="when">'+sfmt(o.iso)+'</span><span class="what"><strong>'+esc(hh.title)+'</strong><span class="dash"> — </span><span class="bl">'+esc(hh.blurb)+'</span></span></button></li>';}).join("")+'</ul>':'';
   }
   function renderYear(){
     var y=state.date.slice(0,4);
@@ -226,7 +229,7 @@ const APP_JS = `(function(){
     $("chips").innerHTML=Object.keys(D.categories).map(function(c){return '<button class="chip'+(state.cats.has(c)?" on":"")+'" data-cat="'+c+'">'+esc(D.categories[c])+'</button>';}).join("")+'<button class="chip util" data-all="1">All</button><button class="chip util" data-none="1">None</button>';
   }
   function refresh(){renderHeatmap();renderDay();renderUpcoming();renderYear();}
-  function setDate(iso){state.date=iso;$("asof").value=iso;refresh();}
+  function setDate(iso){state.date=iso;$("asof").value=iso;try{history.replaceState(null,"",location.pathname+"?d="+iso);}catch(e){}refresh();}
 
   document.addEventListener("click",function(e){
     var b=e.target.closest("button");if(!b)return;
@@ -240,7 +243,7 @@ const APP_JS = `(function(){
   $("asof").addEventListener("change",function(e){if(e.target.value)setDate(e.target.value);});
   $("search").addEventListener("input",function(e){state.q=e.target.value.trim();refresh();});
 
-  $("asof").value=state.date;renderChips();refresh();
+  state.date=urlDate()||localToday();$("asof").value=state.date;renderChips();refresh();
 })();`;
 
 // ─────────────────────────── Print / PDF (server-rendered) ──────────────────
