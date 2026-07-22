@@ -261,21 +261,25 @@ const APP_JS = `(function(){
   function setSabStart(iso,persist){if(!isDate(iso))return;state.sabStart=sabDate(iso);
     try{if(persist===false){localStorage.removeItem("sabStart");}else{localStorage.setItem("sabStart",state.sabStart);}}catch(e){}
     writeUrl();renderSabbath();}
-  var SEASON_GLYPH={winter:"\\u2744",spring:"\\ud83c\\udf31",summer:"\\u2600",autumn:"\\ud83c\\udf42"};
-  var SEASON_NAME={winter:"Winter",spring:"Spring",summer:"Summer",autumn:"Autumn"};
+  // Which quarter of the 52-week plan an entry sits in. The plan's blocks are
+  // keyed internally by season, but they aren't tied to the calendar seasons
+  // (the plan can start any week), so we show the block's THEME, not a season
+  // name — "Winter" beside an August date would just be wrong.
+  var BLOCKS=["winter","spring","summer","autumn"];
   function renderSabbath(){
     var el=$("sabbath");if(!sab.track.length){el.innerHTML="";return;}
     var s=sabDate(state.date),idx=sabIndex(s),e=sab.track[idx];
     var custom=state.sabStart!==defaultStart();
-    var theme=(sab.themes&&sab.themes[e.season])?SEASON_GLYPH[e.season]+" "+SEASON_NAME[e.season]+" \\u00b7 "+sab.themes[e.season]:"";
+    var part=BLOCKS.indexOf(e.season)+1;
+    var theme=(sab.themes&&sab.themes[e.season])?(part?"Part "+part+" of 4 \\u00b7 ":"")+sab.themes[e.season]:"";
     el.innerHTML='<h3 class="sabbath-head">This week\\u2019s Sabbath <span class="hz-note">'+fmt(s,true)+'</span></h3>'
       +'<div class="sab-controls"><label for="sabStart">Reading plan begins</label>'
       +'<input type="date" id="sabStart" value="'+state.sabStart+'">'
       +(custom?'<button class="chip util" data-sabreset="1">Reset</button>':'')
       +'<span class="sab-hint">entry 1 lands on this Sabbath</span></div>'
       +(theme?'<p class="sab-theme">'+esc(theme)+'</p>':'')
-      +'<article class="card sabbath"><div class="head"><h3 class="title">'+esc(e.title)+'</h3><div class="when">'+fmt(s)+'</div></div>'
-      +'<div class="badge">Reading '+(idx+1)+' of '+sab.track.length+'</div><p class="blurb">'+esc(e.blurb)+'</p>'+e.body+'</article>';
+      +'<details class="card sabbath"><summary><div class="head"><h3 class="title">'+esc(e.title)+'</h3><div class="when">'+fmt(s)+'</div></div>'
+      +'<div class="badge">Reading '+(idx+1)+' of '+sab.track.length+'</div><p class="blurb">'+esc(e.blurb)+'</p></summary>'+e.body+'</details>';
   }
   // On the horizon — upcoming holidays within three months of the selected date.
   function renderUpcoming(){
