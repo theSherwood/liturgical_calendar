@@ -147,11 +147,11 @@ export function renderSite(holidays: Holiday[], seasons: SeasonMap, sabbathTrack
     <p class="subintro">Subscribe once and every observance shows up in your calendar, refreshing on its own. Copy this feed address:</p>
     <div class="suburl">
       <input id="subUrl" type="text" readonly value="${esc(icsUrl)}" aria-label="Calendar feed address">
-      <button id="subCopy" data-copy>Copy</button>
+      <button id="subCopy">Copy</button>
     </div>
     <ul class="subhow">
       <li><strong>iPhone / Apple Calendar</strong> — <a href="${webcal}">tap to subscribe</a>, or Settings → Calendar → Accounts → Add Subscribed Calendar → paste.</li>
-      <li><strong>Google Calendar</strong> — <a href="${googleAdd}" target="_blank" rel="noopener">add it</a>, or on the web: Other calendars → From URL → paste.</li>
+      <li><strong>Google Calendar</strong> — <a href="${googleAdd}" target="_blank" rel="noopener">add it</a>, or on the web: Other calendars → From URL → paste. Google syncs a new subscription slowly and fills it in over a day or two; to see the whole year at once, use Settings → Import &amp; export → Import.</li>
       <li><strong>Outlook</strong> — Add calendar → Subscribe from web → paste.</li>
     </ul>
     <p class="subnote">The one-tap links use <code>webcal://</code>, which some phones (especially Android) and in-app browsers ignore — if a link does nothing, copy the address above and add it by URL.</p>
@@ -334,7 +334,7 @@ const APP_JS = `(function(){
     else if(b.dataset.d){setDate(b.dataset.d);}
     else if(b.id==="todayBtn"){setDate(localToday());}
     else if(b.id==="subBtn"){var p=$("subpanel"),hid=p.hasAttribute("hidden");if(hid){p.removeAttribute("hidden");}else{p.setAttribute("hidden","");}b.setAttribute("aria-expanded",hid?"true":"false");}
-    else if(b.dataset.copy){var inp=$("subUrl"),done=function(){b.textContent="Copied!";setTimeout(function(){b.textContent="Copy";},1500);};if(inp){inp.focus();inp.select();var ok=false;if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(inp.value).then(done,function(){try{document.execCommand("copy");}catch(e){}done();});ok=true;}if(!ok){try{document.execCommand("copy");}catch(e){}done();}}}
+    else if(b.id==="subCopy"){var inp=$("subUrl"),done=function(){b.textContent="Copied!";setTimeout(function(){b.textContent="Copy";},1500);};if(inp){inp.focus();inp.select();var ok=false;if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(inp.value).then(done,function(){try{document.execCommand("copy");}catch(e){}done();});ok=true;}if(!ok){try{document.execCommand("copy");}catch(e){}done();}}}
   });
   $("asof").addEventListener("change",function(e){if(e.target.value)setDate(e.target.value);});
   document.addEventListener("change",function(e){if(e.target&&e.target.id==="sabStart"&&e.target.value)setSabStart(e.target.value);});
