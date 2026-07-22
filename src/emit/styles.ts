@@ -41,10 +41,25 @@ header.masthead { text-align: center; padding: .6rem 0 1rem; border-bottom: 2px 
 header.masthead h1 { font-size: clamp(1.35rem, 3.2vw, 1.9rem); margin: 0 0 .3rem; letter-spacing: .01em; }
 header.masthead p { color: var(--muted); font-family: var(--sans); font-size: .95rem; margin: 0; }
 .subscribe { display: flex; gap: .6rem; justify-content: center; flex-wrap: wrap; margin-top: 1.1rem; font-family: var(--sans); }
-.subscribe a { font-size: .85rem; text-decoration: none; color: var(--accent); border: 1px solid var(--line); border-radius: 999px; padding: .35rem .9rem; }
-.subscribe a:hover { border-color: var(--accent); }
+.subscribe a, .subscribe button { font-family: var(--sans); font-size: .85rem; text-decoration: none; color: var(--accent); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: .35rem .9rem; cursor: pointer; }
+.subscribe a:hover, .subscribe button:hover { border-color: var(--accent); }
 .subscribe .subscribe-primary { background: var(--accent); color: var(--surface); border-color: var(--accent); font-weight: 600; }
-@media print { .subscribe { display: none; } }
+
+/* Subscribe help panel (revealed by the Subscribe button) */
+.subpanel { max-width: 34rem; margin: 1rem auto 0; text-align: left; font-family: var(--sans); background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.2rem; box-shadow: var(--shadow); }
+.subpanel[hidden] { display: none; }
+.subintro { font-size: .85rem; color: var(--ink); margin: 0 0 .6rem; }
+.suburl { display: flex; gap: .4rem; }
+.suburl input { flex: 1; min-width: 0; font: inherit; font-size: .82rem; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: .4rem .6rem; }
+.suburl button { font-family: var(--sans); font-size: .82rem; cursor: pointer; color: var(--surface); background: var(--accent); border: 1px solid var(--accent); border-radius: 8px; padding: .4rem .8rem; font-weight: 600; white-space: nowrap; }
+.subhow { list-style: none; padding: 0; margin: .8rem 0 0; font-size: .82rem; color: var(--muted); }
+.subhow li { padding: .25rem 0; border-top: 1px dotted var(--line); }
+.subhow li:first-child { border-top: 0; }
+.subhow strong { color: var(--ink); font-weight: 600; }
+.subhow a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+.subnote { font-size: .76rem; color: var(--muted); margin: .8rem 0 0; }
+.subnote code { font-family: ui-monospace, monospace; font-size: .95em; }
+@media print { .subscribe, .subpanel { display: none; } }
 
 /* ── Interactive controls (date picker, search, category chips) ── */
 .controls { display: flex; flex-direction: column; gap: .75rem; margin: 0 0 2.2rem; }
