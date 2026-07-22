@@ -201,10 +201,13 @@ yearly rebuild exists only to roll the forward-looking horizons onward (the `.ic
 spans build-year − 1 … + 5, the embedded dashboard data build-year − 2 … + 8).
 Content and code changes still deploy immediately on push.
 
-**Subscribing on phones** — the dashboard's "Subscribe on your phone" button uses
-a `webcal://…/calendar.ics` link, which opens straight into Apple/Google Calendar
-as a *subscription* (it refreshes on the client's own schedule). Set the public
-URL in [`src/config.ts`](src/config.ts) (`siteUrl`) if you move to a custom domain.
+**Subscribing** — the dashboard's **Subscribe** button opens a small panel with the
+feed address (one-click **Copy**) and per-app instructions. It offers one-tap
+`webcal://` and Google "add by URL" links, but leads with the copyable address
+because `webcal://` is unreliable outside Apple (Android and in-app browsers often
+ignore it) — pasting the address into *Add calendar → From URL* always works. A
+subscription refreshes on the client's own schedule. Set the public URL in
+[`src/config.ts`](src/config.ts) (`siteUrl`) if you move to a custom domain.
 
 ### Options for hosting the `.ics`
 

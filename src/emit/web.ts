@@ -131,14 +131,30 @@ export function renderSite(holidays: Holiday[], seasons: SeasonMap, sabbathTrack
   };
   const json = JSON.stringify(data).replace(/</g, "\\u003c");
 
+  const icsUrl = `${config.siteUrl}/calendar.ics`;
   const webcal = config.siteUrl.replace(/^https?:\/\//, "webcal://") + "/calendar.ics";
+  // Google Calendar's "add by URL" entry point; it wants the feed as `cid`.
+  const googleAdd = `https://calendar.google.com/calendar/render?cid=${encodeURIComponent(webcal)}`;
   const inner = `
 <header class="masthead">
   <h1>The Family Calendar</h1>
   <div class="subscribe">
-    <a class="subscribe-primary" href="${webcal}">📆 Subscribe on your phone</a>
+    <button class="subscribe-primary" id="subBtn" aria-expanded="false" aria-controls="subpanel">📆 Subscribe</button>
     <a href="calendar.ics">Download .ics</a>
     <a href="calendar.pdf">Printable PDF</a>
+  </div>
+  <div class="subpanel" id="subpanel" hidden>
+    <p class="subintro">Subscribe once and every observance shows up in your calendar, refreshing on its own. Copy this feed address:</p>
+    <div class="suburl">
+      <input id="subUrl" type="text" readonly value="${esc(icsUrl)}" aria-label="Calendar feed address">
+      <button id="subCopy" data-copy>Copy</button>
+    </div>
+    <ul class="subhow">
+      <li><strong>iPhone / Apple Calendar</strong> — <a href="${webcal}">tap to subscribe</a>, or Settings → Calendar → Accounts → Add Subscribed Calendar → paste.</li>
+      <li><strong>Google Calendar</strong> — <a href="${googleAdd}" target="_blank" rel="noopener">add it</a>, or on the web: Other calendars → From URL → paste.</li>
+      <li><strong>Outlook</strong> — Add calendar → Subscribe from web → paste.</li>
+    </ul>
+    <p class="subnote">The one-tap links use <code>webcal://</code>, which some phones (especially Android) and in-app browsers ignore — if a link does nothing, copy the address above and add it by URL.</p>
   </div>
 </header>
 
@@ -313,6 +329,8 @@ const APP_JS = `(function(){
     else if(b.dataset.sabreset){setSabStart(defaultStart(),false);}
     else if(b.dataset.d){setDate(b.dataset.d);}
     else if(b.id==="todayBtn"){setDate(localToday());}
+    else if(b.id==="subBtn"){var p=$("subpanel"),hid=p.hasAttribute("hidden");if(hid){p.removeAttribute("hidden");}else{p.setAttribute("hidden","");}b.setAttribute("aria-expanded",hid?"true":"false");}
+    else if(b.dataset.copy){var inp=$("subUrl"),done=function(){b.textContent="Copied!";setTimeout(function(){b.textContent="Copy";},1500);};if(inp){inp.focus();inp.select();var ok=false;if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(inp.value).then(done,function(){try{document.execCommand("copy");}catch(e){}done();});ok=true;}if(!ok){try{document.execCommand("copy");}catch(e){}done();}}}
   });
   $("asof").addEventListener("change",function(e){if(e.target.value)setDate(e.target.value);});
   document.addEventListener("change",function(e){if(e.target&&e.target.id==="sabStart"&&e.target.value)setSabStart(e.target.value);});
